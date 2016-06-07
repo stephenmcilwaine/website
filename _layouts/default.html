@@ -16,5 +16,9 @@
     {% include footer.html %}
 
   </body>
-
+{% if page.footer %}
+  {% for snippet in page.footer %}
+    {% include {{snippet}} %}
+  {% endfor %}
+{% endif %}
 </html>

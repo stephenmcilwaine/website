@@ -2,6 +2,8 @@
 layout: page
 title: Contact us
 permalink: /about/contact
+footer:
+  - map.html
 ---
 Level one, 30 Wilson Street
 Newtown NSW 2042
@@ -15,7 +17,7 @@ email info@ish.com.au
 
 Please use our [PGP  encryption key](node/22) for any private or confidential communication.
 
-[gmap markers=green::-33.89631653249786,151.18123054504395 |zoom=15 |center=-33.89631653249786,151.18123054504395 |width=600px |height=400px |control=Small |type=Map]
+<div id='map' style='width: 600px; height: 300px;'></div>
 
 ### Getting here
 
