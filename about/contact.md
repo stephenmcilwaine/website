@@ -13,7 +13,7 @@ ABN 74 073 212 736
 
 email info@ish.com.au
 
-Please use our "PGP  encryption key":node/22 for any private or confidential communication.
+Please use our [PGP  encryption key](node/22) for any private or confidential communication.
 
 [gmap markers=green::-33.89631653249786,151.18123054504395 |zoom=15 |center=-33.89631653249786,151.18123054504395 |width=600px |height=400px |control=Small |type=Map]
 
