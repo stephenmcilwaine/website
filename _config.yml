@@ -10,3 +10,7 @@ url: "https://www.ish.com.au"
 
 markdown: kramdown
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile']
+
+sass:
+  style: compressed
+  sass_dir: assets/css/_sass
