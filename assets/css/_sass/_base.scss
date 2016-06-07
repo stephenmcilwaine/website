@@ -25,19 +25,11 @@ body {
     font-kerning: normal;
 }
 
-
-
-/**
- * Set `margin-bottom` to maintain vertical rhythm
- */
-h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
-    margin-top: $spacing-unit;
+    margin-top: $spacing-unit/2;
 }
-
 
 
 /**
@@ -85,6 +77,8 @@ li {
 h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
     font-family: 'Port Lligat Slab', serif;
+    margin-bottom: $spacing-unit / 2;
+    margin-top: $spacing-unit;
 }
 
 
