@@ -1,0 +1,25 @@
+---
+- name: attribute
+  features:
+    - accounting
+    - states  
+    - assessment  
+    - attendance  
+    - avetmiss
+  pros: |
+    something good
+  cons: |
+    some cons
+  oncourse: |
+    the best
+
+- name: capabiliti
+  features:
+    - accounting
+    - states
+  pros: |
+    something good
+  cons: |
+    some cons
+  oncourse: |
+    the best

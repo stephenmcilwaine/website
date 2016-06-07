@@ -1,9 +1,6 @@
 ---
- layout: compare
- title: Compare onCourse to Attribute
- permalink: /compare/attribute
+layout: page
 ---
-
 ### Compliance
 
 | Feature                           | onCourse | Attribute |
@@ -16,11 +13,14 @@
 | RTO Management                    | tick     | {% include tick_cross.html param='compliance.rto.management' %} |
 | USI Capible                       | tick     | {% include tick_cross.html param='compliance.usi.capible' %} |
 
+
 ### Currently Used By
 
 | Feature                           | onCourse | Attribute |
 |-----------------------------------|:--------:|:-------:|
 | Used By                           | tick     | {% include tick_cross.html param='used.by' %} |
+
+
 ### Costs
 
 | Feature                           | onCourse | Attribute |
@@ -28,6 +28,7 @@
 | Pricing                           | tick     | {% include tick_cross.html param='feature.pricing' %} |
 | Free Version                      | tick     | {% include tick_cross.html param='feature.free' %} |
 | Unlimited users                   | tick     | {% include tick_cross.html param='feature.users' %} |
+
 
 ### Financial
 
@@ -121,15 +122,15 @@
 
 ### Attribute Pros
 
-* something
-* something else
+{{page.product.pros}}
 
 ### Attribute Cons
 
-* something
-* something else
+{{page.product.cons}}
 
 ### onCourse Advantages
 
-* something
-* something else
+{{page.product.oncourse}}
+
+
+All registered trade marks, company names and brand names used on this website are the property of their respective owners. Data on features are taken directly from related web sites and marketing materials. Information and features are subject to change. To report corrections, please contact us via email.
