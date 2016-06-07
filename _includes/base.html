@@ -1,5 +1,8 @@
-<!-- define {{base}} so that the whole site can be built on relative urls -->
-{% assign depth = page.url | split: '/' | size | minus: 1 %}
+<!-- define {{base}} so that the whole site can be built on relative urls
+append: 'x' handles URLs that end in / like "/contact/"
+-->
+
+{% assign depth = page.url | append: 'x' | split: '/' | size | minus: 1 %}
 {% if    depth < 2 %}{% assign base = '.' + site.baseurl %}
 {% elsif depth == 2 %}{% assign base = '..' + site.baseurl %}
 {% elsif depth == 3 %}{% assign base = '../..' + site.baseurl %}
