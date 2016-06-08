@@ -9,7 +9,7 @@ layout: page
 | AVETMISS Compliant                | tick     | {% include tick_cross.html param='compliance.avetmiss' %} |
 | Reporting - general               | tick     | {% include tick_cross.html param='compliance.reporting.general' %} |
 | Reporting - Customise             | tick     | {% include tick_cross.html param='compliance.reporting.customise' %} |
-| Reporting - format                | tick     | {% include tick_cross.html param='compliance.reporting.format' %} |
+| Reporting - formats               | XML, csv, pdf, Excel, inDesign and any other format you want | {{page.product.reporting | join: ', ' }} |
 | RTO Management                    | tick     | {% include tick_cross.html param='compliance.rto.management' %} |
 | USI Capible                       | tick     | {% include tick_cross.html param='compliance.usi.capible' %} |
 
@@ -18,7 +18,7 @@ layout: page
 
 | Feature                           | onCourse | {{page.product.name}} |
 |-----------------------------------|:--------:|:-------:|
-| Pricing                           | tick     | {% include tick_cross.html param='feature.pricing' %} |
+| Pricing                           | tick     | {{page.product.pricing}} |
 | Free Version                      | tick     | {% include tick_cross.html param='feature.free' %} |
 | Unlimited users                   | tick     | {% include tick_cross.html param='feature.users' %} |
 
