@@ -1,1 +1,1 @@
-{% assign features = site.data.comparisons['attribute']['features'] %}{% if features contains include.param %}tick{% else %}cross{% endif %}
+{% if page.product['features'] contains include.param %}tick{% else %}cross{% endif %}

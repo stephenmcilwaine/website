@@ -1,11 +1,11 @@
 ---
 - name: attribute
   features:
-    - accounting
-    - states  
-    - assessment  
-    - attendance  
-    - avetmiss
+    - financial.accounting
+    - compliance.states
+    - assessment
+    - attendance
+    - compliance.avetmiss
   pros: |
     something good
   cons: |
