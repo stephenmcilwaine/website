@@ -14,13 +14,6 @@ layout: page
 | USI Capible                       | tick     | {% include tick_cross.html param='compliance.usi.capible' %} |
 
 
-### Currently Used By
-
-| Feature                           | onCourse | {{page.product.name}} |
-|-----------------------------------|:--------:|:-------:|
-| Used By                           | tick     | {% include tick_cross.html param='used.by' %} |
-
-
 ### Costs
 
 | Feature                           | onCourse | {{page.product.name}} |
