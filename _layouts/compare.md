@@ -5,13 +5,13 @@ layout: page
 
 | Feature                           | onCourse | {{page.product.name}} |
 |-----------------------------------|:--------:|:-------:|
-| All States                        | tick     | {% include tick_cross.html param='compliance.states' %} |
+| Compliance in all states          | tick     | {% include tick_cross.html param='compliance.states' %} |
 | AVETMISS Compliant                | tick     | {% include tick_cross.html param='compliance.avetmiss' %} |
 | Reporting - general               | tick     | {% include tick_cross.html param='compliance.reporting.general' %} |
 | Reporting - Customise             | tick     | {% include tick_cross.html param='compliance.reporting.customise' %} |
 | Reporting - formats               | XML, csv, pdf, Excel, inDesign and any other format you want | {{page.product.reporting | join: ', ' }} |
 | RTO Management                    | tick     | {% include tick_cross.html param='compliance.rto.management' %} |
-| USI Capible                       | tick     | {% include tick_cross.html param='compliance.usi.capible' %} |
+| USI Capable                       | tick     | {% include tick_cross.html param='compliance.usi.capible' %} |
 
 
 ### Costs
@@ -31,7 +31,7 @@ layout: page
 | Budgeting                         | tick     | {% include tick_cross.html param='financial.budgeting' %} |
 | Debtors Reporting                 | tick     | {% include tick_cross.html param='financial.debtors' %} |
 | Discounting                       | tick     | {% include tick_cross.html param='financial.discounting' %} |
-| Exports to MYOB, XERO, QuickBooks | tick     | {% include tick_cross.html param='financial.export' %} |
+| MYOB, XERO, QuickBooks integration | tick     | {% include tick_cross.html param='financial.export' %} |
 | Flexi Currency                    | tick     | {% include tick_cross.html param='financial.currency' %} |
 | Gift Vouchers                     | tick     | {% include tick_cross.html param='financial.vouchers' %} |
 | Invoicing                         | tick     | {% include tick_cross.html param='financial.invoicing' %} |
