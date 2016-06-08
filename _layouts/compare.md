@@ -3,7 +3,7 @@ layout: page
 ---
 ### Compliance
 
-| Feature                           | onCourse | Attribute |
+| Feature                           | onCourse | {{page.product.name}} |
 |-----------------------------------|:--------:|:-------:|
 | All States                        | tick     | {% include tick_cross.html param='compliance.states' %} |
 | AVETMISS Compliant                | tick     | {% include tick_cross.html param='compliance.avetmiss' %} |
@@ -16,14 +16,14 @@ layout: page
 
 ### Currently Used By
 
-| Feature                           | onCourse | Attribute |
+| Feature                           | onCourse | {{page.product.name}} |
 |-----------------------------------|:--------:|:-------:|
 | Used By                           | tick     | {% include tick_cross.html param='used.by' %} |
 
 
 ### Costs
 
-| Feature                           | onCourse | Attribute |
+| Feature                           | onCourse | {{page.product.name}} |
 |-----------------------------------|:--------:|:-------:|
 | Pricing                           | tick     | {% include tick_cross.html param='feature.pricing' %} |
 | Free Version                      | tick     | {% include tick_cross.html param='feature.free' %} |
@@ -32,7 +32,7 @@ layout: page
 
 ### Financial
 
-| Feature                           | onCourse | Attribute |
+| Feature                           | onCourse | {{page.product.name}} |
 |-----------------------------------|:--------:|:-------:|
 | Accounting Integration            | tick     | {% include tick_cross.html param='financial.accounting' %} |
 | Budgeting                         | tick     | {% include tick_cross.html param='financial.budgeting' %} |
@@ -47,14 +47,14 @@ layout: page
 
 ### Hosting Options
 
-| Feature                           | onCourse | Attribute |
+| Feature                           | onCourse | {{page.product.name}} |
 |-----------------------------------|:--------:|:-------:|
 | Cloud Hosting                     | tick     | {% include tick_cross.html param='hosting.cloud' %} |
 | Local Hosting                     | tick     | {% include tick_cross.html param='hosting.local' %} |
 
 ### Marketing
 
-| Feature                           | onCourse | Attribute |
+| Feature                           | onCourse | {{page.product.name}} |
 |-----------------------------------|:--------:|:-------:|
 | Customise communictions           | tick     | {% include tick_cross.html param='marketing.communication' %} |
 | Email Alerts                      | tick     | {% include tick_cross.html param='marketing.email.alerts' %} |
@@ -65,7 +65,7 @@ layout: page
 
 ### Staff
 
-| Feature                           | onCourse | Attribute |
+| Feature                           | onCourse | {{page.product.name}} |
 |-----------------------------------|:--------:|:-------:|
 | Employee Directory                | tick     | {% include tick_cross.html param='staff.employee' %} |
 | HR Tools                          | tick     | {% include tick_cross.html param='staff.hr' %} |
@@ -83,20 +83,20 @@ layout: page
 
 ### Students
 
-| Feature                           | onCourse | Attribute |
+| Feature                           | onCourse | {{page.product.name}} |
 |-----------------------------------|:--------:|:-------:|
 | Student portal                    | tick     | {% include tick_cross.html param='students.portal' %} |
 | Assessment submission/ validation | tick     | {% include tick_cross.html param='students.assessment' %} |
 
 ### Support
 
-| Feature                           | onCourse | Attribute |
+| Feature                           | onCourse | {{page.product.name}} |
 |-----------------------------------|:--------:|:-------:|
 | Phone/ Online Support             | tick     | {% include tick_cross.html param='suppot.phone.online' %} |
 
 ### Timetables
 
-| Feature                           | onCourse | Attribute |
+| Feature                           | onCourse | {{page.product.name}} |
 |-----------------------------------|:--------:|:-------:|
 | Calendars                         | tick     | {% include tick_cross.html param='timetables.calendars' %} |
 | Rooms                             | tick     | {% include tick_cross.html param='timetables.rooms' %} |
@@ -105,7 +105,7 @@ layout: page
 
 ### Tutors
 
-| Feature                           | onCourse | Attribute |
+| Feature                           | onCourse | {{page.product.name}} |
 |-----------------------------------|:--------:|:-------:|
 | Tutor payroll                     | tick     | {% include tick_cross.html param='tutors.payroll' %} |
 | Tutor portal                      | tick     | {% include tick_cross.html param='tutors.portal' %} |
@@ -115,7 +115,7 @@ layout: page
 
 ### Website
 
-| Feature                           | onCourse | Attribute |
+| Feature                           | onCourse | {{page.product.name}} |
 |-----------------------------------|:--------:|:-------:|
 | Website                           | tick     | {% include tick_cross.html param='website.website' %} |
 | Website CMS/ integration          | tick     | {% include tick_cross.html param='website.cms' %} |
