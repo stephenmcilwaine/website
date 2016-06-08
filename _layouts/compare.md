@@ -67,7 +67,7 @@ layout: page
 | Task Management                   | tick     | {% include tick_cross.html param='staff.task.management' %} |
 | Bulk Assign                       | tick     | {% include tick_cross.html param='staff.bulk.assign' %} |
 | Course Templates                  | tick     | {% include tick_cross.html param='staff.templates' %} |
-| Document Management               | tick     | {% include tick_cross.html param='staff.document.management' %} |  
+| [Document Management](/features/document-management)               | tick     | {% include tick_cross.html param='staff.document.management' %} |  
 | Version control                   | tick     | {% include tick_cross.html param='staff.version.control' %} |
 | Issue Certificates                | tick     | {% include tick_cross.html param='staff.certificates' %} |
 | Multi OS                          | tick     | {% include tick_cross.html param='staff.multi.os' %} |
