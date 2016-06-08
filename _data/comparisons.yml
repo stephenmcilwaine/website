@@ -1,11 +1,29 @@
 ---
-- name: attribute
+- name: Attribute
   features:
     - financial.accounting
     - compliance.states
     - assessment
     - attendance
     - compliance.avetmiss
+  reporting:
+    - Excel
+    - Text 
+    - HTML
+    - PDF
+    - RTF
+  pricing:
+    pros: |
+    something good
+  cons: |
+    some cons
+  oncourse: |
+    the best
+
+- name: Audit Answers
+  features:
+  reporting:
+  pricing:
   pros: |
     something good
   cons: |
@@ -13,10 +31,313 @@
   oncourse: |
     the best
 
-- name: capabiliti
+- name: aXcelerate
+  features:
+  reporting:
+    - CSV
+    - PDF
+  pricing:
+  pros: |
+    something good
+  cons: |
+    some cons
+  oncourse: |
+    the best
+
+- name: BA Advantage
+  features:
+  reporting:
+  pricing: from $82 per month
+  pros: |
+    something good
+  cons: |
+    some cons
+  oncourse: |
+    the best
+
+- name: BluegemEXPLORE
+  features:
+  reporting:
+  pricing:
+  pros: |
+    something good
+  cons: |
+    some cons
+  oncourse: |
+    the best
+
+- name: Capabiliti
   features:
     - accounting
     - states
+  reporting:
+    - Excel
+    - CSV
+  pricing: from $1449 per month
+  pros: |
+    something good
+  cons: |
+    some cons
+  oncourse: |
+    the best
+
+- name: ChalkPort LearnCentre 
+  features:
+  reporting:
+  pricing: from $330 per month plus $2750 setup
+  pros: |
+    something good
+  cons: |
+    some cons
+  oncourse: |
+    the best
+
+- name: CourseSales.com
+  features:
+  reporting:
+    - Excel
+    - Open Office
+  pricing:
+  pros: |
+    something good
+  cons: |
+    some cons
+  oncourse: |
+    the best
+
+- name: eBECAS
+  features:
+  reporting:
+  pricing: from $250 per month plus $2000 setup
+  pros: |
+    something good
+  cons: |
+    some cons
+  oncourse: |
+    the best
+
+- name: EduPoint
+  features:
+  reporting:
+  pricing: from $250 per month
+  pros: |
+    something good
+  cons: |
+    some cons
+  oncourse: |
+    the best
+
+- name: Enquiry Mate for Trainers
+  features:
+  reporting:
+  pricing: from $300 per month 
+  pros: |
+    something good
+  cons: |
+    some cons
+  oncourse: |
+    the best
+
+- name: Esystats
+  features:
+  reporting:
+    - Excel 
+  pricing: from $390 per month
+  pros: |
+    something good
+  cons: |
+    some cons
+  oncourse: |
+    the best
+
+- name: FRONTDESK Enrol
+  features:
+  reporting:
+    - Excel
+  pricing: from $275 per month 
+  pros: |
+    something good
+  cons: |
+    some cons
+  oncourse: |
+    the best
+
+- name: Icare
+  features:
+  reporting:
+  pricing: from $85 per month plus $2970 setup
+  pros: |
+    something good
+  cons: |
+    some cons
+  oncourse: |
+    the best
+
+- name: JobReady.RTO
+  features:
+    - accounting
+    - states
+  reporting: 
+  - Excel
+  pricing:
+  pros: |
+    * strong traineeship functionality
+    * job network integration
+  cons: |
+    some cons
+  oncourse: |
+    the best
+
+- name: Kurious
+  features:
+  reporting:
+  pricing:
+  pros: |
+    something good
+  cons: |
+    some cons
+  oncourse: |
+    the best
+
+- name: Maze
+  features:
+  reporting:
+    - Excel
+    - Word
+  pricing: from $125 per month
+  pros: |
+    something good
+  cons: |
+    some cons
+  oncourse: |
+    the best
+
+- name: N-Rolls Gold
+  features:
+  reporting:
+  pricing: from $20 per month plus $1599 setup
+  pros: |
+    something good
+  cons: |
+    some cons
+  oncourse: |
+    the best
+
+- name: PowerPro RTO
+  features:
+  reporting:
+  pricing: $3100 setup
+  pros: |
+    something good
+  cons: |
+    some cons
+  oncourse: |
+    the best
+
+- name: RTO Data
+  features:
+  reporting:
+  pricing: from $60 per month plus $3300 setup
+  pros: |
+    something good
+  cons: |
+    some cons
+  oncourse: |
+    the best
+
+- name: RTOManager
+  features:
+  reporting:
+  pricing:
+  pros: |
+    something good
+  cons: |
+    some cons
+  oncourse: |
+    the best
+
+- name: Strata
+  features:
+  reporting:
+    - Excel
+  pricing:
+  pros: |
+    something good
+  cons: |
+    some cons
+  oncourse: |
+    the best
+
+- name: Student Management SmartGuide
+  features:
+  reporting:
+  pricing: $1000 setup
+  pros: |
+    something good
+  cons: |
+    some cons
+  oncourse: |
+    the best
+
+- name: TEAMS
+  features:
+  reporting:
+  pricing: from $295 per month and $2500 setup
+  pros: |
+    something good
+  cons: |
+    some cons
+  oncourse: |
+    the best
+
+- name: Truss RTO
+  features:
+  reporting:
+  pricing: from $299 per month and $7995 setup
+  pros: |
+    something good
+  cons: |
+    some cons
+  oncourse: |
+    the best
+
+- name: tutis
+  features:
+  reporting:
+  pricing:
+  pros: |
+    something good
+  cons: |
+    some cons
+  oncourse: |
+    the best
+
+- name: VETtrak
+  features:
+  reporting: 
+  pricing: from $90 per month
+  pros: |
+    * comprehensive compliant reporting
+  cons: |
+    * basic marketing capability
+    * no integrated website
+  oncourse: |
+
+- name: Weworkbook
+  features:
+  reporting:
+  pricing: from $440 per month 
+  pros: |
+    something good
+  cons: |
+    some cons
+  oncourse: |
+    the best
+
+- name: Wise.NET
+  features:
+  reporting: 
+  pricing: from $90 per month 
   pros: |
     something good
   cons: |
