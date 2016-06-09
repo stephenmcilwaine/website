@@ -1,17 +1,22 @@
 ---
 layout: page
 ---
-### Compliance
+### RTO Compliance
 
 | Feature                           | onCourse | {{page.product.name}} |
 |-----------------------------------|:--------:|:-------:|
 | Compliance in all states          | tick     | {% include tick_cross.html param='compliance.states' %} |
-| AVETMISS Compliant                | tick     | {% include tick_cross.html param='compliance.avetmiss' %} |
+| [AVETMISS Compliant](/features/rto-compliance/AVETMISS)                | tick     | {% include tick_cross.html param='compliance.avetmiss' %} |
 | Reporting - general               | tick     | {% include tick_cross.html param='compliance.reporting.general' %} |
 | Reporting - Customise             | tick     | {% include tick_cross.html param='compliance.reporting.customise' %} |
 | Reporting - formats               | XML, csv, pdf, Excel, inDesign and any other format you want | {{page.product.reporting | join: ', ' }} |
 | RTO Management                    | tick     | {% include tick_cross.html param='compliance.rto.management' %} |
-| USI Capable                       | tick     | {% include tick_cross.html param='compliance.usi.capible' %} |
+| [USI Capable](/features/rto-compliance/usi)                       | tick     | {% include tick_cross.html param='compliance.usi.capible' %} |
+| [ASQA 2015 Standards Compliance](/features/rto-compliance/asqa)    | tick
+| [Certificate Issuing and Automation](/features/rto-compliance/certificates)    | tick
+| [CRICOS](/features/rto-compliance/cricos)    | tick
+| [Online Attendance and Outcome Marking](/features/rto-compliance/marking)    | tick
+| [VET Fee-Help](/features/rto-compliance/vetfeehelp)    | tick
 
 
 ### Costs
