@@ -35,7 +35,6 @@ layout: page
 | Flexi Currency                    | tick     | {% include tick_cross.html param='financial.currency' %} |
 | Gift Vouchers                     | tick     | {% include tick_cross.html param='financial.vouchers' %} |
 | Invoicing                         | tick     | {% include tick_cross.html param='financial.invoicing' %} |
-| Online Payments                   | tick     | {% include tick_cross.html param='financial.online.payments' %} |
 | Payment Plans                     | tick     | {% include tick_cross.html param='financial.payment.plans' %} |
 
 ### Hosting Options
@@ -43,7 +42,7 @@ layout: page
 | Feature                           | onCourse | {{page.product.name}} |
 |-----------------------------------|:--------:|:-------:|
 | Cloud Hosting                     | tick     | {% include tick_cross.html param='hosting.cloud' %} |
-| Local Hosting                     | tick     | {% include tick_cross.html param='hosting.local' %} |
+| Local Hosting                     | OSX, Windows, Linux, BSD    | {{page.product.platform | default: 'None' }}  |
 
 ### Marketing
 
@@ -70,7 +69,6 @@ layout: page
 | [Document Management](/features/document-management)               | tick     | {% include tick_cross.html param='staff.document.management' %} |  
 | Version control                   | tick     | {% include tick_cross.html param='staff.version.control' %} |
 | Issue Certificates                | tick     | {% include tick_cross.html param='staff.certificates' %} |
-| Multi OS                          | tick     | {% include tick_cross.html param='staff.multi.os' %} |
 | Related Find                      | tick     | {% include tick_cross.html param='staff.related.find' %} |
 | LMS                               | tick     | {% include tick_cross.html param='staff.lms' %} |
 
@@ -112,6 +110,8 @@ layout: page
 |-----------------------------------|:--------:|:-------:|
 | Website                           | tick     | {% include tick_cross.html param='website.website' %} |
 | Website CMS/ integration          | tick     | {% include tick_cross.html param='website.cms' %} |
+| Online Payments                   | tick     | {% include tick_cross.html param='financial.online.payments' %} |
+
 
 ### Attribute Pros
 

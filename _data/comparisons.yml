@@ -1,5 +1,6 @@
 ---
 - name: Attribute
+  url: ??
   features:
     - financial.accounting
     - compliance.states
@@ -140,6 +141,7 @@
 
 - name: Esystats
   features:
+  platform: ??
   reporting:
     - Excel 
   pricing: from $390 per month
@@ -314,6 +316,7 @@
 
 - name: VETtrak
   features:
+  platform: Windows
   reporting: 
   pricing: from $90 per month
   pros: |
