@@ -8,6 +8,6 @@ Are you an evil private provider[1] who offers government funded training loans 
 
 As an evil private provider[1] do you spend many hours collecting data and jumping through HEPCAT shaped reporting hoops to advise HEIMS of your census dates and load liabilities?
 
-Let us help you become less evilly minded towards the many and nefarious government reporting systems by simplifying the data collection and reporting requirements of VET FEE-HELP. Read more...
+Let us help you become less evilly minded towards the many and nefarious government reporting systems by simplifying the data collection and reporting requirements of VET FEE-HELP. 
 
 [1] onCourse will not report data for evil providers. Only nice ones.

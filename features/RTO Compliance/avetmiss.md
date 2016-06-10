@@ -12,6 +12,7 @@ Whether it's total VET activity reports to NCVER or funded training lodgements t
 
 As Nicole from Byron says:
 
-Pretty excited to say that it was a completely stress free and extremely fast process to get our data off to STS - thanks so much for your help and again it only reinforces what a great choice we have made in taking in ish as our database friends :)
+> Pretty excited to say that it was a completely stress free and extremely fast process to get our data off to STS - thanks so much for your help 
+and again it only reinforces what a great choice we have made in taking in ish as our database friends :)
 
-onCourse, now and always, compliant with every state variation of AVEMISS. 
+onCourse, now and always, compliant with every state variation of AVETMISS. 
