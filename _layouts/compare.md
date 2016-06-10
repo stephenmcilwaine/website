@@ -32,15 +32,16 @@ layout: page
 
 | Feature                           | onCourse | {{page.product.name}} |
 |-----------------------------------|:--------:|:-------:|
-| Accounting Integration            | tick     | {% include tick_cross.html param='financial.accounting' %} |
-| Budgeting                         | tick     | {% include tick_cross.html param='financial.budgeting' %} |
-| Debtors Reporting                 | tick     | {% include tick_cross.html param='financial.debtors' %} |
-| Discounting                       | tick     | {% include tick_cross.html param='financial.discounting' %} |
-| MYOB, XERO, QuickBooks integration | tick     | {% include tick_cross.html param='financial.export' %} |
-| Flexi Currency                    | tick     | {% include tick_cross.html param='financial.currency' %} |
-| Gift Vouchers                     | tick     | {% include tick_cross.html param='financial.vouchers' %} |
-| Invoicing                         | tick     | {% include tick_cross.html param='financial.invoicing' %} |
-| Payment Plans                     | tick     | {% include tick_cross.html param='financial.payment.plans' %} |
+| [Accounting Integration](/features/financial/accounting)            | tick     | {% include tick_cross.html param='financial.accounting' %} |
+| [Budgeting](/features/financial/budgeting)                         | tick     | {% include tick_cross.html param='financial.budgeting' %} |
+| [Debtors Reporting](/features/financial/debtors)                 | tick     | {% include tick_cross.html param='financial.debtors' %} |
+| [Discounting](/features/financial/discounts)                       | tick     | {% include tick_cross.html param='financial.discounting' %} |
+| [MYOB, XERO, QuickBooks integration](/features/financial/accounting_integration) | tick     | {% include tick_cross.html param='financial.export' %} |
+| [Flexi Currency](/features/financial/currency)                    | tick     | {% include tick_cross.html param='financial.currency' %} |
+| [Gift Vouchers](/features/financial/gift_vouchers)                     | tick     | {% include tick_cross.html param='financial.vouchers' %} |
+| [Invoicing](/features/financial/invoices)                          | tick     | {% include tick_cross.html param='financial.invoicing' %} |
+| [Payment Plans](/features/financial/payment_plans)                     | tick     | {% include tick_cross.html param='financial.payment.plans' %} |
+| [Payroll](/features/financial/payroll)							| tick
 
 ### Hosting Options
 
