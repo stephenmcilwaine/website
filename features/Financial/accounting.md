@@ -2,6 +2,9 @@
 layout: page
 title: Integrated Accounting
 permalink: /features/financial/accounting
+menu:
+  name: features
+  parent: financial
 ---
 
 The accrual accounting general ledger is the heart of onCourse, allowing you to manage your student fee income, funding income, liabilities and fees collected in advance of delivery. Mapping your onCourse chart of accounts to the general ledger in your accounting tool ensures a simple weekly or monthly balance transfer can take place.
