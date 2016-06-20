@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Automatic Email Alerts
-permalink: /features/emails
+permalink: /features/marketing/emails
 menu:
   name: features
   parent: marketing

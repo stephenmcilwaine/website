@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Customer Relationship Management
-permalink: /features/crm
+permalink: /features/marketing/crm
 menu:
   name: features
   parent: marketing

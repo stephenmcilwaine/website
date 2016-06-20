@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Product Sales
-permalink: /features/products
+permalink: /features/marketing/products
 menu:
   name: features
   parent: marketing

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Customised Communications
-permalink: /features/custom_messaging
+permalink: /features/marketing/custom_messaging
 menu:
   name: features
   parent: marketing

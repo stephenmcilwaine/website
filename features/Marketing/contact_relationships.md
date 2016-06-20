@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact Relationships
-permalink: /features/contact_relationships
+permalink: /features/marketing/contact_relationships
 menu:
   name: features
   parent: marketing

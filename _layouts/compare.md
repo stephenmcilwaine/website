@@ -54,20 +54,20 @@ layout: page
 
 | Feature                           | onCourse | {{page.product.name}} |
 |-----------------------------------|:--------:|:-------:|
-| [Customised communictions](/features/custom_messaging)           | tick     | {% include tick_cross.html param='marketing.communication' %} |
-| [Email Alerts](/features/emails)                      | tick     | {% include tick_cross.html param='marketing.email.alerts' %} |
-| [Mail Merge](/features/mail_merge)                        | tick     | {% include tick_cross.html param='marketing.mail.merge' %} |
+| [Customised communictions](/features/marketing/custom_messaging)           | tick     | {% include tick_cross.html param='marketing.communication' %} |
+| [Email Alerts](/features/marketing/emails)                      | tick     | {% include tick_cross.html param='marketing.email.alerts' %} |
+| [Mail Merge](/features/marketing/mail_merge)                        | tick     | {% include tick_cross.html param='marketing.mail.merge' %} |
 | Marketing                         | tick     | {% include tick_cross.html param='marketing.marketing' %} |
-| [SMS functionality](/features/sms_messaging)                 | tick     | {% include tick_cross.html param='marketing.sms.functionality' %} |
-| [Survey and Feedback integration](/features/survey_tools)      | tick     | {% include tick_cross.html param='marketing.survey' %} |
-| [Customer Relationship Management (CRM)](/features/crm)      | tick
-| [Memberships](/features/memberships)      | tick
-| [Promotions](/features/promotions)      | tick
-| [Contact Relationships](/features/contact_relationships)      | tick
-| [Mailing Lists](/features/mailing_lists)      | tick
-| [Waiting Lists](/features/wait_lists)      | tick
-| [Corporate Sales](/features/corporate_sales)      | tick
-| [Product Sales](/features/products)      | tick       
+| [SMS functionality](/features/marketing/sms_messaging)                 | tick     | {% include tick_cross.html param='marketing.sms.functionality' %} |
+| [Survey and Feedback integration](/features/marketing/survey_tools)      | tick     | {% include tick_cross.html param='marketing.survey' %} |
+| [Customer Relationship Management (CRM)](/features/marketing/crm)      | tick
+| [Memberships](/features/marketing/memberships)      | tick
+| [Promotions](/features/marketing/promotions)      | tick
+| [Contact Relationships](/features/marketing/contact_relationships)      | tick
+| [Mailing Lists](/features/marketing/mailing_lists)      | tick
+| [Waiting Lists](/features/marketing/wait_lists)      | tick
+| [Corporate Sales](/features/marketing/corporate_sales)      | tick
+| [Product Sales](/features/marketing/products)      | tick       
 
 
 

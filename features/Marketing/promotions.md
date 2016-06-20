@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Promotions and Discounts
-permalink: /features/promotions
+permalink: /features/marketing/promotions
 menu:
   name: features
   parent: marketing

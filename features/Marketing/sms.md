@@ -1,7 +1,7 @@
 ---
 layout: page
 title: SMS Alerts
-permalink: /features/sms_messaging
+permalink: /features/marketing/sms_messaging
 menu:
   name: features
   parent: marketing

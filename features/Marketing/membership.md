@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Memebership Sales and Benefits
-permalink: /features/memberships
+permalink: /features/marketing/memberships
 menu:
   name: features
   parent: marketing

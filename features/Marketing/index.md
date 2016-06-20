@@ -1,8 +1,8 @@
 ---
 layout: page
-title: onCourse financial features
-permalink: /features/financial
+title: onCourse Marketing Features
+permalink: /features/marketing
 menu:
-  name: financial
+  name: marketing
   parent: features
 ---
