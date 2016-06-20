@@ -54,12 +54,22 @@ layout: page
 
 | Feature                           | onCourse | {{page.product.name}} |
 |-----------------------------------|:--------:|:-------:|
-| Customise communictions           | tick     | {% include tick_cross.html param='marketing.communication' %} |
-| Email Alerts                      | tick     | {% include tick_cross.html param='marketing.email.alerts' %} |
-| Mail Merge                        | tick     | {% include tick_cross.html param='marketing.mail.merge' %} |
+| [Customised communictions](/features/custom_messaging)           | tick     | {% include tick_cross.html param='marketing.communication' %} |
+| [Email Alerts](/features/emails)                      | tick     | {% include tick_cross.html param='marketing.email.alerts' %} |
+| [Mail Merge](/features/mail_merge)                        | tick     | {% include tick_cross.html param='marketing.mail.merge' %} |
 | Marketing                         | tick     | {% include tick_cross.html param='marketing.marketing' %} |
-| SMS functionality                 | tick     | {% include tick_cross.html param='marketing.sms.functionality' %} |
-| Survey/ Feedback integration      | tick     | {% include tick_cross.html param='marketing.survey' %} |
+| [SMS functionality](/features/sms_messaging)                 | tick     | {% include tick_cross.html param='marketing.sms.functionality' %} |
+| [Survey and Feedback integration](/features/survey_tools)      | tick     | {% include tick_cross.html param='marketing.survey' %} |
+| [Customer Relationship Management (CRM)](/features/crm)      | tick
+| [Memberships](/features/memberships)      | tick
+| [Promotions](/features/promotions)      | tick
+| [Contact Relationships](/features/contact_relationships)      | tick
+| [Mailing Lists](/features/mailing_lists)      | tick
+| [Waiting Lists](/features/wait_lists)      | tick
+| [Corporate Sales](/features/corporate_sales)      | tick
+| [Product Sales](/features/products)      | tick       
+
+
 
 ### Staff
 
