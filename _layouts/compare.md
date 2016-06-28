@@ -12,11 +12,11 @@ layout: page
 | Reporting - formats               | XML, csv, pdf, Excel, inDesign and any other format you want | {{page.product.reporting | join: ', ' }} |
 | RTO Management                    | tick     | {% include tick_cross.html param='compliance.rto.management' %} |
 | [USI Capable](/features/rto-compliance/usi)                       | tick     | {% include tick_cross.html param='compliance.usi.capible' %} |
-| [ASQA 2015 Standards Compliance](/features/rto-compliance/asqa)    | tick
-| [Certificate Issuing and Automation](/features/rto-compliance/certificates)    | tick
-| [CRICOS](/features/rto-compliance/cricos)    | tick
-| [Online Attendance and Outcome Marking](/features/rto-compliance/marking)    | tick
-| [VET Fee-Help](/features/rto-compliance/vetfeehelp)    | tick
+| [ASQA 2015 Standards Compliance](/features/rto-compliance/asqa)    | tick | {% include tick_cross.html param='compliance.asqa' %} |
+| [Certificate Issuing and Automation](/features/rto-compliance/certificates)    | tick   | {% include tick_cross.html param='compliance.certificate' %} |
+| [Online Attendance and Outcome Marking](/features/rto-compliance/marking)    | tick 	| {% include tick_cross.html param='compliance.attendance' %} |
+| [CRICOS](/features/rto-compliance/cricos)    | tick 	| {% include tick_cross.html param='compliance.cricos' %} |
+| [VET Fee-Help](/features/rto-compliance/vetfeehelp)    | tick 	| {% include tick_cross.html param='compliance.vetfee' %} |
 
 
 ### Costs
@@ -41,7 +41,7 @@ layout: page
 | [Gift Vouchers](/features/financial/gift_vouchers)                     | tick     | {% include tick_cross.html param='financial.vouchers' %} |
 | [Invoicing](/features/financial/invoices)                          | tick     | {% include tick_cross.html param='financial.invoicing' %} |
 | [Payment Plans](/features/financial/payment_plans)                     | tick     | {% include tick_cross.html param='financial.payment.plans' %} |
-| [Payroll](/features/financial/payroll)							| tick
+| [Payroll](/features/financial/payroll)							| tick | {% include tick_cross.html param='financial.payroll' %} |
 
 ### Hosting Options
 
@@ -60,14 +60,14 @@ layout: page
 | Marketing                         | tick     | {% include tick_cross.html param='marketing.marketing' %} |
 | [SMS functionality](/features/marketing/sms_messaging)                 | tick     | {% include tick_cross.html param='marketing.sms.functionality' %} |
 | [Survey and Feedback integration](/features/marketing/survey_tools)      | tick     | {% include tick_cross.html param='marketing.survey' %} |
-| [Customer Relationship Management (CRM)](/features/marketing/crm)      | tick
-| [Memberships](/features/marketing/memberships)      | tick
-| [Promotions](/features/marketing/promotions)      | tick
-| [Contact Relationships](/features/marketing/contact_relationships)      | tick
-| [Mailing Lists](/features/marketing/mailing_lists)      | tick
-| [Waiting Lists](/features/marketing/wait_lists)      | tick
-| [Corporate Sales](/features/marketing/corporate_sales)      | tick
-| [Product Sales](/features/marketing/products)      | tick       
+| [Customer Relationship Management (CRM)](/features/marketing/crm)      | tick 	| {% include tick_cross.html param='marketing.crm' %} |
+| [Memberships](/features/marketing/memberships)      | tick | {% include tick_cross.html param='marketing.memberships' %} |
+| [Promotions](/features/marketing/promotions)      | tick | {% include tick_cross.html param='marketing.spromotions' %} |
+| [Contact Relationships](/features/marketing/contact_relationships)      | tick | {% include tick_cross.html param='marketing.relationships' %} |
+| [Mailing Lists](/features/marketing/mailing_lists)      | tick | {% include tick_cross.html param='marketing.mailinglists' %} |
+| [Waiting Lists](/features/marketing/wait_lists)      | tick | {% include tick_cross.html param='marketing.waitinglists' %} |
+| [Corporate Sales](/features/marketing/corporate_sales)      | tick | {% include tick_cross.html param='marketing.corporate' %} |
+| [Product Sales](/features/marketing/products)      | tick       | {% include tick_cross.html param='marketing.product' %} |
 
 
 
@@ -84,7 +84,6 @@ layout: page
 | Course Templates                  | tick     | {% include tick_cross.html param='staff.templates' %} |
 | [Document Management](/features/document-management)               | tick     | {% include tick_cross.html param='staff.document.management' %} |  
 | Version control                   | tick     | {% include tick_cross.html param='staff.version.control' %} |
-| Issue Certificates                | tick     | {% include tick_cross.html param='staff.certificates' %} |
 | Related Find                      | tick     | {% include tick_cross.html param='staff.related.find' %} |
 | LMS                               | tick     | {% include tick_cross.html param='staff.lms' %} |
 
@@ -108,16 +107,14 @@ layout: page
 | Calendars                         | tick     | {% include tick_cross.html param='timetables.calendars' %} |
 | Rooms                             | tick     | {% include tick_cross.html param='timetables.rooms' %} |
 | Sites                             | tick     | {% include tick_cross.html param='timetables.sites' %} | 
-| Max Class sizes                   | tick     | {% include tick_cross.html param='timetables.mac.class.size' %} |
+| Max Class sizes                   | tick     | {% include tick_cross.html param='timetables.max.class.size' %} |
 
 ### Tutors
 
 | Feature                           | onCourse | {{page.product.name}} |
 |-----------------------------------|:--------:|:-------:|
-| Tutor payroll                     | tick     | {% include tick_cross.html param='tutors.payroll' %} |
 | Tutor portal                      | tick     | {% include tick_cross.html param='tutors.portal' %} |
 | Assessment submission/ validation | tick     | {% include tick_cross.html param='tutors.assessment' %} |
-| Attendance                        | tick     | {% include tick_cross.html param='tutors.attendance' %} |
 | Cloud Assess Integration          | tick     | {% include tick_cross.html param='tutors.cloud.assess' %} |                   
 
 ### Website
