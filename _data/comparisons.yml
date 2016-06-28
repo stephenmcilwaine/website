@@ -378,6 +378,16 @@
 
 - name: FRONTDESK Enrol
   features:
+    - compliance.avetmiss
+    - compliance.reporting.general
+    - compliance.attendance
+    - financial.budgeting
+    - financial.invoicing
+    - financial.payroll
+    - hosting.cloud
+    - timetables.rooms
+    - timetables.sites
+    - timetables.max.class
   reporting:
     - Excel
   pricing: from $275 per month 
@@ -390,6 +400,15 @@
 
 - name: Icare
   features:
+    - compliance.states
+    - compliance.avetmiss
+    - compliance.reporting.general
+    - compliance.certificate
+    - compliance.attendance
+    - financial.invoicing
+    - hosting.local
+    - staff.bulk.assign
+    - staff.templates
   reporting:
   pricing: from $85 per month plus $2970 setup
   pros: |
@@ -401,8 +420,40 @@
 
 - name: JobReady.RTO
   features:
-    - accounting
-    - states
+    - compliance.states
+    - compliance.avetmiss
+    - compliance.reporting.general
+    - compliance.reporting.customise
+    - compliance.rto.management
+    - compliance.usi.capible
+    - compliance.asqa
+    - compliance.certificate
+    - compliance.attendance
+    - compliance.vetfee
+    - financial.accounting
+    - financial.debtors
+    - financial.export
+    - financial.invoicing
+    - financial.payment.plans
+    - hosting.cloud
+    - marketing.communication
+    - marketing.email.alerts
+    - marketing.marketing
+    - marketing.sms.functionalit
+    - marketing.crm
+    - staff.task.management
+    - staff.templates
+    - staff.document.management
+    - staff.lms
+    - students.portal
+    - students.assessment
+    - support.phone.online
+    - timetables.calendars
+    - timetables.rooms
+    - timetables.sites
+    - tutors.portal
+    - tutors.assessment
+    - financial.online.payments
   reporting: 
   - Excel
   pricing:
@@ -416,6 +467,21 @@
 
 - name: Kurious
   features:
+    - compliance.states
+    - compliance.avetmiss
+    - compliance.reporting.general
+    - compliance.rto.management
+    - hosting.cloud
+    - staff.multi.os
+    - staff.hr
+    - staff.task.management
+    - staff.lms
+    - students.portal
+    - support.phone.online
+    - timetables.calendars
+    - timetables.rooms
+    - tutors.portal
+    - financial.online.payments
   reporting:
   pricing:
   pros: |
@@ -427,6 +493,32 @@
 
 - name: Maze
   features:
+    - compliance.states
+compliance.avetmiss
+compliance.reporting.general
+compliance.reporting.customise
+compliance.attendance
+financial.accounting
+financial.debtors
+financial.export
+financial.invoicing
+financial.payment.plans
+financial.payroll
+hosting.cloud
+marketing.mail.merge
+marketing.marketing
+marketing.sms.functionalit
+staff.hr
+staff.payroll
+staff.training
+staff.document.management
+staff.related.find
+students.portal
+support.phone.online
+timetables.calendars
+timetables.rooms
+tutors.portal
+financial.online.payments
   reporting:
     - Excel
     - Word
@@ -440,6 +532,11 @@
 
 - name: N-Rolls Gold
   features:
+    - compliance.avetmiss
+    - compliance.reporting.general
+    - compliance.reporting.customise
+    - compliance.certificate
+    - financial.invoicing
   reporting:
   pricing: from $20 per month plus $1599 setup
   pros: |
@@ -451,6 +548,28 @@
 
 - name: PowerPro RTO
   features:
+    - compliance.states
+    - compliance.avetmiss
+    - compliance.reporting.general
+    - compliance.reporting.customise
+    - compliance.usi.capible
+    - compliance.attendance
+    - compliance.cricos
+    - compliance.vetfee
+    - financial.accounting
+    - financial.invoicing
+    - financial.payment.plans
+    - marketing.email.alerts
+    - marketing.mail.merge
+    - marketing.sms.functionalit
+    - marketing.survey
+    - staff.document.management
+    - support.phone.online
+    - timetables.calendars
+    - timetables.rooms
+    - timetables.sites
+    - website.cms
+    - financial.online.payments
   reporting:
   pricing: $3100 setup
   pros: |
@@ -462,6 +581,25 @@
 
 - name: RTO Data
   features:
+    - compliance.states
+    - compliance.avetmiss
+    - compliance.reporting.general
+    - compliance.reporting.customise
+    - compliance.rto.management
+    - compliance.certificate
+    - compliance.vetfee
+    - costs.users
+    - financial.payment.plans
+    - hosting.local
+    - marketing.mail.merge
+    - staff.employee
+    - staff.hr
+    - staff.task.management
+    - staff.document.management
+    - version.control
+    - timetables.rooms
+    - timetables.sites
+    - website.website
   reporting:
   pricing: from $60 per month plus $3300 setup
   pros: |
@@ -473,6 +611,44 @@
 
 - name: RTOManager
   features:
+    - compliance.states
+    - compliance.avetmiss
+    - compliance.reporting.general
+    - compliance.reporting.customise
+    - compliance.rto.management
+    - compliance.usi.capible
+    - compliance.certificate
+    - compliance.attendance
+    - compliance.cricos
+    - compliance.vetfee
+    - financial.accounting
+    - financial.export
+    - financial.invoicing
+    - financial.payment.plans
+    - financial.payroll
+    - hosting.cloud
+    - marketing.communication
+    - marketing.email.alerts
+    - marketing.mail.merge
+    - marketing.marketing
+    - marketing.sms.functionalit
+    - marketing.survey
+    - marketing.mailinglists
+    - staff.hr
+    - staff.training
+    - staff.task.management
+    - staff.templates
+    - staff.document.management
+    - version.control
+    - staff.lms
+    - students.portal
+    - students.assessment
+    - support.phone.online
+    - timetables.rooms
+    - timetables.sites
+    - tutors.portal
+    - tutors.assessment
+    - financial.online.payments
   reporting:
   pricing:
   pros: |
@@ -484,6 +660,19 @@
 
 - name: Strata
   features:
+    - compliance.states
+    - compliance.avetmiss
+    - compliance.reporting.general
+    - compliance.reporting.customise
+    - compliance.usi.capible
+    - compliance.attendance
+    - financial.invoicing
+    - hosting.cloud
+    - hosting.local
+    - staff.bulk.assign
+    - staff.document.management
+    - students.portal
+    - timetables.sites
   reporting:
     - Excel
   pricing:
@@ -496,6 +685,22 @@
 
 - name: Student Management SmartGuide
   features:
+    - compliance.states
+    - compliance.avetmiss
+    - compliance.reporting.general
+    - compliance.reporting.customise
+    - compliance.usi.capible
+    - compliance.certificate
+    - compliance.attendance
+    - compliance.cricos
+    - financial.debtors
+    - financial.invoicing
+    - financial.payment.plans
+    - hosting.local
+    - staff.templates
+    - staff.document.management
+    - support.phone.online
+    - timetables.rooms
   reporting:
   pricing: $1000 setup
   pros: |
@@ -507,6 +712,26 @@
 
 - name: TEAMS
   features:
+    - compliance.states
+    - compliance.reporting.general
+    - compliance.rto.management
+    - compliance.usi.capible
+    - compliance.attendance
+    - compliance.cricos
+    - financial.debtors
+    - financial.export
+    - financial.invoicing
+    - financial.payment.plans
+    - marketing.mail.merge
+    - marketing.marketing
+    - marketing.sms.functionalit
+    - marketing.survey
+    - staff.templates
+    - staff.document.management
+    - students.portal
+    - support.phone.online
+    - timetables.sites
+    - tutors.portal
   reporting:
   pricing: from $295 per month and $2500 setup
   pros: |
@@ -518,6 +743,34 @@
 
 - name: Truss RTO
   features:
+    - compliance.states
+    - compliance.avetmiss
+    - compliance.reporting.general
+    - compliance.usi.capible
+    - compliance.certificate
+    - financial.accounting
+    - financial.debtors
+    - financial.export
+    - financial.invoicing
+    - financial.payment.plans
+    - hosting.cloud
+    - staff.multi.os
+    - marketing.communication
+    - marketing.email.alerts
+    - marketing.mail.merge
+    - marketing.marketing
+    - marketing.sms.functionalit
+    - marketing.survey
+    - staff.templates
+    - staff.document.management
+    - support.phone.online
+    - timetables.calendars
+    - timetables.rooms
+    - timetables.sites
+    - tutors.portal
+    - website.website
+    - website.cms
+    - financial.online.payments
   reporting:
   pricing: from $299 per month and $7995 setup
   pros: |
@@ -529,6 +782,29 @@
 
 - name: tutis
   features:
+    - compliance.states
+    - compliance.avetmiss
+    - compliance.reporting.general
+    - compliance.rto.management
+    - compliance.attendance
+    - compliance.vetfee
+    - costs.users
+    - hosting.cloud
+    - staff.multi.os
+    - marketing.communication
+    - marketing.email.alerts
+    - marketing.survey
+    - marketing.crm
+    - staff.templates
+    - staff.document.management
+    - staff.lms
+    - students.assessment
+    - support.phone.online
+    - timetables.calendars
+    - timetables.rooms
+    - timetables.sites
+    - tutors.assessment
+    - financial.online.payments
   reporting:
   pricing:
   pros: |
@@ -540,6 +816,35 @@
 
 - name: VETtrak
   features:
+    - compliance.states
+    - compliance.avetmiss
+    - compliance.reporting.general
+    - compliance.reporting.customise
+    - compliance.rto.management
+    - compliance.usi.capible
+    - compliance.certificate
+    - compliance.attendance
+    - compliance.vetfee
+    - financial.invoicing
+    - financial.payment.plans
+    - hosting.cloud
+    - hosting.local
+    - marketing.communication
+    - marketing.email.alerts
+    - marketing.mail.merge
+    - marketing.sms.functionalit
+    - marketing.relationships
+    - marketing.mailinglists
+    - marketing.waitinglists
+    - staff.employee
+    - staff.hr
+    - staff.training
+    - staff.lms
+    - students.portal
+    - support.phone.online
+    - timetables.rooms
+    - timetables.sites
+    - tutors.portal
   platform: Windows
   reporting: 
   pricing: from $90 per month
@@ -552,6 +857,13 @@
 
 - name: Weworkbook
   features:
+    - compliance.states
+    - compliance.avetmiss
+    - compliance.reporting.general
+    - compliance.usi.capible
+    - hosting.cloud
+    - timetables.rooms
+    - timetables.sites
   reporting:
   pricing: from $440 per month 
   pros: |
@@ -563,6 +875,33 @@
 
 - name: Wise.NET
   features:
+    - compliance.states
+    - compliance.avetmiss
+    - compliance.reporting.general
+    - compliance.reporting.customise
+    - compliance.usi.capible
+    - compliance.attendance
+    - compliance.cricos
+    - compliance.vetfee
+    - financial.invoicing
+    - hosting.cloud
+    - marketing.communication
+    - marketing.email.alerts
+    - marketing.mail.merge
+    - marketing.sms.functionalit
+    - marketing.survey
+    - staff.task.management
+    - staff.bulk.assign
+    - staff.templates
+    - staff.document.management
+    - students.portal
+    - support.phone.online
+    - timetables.calendars
+    - timetables.rooms
+    - timetables.sites
+    - tutors.portal
+    - tutors.cloud.assess
+    - financial.online.payments
   reporting: 
   pricing: from $90 per month 
   pros: |
@@ -572,20 +911,21 @@
   oncourse: |
     the best
 
-    - name: Tribal Campus
-  url: ??
+   - name: Tribal Campus
   features:
-    - financial.accounting
     - compliance.states
-    - assessment
-    - attendance
     - compliance.avetmiss
+    - compliance.reporting.general
+    - compliance.attendance
+    - financial.debtors
+    - financial.invoicing
+    - marketing.survey
+    - staff.templates
+    - staff.document.management
+    - students.portal
+    - students.assessment
+    - tutors.portal
   reporting:
-    - Excel
-    - Text 
-    - HTML
-    - PDF
-    - RTF
   pricing:
   pros: |
     something good
@@ -595,19 +935,28 @@
     the best
 
         - name: Tribal Callista
-  url: ??
-  features:
-    - financial.accounting
+   features:
     - compliance.states
-    - assessment
-    - attendance
     - compliance.avetmiss
+    - compliance.reporting.general
+    - compliance.reporting.customise
+    - compliance.attendance
+    - compliance.cricos
+    - compliance.vetfee
+    - financial.invoicing
+    - financial.payment.plans
+    - hosting.cloud
+    - marketing.communication
+    - marketing.email.alerts
+    - marketing.sms.functionalit
+    - marketing.crm
+    - marketing.mailinglists
+    - students.portal
+    - students.assessment
+    - timetables.calendars
+    - timetables.sites
+    - financial.online.payments
   reporting:
-    - Excel
-    - Text 
-    - HTML
-    - PDF
-    - RTF
   pricing:
   pros: |
     something good
