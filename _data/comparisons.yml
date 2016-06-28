@@ -2,11 +2,25 @@
 - name: Attribute
   url: ??
   features:
-    - financial.accounting
-    - compliance.states
-    - assessment
-    - attendance
     - compliance.avetmiss
+    - compliance.reporting.general
+    - compliance.reporting.customise
+    - compliance.certificate
+    - compliance.attendance 
+    - financial.budgeting
+    - hosting.cloud
+    - staff.multi.os
+    - marketing.communication
+    - marketing.marketing
+    - staff.employee
+    - staff.hr 
+    - staff.training
+    - staff.bulk.assign
+    - staff.templates
+    - staff.lms
+    - students.portal
+    - timetables.rooms
+    - timetables.max.class
   reporting:
     - Excel
     - Text 
@@ -23,6 +37,23 @@
 
 - name: Audit Answers
   features:
+    - compliance.states
+    - compliance.avetmiss
+    - compliance.reporting.general
+    - compliance.reporting.customise
+    - compliance.rto.management
+    - compliance.usi.capible
+    - compliance.cricos
+    - financial.budgeting
+    - hosting.cloud
+    - marketing.email.alerts
+    - marketing.marketing
+    - marketing.sms.functionalit
+    - marketing.survey
+    - staff.document.management
+    - version.control
+    - students.assessment
+    - tutors.assessment
   reporting:
   pricing:
   pros: |
@@ -34,6 +65,44 @@
 
 - name: aXcelerate
   features:
+    - compliance.states
+    - compliance.avetmiss
+    - compliance.reporting.general
+    - compliance.reporting.customise
+    - compliance.rto.management
+    - compliance.usi.capible
+    - compliance.vetfee
+    - financial.accounting
+    - financial.budgeting
+    - financial.discounting
+    - financial.export
+    - financial.invoicing
+    - financial.payment.plans
+    - hosting.cloud
+    - marketing.communication
+    - marketing.email.alerts
+    - marketing.mail.merge
+    - marketing.marketing
+    - marketing.sms.functionalit
+    - marketing.survey
+    - marketing.relationships
+    - staff.hr
+    - staff.training
+    - staff.task.management
+    - staff.templates
+    - staff.document.management
+    - version.control
+    - staff.lms 
+    - students.portal
+    - students.assessment
+    - timetables.calendars
+    - timetables.rooms
+    - timetables.sites
+    - tutors.portal
+    - tutors.assessment
+    - tutors.cloud.assess
+    - website.cms
+
   reporting:
     - CSV
     - PDF
@@ -47,6 +116,30 @@
 
 - name: BA Advantage
   features:
+    - compliance.states
+    - compliance.avetmiss
+    - compliance.reporting.general
+    - compliance.rto.management
+    - compliance.usi.capible
+    - compliance.certificate
+    - costs.users
+    - financial.vouchers
+    - financial.invoicing
+    - financial.payment.plans
+    - hosting.cloud
+    - marketing.email.alerts
+    - marketing.sms.functionalit
+    - marketing.survey
+    - marketing.product
+    - staff.document.management
+    - version.control
+    - staff.lms
+    - students.portal
+    - support.phone.online
+    - timetables.calendars
+    - timetables.rooms
+    - tutors.portal
+    - financial.online.payments
   reporting:
   pricing: from $82 per month
   pros: |
@@ -58,6 +151,30 @@
 
 - name: BluegemEXPLORE
   features:
+    - compliance.states
+    - compliance.avetmiss
+    - compliance.reporting.general
+    - compliance.reporting.customise
+    - compliance.rto.management
+    - compliance.usi.capible
+    - compliance.certificate
+    - compliance.cricos
+    - compliance.vetfee
+    - financial.discounting
+    - hosting.cloud
+    - marketing.survey
+    - staff.hr
+    - staff.task.management
+    - staff.templates
+    - staff.lms
+    - students.portal
+    - students.assessment
+    - support.phone.online
+    - timetables.sites
+    - tutors.portal
+    - tutors.assessment
+    - website.website
+    - website.cms
   reporting:
   pricing:
   pros: |
@@ -69,8 +186,21 @@
 
 - name: Capabiliti
   features:
-    - accounting
-    - states
+    - compliance.states
+    - compliance.avetmiss
+    - compliance.reporting.general
+    - compliance.reporting.customise
+    - compliance.attendance
+    - hosting.cloud
+    - marketing.email.alerts
+    - marketing.marketing
+    - marketing.survey
+    - staff.employee
+    - staff.training
+    - staff.lms
+    - students.portal
+    - support.phone.online
+    - timetables.max.class
   reporting:
     - Excel
     - CSV
@@ -84,6 +214,17 @@
 
 - name: ChalkPort LearnCentre 
   features:
+    - compliance.states
+    - compliance.avetmiss
+    - compliance.reporting.general
+    - compliance.rto.management
+    - costs.users
+    - hosting.cloud
+    - marketing.survey
+    - staff.document.management
+    - version.control
+    - staff.lms
+    - support.phone.online
   reporting:
   pricing: from $330 per month plus $2750 setup
   pros: |
@@ -95,6 +236,19 @@
 
 - name: CourseSales.com
   features:
+    - compliance.states
+    - compliance.avetmiss
+    - compliance.reporting.general
+    - compliance.reporting.customise
+    - compliance.usi.capible
+    - compliance.certificate
+    - costs.free
+    - financial.discounting
+    - financial.currency
+    - financial.invoicing
+    - marketing.communication
+    - timetables.sites
+    - financial.online.payments
   reporting:
     - Excel
     - Open Office
@@ -108,6 +262,23 @@
 
 - name: eBECAS
   features:
+    - compliance.states
+    - compliance.avetmiss
+    - compliance.reporting.general
+    - compliance.usi.capible
+    - compliance.certificate
+    - compliance.attendance
+    - financial.discounting
+    - financial.invoicing
+    - financial.payroll
+    - hosting.cloud
+    - marketing.communication
+    - marketing.marketing
+    - marketing.sms.functionalit
+    - staff.templates
+    - staff.document.management
+    - students.portal
+    - timetables.rooms
   reporting:
   pricing: from $250 per month plus $2000 setup
   pros: |
@@ -119,6 +290,25 @@
 
 - name: EduPoint
   features:
+    - compliance.states
+    - compliance.avetmiss
+    - compliance.reporting.general
+    - compliance.reporting.customise
+    - compliance.certificate
+    - compliance.attendance
+    - compliance.cricos
+    - compliance.vetfee
+    - financial.accounting
+    - financial.currency
+    - financial.invoicing
+    - hosting.cloud
+    - marketing.communication
+    - marketing.marketing
+    - staff.document.management
+    - staff.lms
+    - students.portal
+    - support.phone.online
+    - website.website
   reporting:
   pricing: from $250 per month
   pros: |
@@ -130,6 +320,35 @@
 
 - name: Enquiry Mate for Trainers
   features:
+    - compliance.states
+    - compliance.avetmiss
+    - compliance.reporting.general
+    - compliance.rto.management
+    - compliance.usi.capible
+    - compliance.asqa
+    - compliance.certificate
+    - compliance.attendance
+    - compliance.vetfee
+    - financial.accounting
+    - financial.export
+    - financial.invoicing
+    - financial.payment.plans
+    - hosting.local
+    - marketing.communication
+    - marketing.email.alerts
+    - marketing.mail.merge
+    - marketing.marketing
+    - marketing.survey
+    - marketing.memberships
+    - marketing.mailinglists
+    - staff.document.management
+    - staff.lms
+    - students.assessment
+    - support.phone.online
+    - timetables.rooms
+    - timetables.sites
+    - tutors.assessment
+    - website.cms
   reporting:
   pricing: from $300 per month 
   pros: |
@@ -141,8 +360,13 @@
 
 - name: Esystats
   features:
-  platform: ??
-  reporting:
+    - compliance.avetmiss
+    - compliance.reporting.general
+    - compliance.usi.capible
+    - hosting.local
+    - staff.templates
+    - support.phone.online
+  reporting: 
     - Excel 
   pricing: from $390 per month
   pros: |
@@ -341,6 +565,50 @@
   features:
   reporting: 
   pricing: from $90 per month 
+  pros: |
+    something good
+  cons: |
+    some cons
+  oncourse: |
+    the best
+
+    - name: Tribal Campus
+  url: ??
+  features:
+    - financial.accounting
+    - compliance.states
+    - assessment
+    - attendance
+    - compliance.avetmiss
+  reporting:
+    - Excel
+    - Text 
+    - HTML
+    - PDF
+    - RTF
+  pricing:
+  pros: |
+    something good
+  cons: |
+    some cons
+  oncourse: |
+    the best
+
+        - name: Tribal Callista
+  url: ??
+  features:
+    - financial.accounting
+    - compliance.states
+    - assessment
+    - attendance
+    - compliance.avetmiss
+  reporting:
+    - Excel
+    - Text 
+    - HTML
+    - PDF
+    - RTF
+  pricing:
   pros: |
     something good
   cons: |

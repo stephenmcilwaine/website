@@ -58,7 +58,7 @@ layout: page
 | [Email Alerts](/features/marketing/emails)                      | tick     | {% include tick_cross.html param='marketing.email.alerts' %} |
 | [Mail Merge](/features/marketing/mail_merge)                        | tick     | {% include tick_cross.html param='marketing.mail.merge' %} |
 | Marketing                         | tick     | {% include tick_cross.html param='marketing.marketing' %} |
-| [SMS functionality](/features/marketing/sms_messaging)                 | tick     | {% include tick_cross.html param='marketing.sms.functionality' %} |
+| [SMS functionality](/features/marketing/sms_messaging)                 | tick     | {% include tick_cross.html param='marketing.sms.functionalit' %} |
 | [Survey and Feedback integration](/features/marketing/survey_tools)      | tick     | {% include tick_cross.html param='marketing.survey' %} |
 | [Customer Relationship Management (CRM)](/features/marketing/crm)      | tick 	| {% include tick_cross.html param='marketing.crm' %} |
 | [Memberships](/features/marketing/memberships)      | tick | {% include tick_cross.html param='marketing.memberships' %} |
@@ -98,7 +98,7 @@ layout: page
 
 | Feature                           | onCourse | {{page.product.name}} |
 |-----------------------------------|:--------:|:-------:|
-| Phone/ Online Support             | tick     | {% include tick_cross.html param='suppot.phone.online' %} |
+| Phone/ Online Support             | tick     | {% include tick_cross.html param='support.phone.online' %} |
 
 ### Timetables
 
