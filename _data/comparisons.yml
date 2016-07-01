@@ -896,25 +896,7 @@
     * no integrated website
   oncourse: |
 
-- name: Weworkbook
-  features:
-    - compliance.states
-    - compliance.avetmiss
-    - compliance.reporting.general
-    - compliance.usi.capible
-    - hosting.cloud
-    - timetables.rooms
-    - timetables.sites
-  reporting:
-  pricing: from $440 per month 
-  pros: |
-    something good
-  cons: |
-    some cons
-  oncourse: |
-    the best
-
-  - name: Wise.NET
+- name: Wise.NET
   features:
     - compliance.states
     - compliance.avetmiss
@@ -999,6 +981,24 @@
     - financial.online.payments
   reporting:
   pricing:
+  pros: |
+    something good
+  cons: |
+    some cons
+  oncourse: |
+    the best
+
+- name: Weworkbook
+  features:
+    - compliance.states
+    - compliance.avetmiss
+    - compliance.reporting.general
+    - compliance.usi.capible
+    - hosting.cloud
+    - timetables.rooms
+    - timetables.sites
+  reporting:
+  pricing: from $440 per month 
   pros: |
     something good
   cons: |
