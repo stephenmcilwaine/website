@@ -958,7 +958,7 @@
     the best
 
 - name: Tribal Callista
-   features:
+  features:
     - compliance.states
     - compliance.avetmiss
     - compliance.reporting.general
