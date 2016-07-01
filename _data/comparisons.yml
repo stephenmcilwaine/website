@@ -855,6 +855,47 @@
     * no integrated website
   oncourse: |
 
+- name: VETtrak
+  features:
+    - compliance.states
+    - compliance.avetmiss
+    - compliance.reporting.general
+    - compliance.reporting.customise
+    - compliance.rto.management
+    - compliance.usi.capible
+    - compliance.certificate
+    - compliance.attendance
+    - compliance.vetfee
+    - financial.invoicing
+    - financial.payment.plans
+    - hosting.cloud
+    - hosting.local
+    - marketing.communication
+    - marketing.email.alerts
+    - marketing.mail.merge
+    - marketing.sms.functionalit
+    - marketing.relationships
+    - marketing.mailinglists
+    - marketing.waitinglists
+    - staff.employee
+    - staff.hr
+    - staff.training
+    - staff.lms
+    - students.portal
+    - support.phone.online
+    - timetables.rooms
+    - timetables.sites
+    - tutors.portal
+  platform: Windows
+  reporting: 
+  pricing: from $90 per month
+  pros: |
+    * comprehensive compliant reporting
+  cons: |
+    * basic marketing capability
+    * no integrated website
+  oncourse: |
+
 - name: Weworkbook
   features:
     - compliance.states
@@ -873,7 +914,7 @@
   oncourse: |
     the best
 
-- name: Wise.NET
+  - name: Wise.NET
   features:
     - compliance.states
     - compliance.avetmiss
@@ -911,7 +952,7 @@
   oncourse: |
     the best
 
-   - name: Tribal Campus
+- name: Tribal Campus
   features:
     - compliance.states
     - compliance.avetmiss
@@ -934,7 +975,7 @@
   oncourse: |
     the best
 
-        - name: Tribal Callista
+- name: Tribal Callista
    features:
     - compliance.states
     - compliance.avetmiss
