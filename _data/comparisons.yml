@@ -494,31 +494,31 @@
 - name: Maze
   features:
     - compliance.states
-compliance.avetmiss
-compliance.reporting.general
-compliance.reporting.customise
-compliance.attendance
-financial.accounting
-financial.debtors
-financial.export
-financial.invoicing
-financial.payment.plans
-financial.payroll
-hosting.cloud
-marketing.mail.merge
-marketing.marketing
-marketing.sms.functionalit
-staff.hr
-staff.payroll
-staff.training
-staff.document.management
-staff.related.find
-students.portal
-support.phone.online
-timetables.calendars
-timetables.rooms
-tutors.portal
-financial.online.payments
+    - compliance.avetmiss
+    - compliance.reporting.general
+    - compliance.reporting.customise
+    - compliance.attendance
+    - financial.accounting
+    - financial.debtors
+    - financial.export
+    - financial.invoicing
+    - financial.payment.plans
+    - financial.payroll
+    - hosting.cloud
+    - marketing.mail.merge
+    - marketing.marketing
+    - marketing.sms.functionalit
+    - staff.hr
+    - staff.payroll
+    - staff.training
+    - staff.document.management
+    - staff.related.find
+    - students.portal
+    - support.phone.online
+    - timetables.calendars
+    - timetables.rooms
+    - tutors.portal
+    - financial.online.payments
   reporting:
     - Excel
     - Word
