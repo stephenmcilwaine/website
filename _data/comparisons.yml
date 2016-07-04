@@ -1,6 +1,5 @@
 ---
 - name: Attribute
-  url: ??
   features:
     - compliance.avetmiss
     - compliance.reporting.general
@@ -27,11 +26,19 @@
     - HTML
     - PDF
     - RTF
-  pricing:
+  pricing: Not listed on website
   pros: |
-    something good
+    MS Outlook look and feel
+    Employee management 
+    Interface customisation 
+    Audit trail for data changes
+    Certificate issuing and automation
   cons: |
-    some cons
+    MS Outlook look and feel
+    Limited financial and marketing features
+    No tutor portal 
+    No website integration  
+    Only AVETMISS Compliant in South Australia
   oncourse: |
     the best
 
@@ -55,11 +62,14 @@
     - students.assessment
     - tutors.assessment
   reporting:
-  pricing:
+  pricing: Not listed on website
   pros: |
-    something good
+    Online assessment submission
+    Document management and version control
   cons: |
-    some cons
+    Limited financial features
+    No website integration
+    No tutor portal
   oncourse: |
     the best
 
@@ -102,15 +112,18 @@
     - tutors.assessment
     - tutors.cloud.assess
     - website.cms
-
   reporting:
     - CSV
     - PDF
-  pricing:
+  pricing: Not listed on website
   pros: |
-    something good
+    Some website integration
+    Online assessment submission
+    Tutor portal 
+    Calendar functions 
   cons: |
-    some cons
+    No online payments
+    No payroll functionality
   oncourse: |
     the best
 
@@ -143,9 +156,14 @@
   reporting:
   pricing: from $82 per month
   pros: |
-    something good
+    Document management and version control
+    Online payments
+    Tutor portal
+    Certificate issuing and automation
   cons: |
-    some cons
+    Limited financial and marketing features
+    No website integration
+    Unable to schedule reports
   oncourse: |
     the best
 
@@ -176,11 +194,16 @@
     - website.website
     - website.cms
   reporting:
-  pricing:
+  pricing: Not listed on website
   pros: |
-    something good
+    Tutor and student portals
+    Task management
+    Online assessment submission
+    Website integration
   cons: |
-    some cons
+    Limited financial and marketing features
+    No online payments
+    Lots of add ons for it to be fully functional 
   oncourse: |
     the best
 
@@ -206,9 +229,14 @@
     - CSV
   pricing: from $1449 per month
   pros: |
-    something good
+    Student portal
+    Focus on staff training
+    Online attendance marking
   cons: |
-    some cons
+    High ongoing costs
+    No financial features
+    No website integration
+    Focus on staff training
   oncourse: |
     the best
 
@@ -228,9 +256,12 @@
   reporting:
   pricing: from $330 per month plus $2750 setup
   pros: |
-    something good
+    Document management and version control
+    Unlimited users
   cons: |
-    some cons
+    High setup costs
+    No financial features
+    No website integration or online payments
   oncourse: |
     the best
 
@@ -252,11 +283,15 @@
   reporting:
     - Excel
     - Open Office
-  pricing:
+  pricing: Not listed on website
   pros: |
-    something good
+    Certificate issuing and automation
+    Free version available
+    Online payment
   cons: |
-    some cons
+    Limited financial and marketing features
+    No Student or Tutor portals
+    No website integration 
   oncourse: |
     the best
 
@@ -456,7 +491,7 @@
     - financial.online.payments
   reporting: 
   - Excel
-  pricing:
+  pricing: Not listed on website
   pros: |
     * strong traineeship functionality
     * job network integration
@@ -483,7 +518,7 @@
     - tutors.portal
     - financial.online.payments
   reporting:
-  pricing:
+  pricing: Not listed on website
   pros: |
     something good
   cons: |
@@ -650,7 +685,7 @@
     - tutors.assessment
     - financial.online.payments
   reporting:
-  pricing:
+  pricing: Not listed on website
   pros: |
     something good
   cons: |
@@ -675,7 +710,7 @@
     - timetables.sites
   reporting:
     - Excel
-  pricing:
+  pricing: Not listed on website
   pros: |
     something good
   cons: |
@@ -806,54 +841,13 @@
     - tutors.assessment
     - financial.online.payments
   reporting:
-  pricing:
+  pricing: Not listed on website
   pros: |
     something good
   cons: |
     some cons
   oncourse: |
     the best
-
-- name: VETtrak
-  features:
-    - compliance.states
-    - compliance.avetmiss
-    - compliance.reporting.general
-    - compliance.reporting.customise
-    - compliance.rto.management
-    - compliance.usi.capible
-    - compliance.certificate
-    - compliance.attendance
-    - compliance.vetfee
-    - financial.invoicing
-    - financial.payment.plans
-    - hosting.cloud
-    - hosting.local
-    - marketing.communication
-    - marketing.email.alerts
-    - marketing.mail.merge
-    - marketing.sms.functionalit
-    - marketing.relationships
-    - marketing.mailinglists
-    - marketing.waitinglists
-    - staff.employee
-    - staff.hr
-    - staff.training
-    - staff.lms
-    - students.portal
-    - support.phone.online
-    - timetables.rooms
-    - timetables.sites
-    - tutors.portal
-  platform: Windows
-  reporting: 
-  pricing: from $90 per month
-  pros: |
-    * comprehensive compliant reporting
-  cons: |
-    * basic marketing capability
-    * no integrated website
-  oncourse: |
 
 - name: VETtrak
   features:
@@ -949,7 +943,7 @@
     - students.assessment
     - tutors.portal
   reporting:
-  pricing:
+  pricing: Not listed on website
   pros: |
     something good
   cons: |
@@ -980,7 +974,7 @@
     - timetables.sites
     - financial.online.payments
   reporting:
-  pricing:
+  pricing: Not listed on website
   pros: |
     something good
   cons: |
