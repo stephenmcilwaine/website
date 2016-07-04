@@ -28,17 +28,17 @@
     - RTF
   pricing: Not listed on website
   pros: |
-    MS Outlook look and feel
-    Employee management 
-    Interface customisation 
-    Audit trail for data changes
-    Certificate issuing and automation
+    - MS Outlook look and feel
+    - Employee management 
+    - Interface customisation 
+    - Audit trail for data changes
+    - Certificate issuing and automation
   cons: |
-    MS Outlook look and feel
-    Limited financial and marketing features
-    No tutor portal 
-    No website integration  
-    Only AVETMISS Compliant in South Australia
+    - MS Outlook look and feel
+    - Limited financial and marketing features
+    - No tutor portal 
+    - No website integration  
+    - Only AVETMISS Compliant in South Australia
   oncourse: |
     the best
 
@@ -64,12 +64,12 @@
   reporting:
   pricing: Not listed on website
   pros: |
-    Online assessment submission
-    Document management and version control
+    - Online assessment submission
+    - Document management and version control
   cons: |
-    Limited financial features
-    No website integration
-    No tutor portal
+    - Limited financial features
+    - No website integration
+    - No tutor portal
   oncourse: |
     the best
 
@@ -117,13 +117,13 @@
     - PDF
   pricing: Not listed on website
   pros: |
-    Some website integration
-    Online assessment submission
-    Tutor portal 
-    Calendar functions 
+    - Some website integration
+    - Online assessment submission
+    - Tutor portal 
+    - Calendar functions 
   cons: |
-    No online payments
-    No payroll functionality
+    - No online payments
+    - No payroll functionality
   oncourse: |
     the best
 
@@ -156,14 +156,14 @@
   reporting:
   pricing: from $82 per month
   pros: |
-    Document management and version control
-    Online payments
-    Tutor portal
-    Certificate issuing and automation
+    - Document management and version control
+    - Online payments
+    - Tutor portal
+    - Certificate issuing and automation
   cons: |
-    Limited financial and marketing features
-    No website integration
-    Unable to schedule reports
+    - Limited financial and marketing features
+    - No website integration
+    - Unable to schedule reports
   oncourse: |
     the best
 
@@ -196,14 +196,14 @@
   reporting:
   pricing: Not listed on website
   pros: |
-    Tutor and student portals
-    Task management
-    Online assessment submission
-    Website integration
+    - Tutor and student portals
+    - Task management
+    - Online assessment submission
+    - Website integration
   cons: |
-    Limited financial and marketing features
-    No online payments
-    Lots of add ons for it to be fully functional 
+    - Limited financial and marketing features
+    - No online payments
+    - Lots of add ons for it to be fully functional 
   oncourse: |
     the best
 
@@ -229,14 +229,14 @@
     - CSV
   pricing: from $1449 per month
   pros: |
-    Student portal
-    Focus on staff training
-    Online attendance marking
+    - Student portal
+    - Focus on staff training
+    - Online attendance marking
   cons: |
-    High ongoing costs
-    No financial features
-    No website integration
-    Focus on staff training
+    - High ongoing costs
+    - No financial features
+    - No website integration
+    - Focus on staff training
   oncourse: |
     the best
 
@@ -256,12 +256,12 @@
   reporting:
   pricing: from $330 per month plus $2750 setup
   pros: |
-    Document management and version control
-    Unlimited users
+    - Document management and version control
+    - Unlimited users
   cons: |
-    High setup costs
-    No financial features
-    No website integration or online payments
+    - High setup costs
+    - No financial features
+    - No website integration or online payments
   oncourse: |
     the best
 
@@ -285,13 +285,13 @@
     - Open Office
   pricing: Not listed on website
   pros: |
-    Certificate issuing and automation
-    Free version available
-    Online payment
+    - Certificate issuing and automation
+    - Free version available
+    - Online payment
   cons: |
-    Limited financial and marketing features
-    No Student or Tutor portals
-    No website integration 
+    - Limited financial and marketing features
+    - No Student or Tutor portals
+    - No website integration 
   oncourse: |
     the best
 
@@ -317,9 +317,14 @@
   reporting:
   pricing: from $250 per month plus $2000 setup
   pros: |
-    something good
+    - Certificate issuing and automation
+    - Document management
+    - Student portal
+    - Online attendance marking
   cons: |
-    some cons
+    - Large initial setup cost
+    - No website integration
+    - Limited financial and marketing features
   oncourse: |
     the best
 
@@ -347,9 +352,14 @@
   reporting:
   pricing: from $250 per month
   pros: |
-    something good
+    - Certificate issuing and automation
+    - Online attendance marking
+    - Document Management
+    - Website
   cons: |
-    some cons
+    - Limited financial and marketing features
+    - No website integration
+    - No tutor portal
   oncourse: |
     the best
 
@@ -387,9 +397,16 @@
   reporting:
   pricing: from $300 per month 
   pros: |
-    something good
+    - Certificate issuing and automation
+    - Online attendance marking
+    - Document management
+    - Online assessment submission
+    - Website integration
   cons: |
-    some cons
+    - High setup costs
+    - Local hosting only
+    - No customisation of reports
+    - Limited financial features
   oncourse: |
     the best
 
@@ -403,11 +420,13 @@
     - support.phone.online
   reporting: 
     - Excel 
-  pricing: from $390 per month
+  pricing: from $390 per year
   pros: |
-    something good
+    - Low setup and ongoing costs
+    - Payroll
   cons: |
-    some cons
+    - Only AVETMISS compliant in Victoria
+    - No financial or marketing features
   oncourse: |
     the best
 
@@ -427,9 +446,12 @@
     - Excel
   pricing: from $275 per month 
   pros: |
-    something good
+    - Online attendance marking
+    - Allows for rooms, sites and maximum clas sizes
   cons: |
-    some cons
+    - Only AVETMISS compliant in New South Wales, Tasmania and Victoria
+    - No marketing features
+    - No student or tutor portals
   oncourse: |
     the best
 
@@ -447,9 +469,13 @@
   reporting:
   pricing: from $85 per month plus $2970 setup
   pros: |
-    something good
+    - Certificate issuing and automation
+    - Online attendance marking
+    - Small ongoing monthly fee
   cons: |
-    some cons
+    - Large setup costs
+    - Minimal finance features
+    - No marketing features
   oncourse: |
     the best
 
@@ -493,10 +519,15 @@
   - Excel
   pricing: Not listed on website
   pros: |
-    * strong traineeship functionality
-    * job network integration
+    - Strong traineeship functionality
+    - Job network integration
+    - Report customisation
+    - Certificate issuing and automation
+    - Online attendance marking
   cons: |
-    some cons
+    - No website integration
+    - No CRICOS Management
+    - No payroll
   oncourse: |
     the best
 
@@ -520,9 +551,12 @@
   reporting:
   pricing: Not listed on website
   pros: |
-    something good
+    - Multi OS functionality
+    - Task management 
   cons: |
-    some cons
+    - No website integration
+    - No online payments
+    - No student or tutor portals
   oncourse: |
     the best
 
@@ -559,9 +593,15 @@
     - Word
   pricing: from $125 per month
   pros: |
-    something good
+    - Reporting customisation
+    - Online attendance marking
+    - Online payments
+    - Payroll
+    - Document management
   cons: |
-    some cons
+    - Unable to customise outgoing communications
+    - No webite integration
+    - No version control
   oncourse: |
     the best
 
@@ -575,9 +615,14 @@
   reporting:
   pricing: from $20 per month plus $1599 setup
   pros: |
-    something good
+    - Low ongoing costs
+    - Certificate issuing and automation
+    - Invoicing
   cons: |
-    some cons
+    - Only AVETMISS compliant in Queensland, Victoria and Western Australia
+    - Not USI capible
+    - No marking features
+    - No website integration
   oncourse: |
     the best
 
@@ -608,9 +653,15 @@
   reporting:
   pricing: $3100 setup
   pros: |
-    something good
-  cons: |
-    some cons
+    - Online attendance marking
+    - Document Management
+    - Calendar functionality
+    - Online payments
+    - Some website integration
+  cons: | 
+    - Large setup fee
+    - No tutor or student portals 
+    - Limited finalcial and marketing features
   oncourse: |
     the best
 
@@ -638,9 +689,15 @@
   reporting:
   pricing: from $60 per month plus $3300 setup
   pros: |
-    something good
+    - Certificate issuing and automation
+    - Low monthly charge
+    - Payment plans
+    - Website
   cons: |
-    some cons
+    - Large setup fee
+    - Limited financial and marketing features
+    - No tutor or student portal
+    - No website integration
   oncourse: |
     the best
 
@@ -687,9 +744,17 @@
   reporting:
   pricing: Not listed on website
   pros: |
-    something good
+    - Certificate issuing and automation
+    - Online attendance marking
+    - Survey integration and customised communications
+    - Tutor and student portals
+    - Online assessment submission
+    - Online payments
   cons: |
-    some cons
+    - No payroll
+    - No webite integration
+    - No budgeting features
+    - No calendar functionality
   oncourse: |
     the best
 
@@ -712,9 +777,14 @@
     - Excel
   pricing: Not listed on website
   pros: |
-    something good
+    - Online attendance marking
+    - Cloud and local hosting
+    - Document management
+    - Studnt portal
   cons: |
-    some cons
+    - Minimul financial and marketing features
+    - No version control
+    - No website integration
   oncourse: |
     the best
 
@@ -739,9 +809,16 @@
   reporting:
   pricing: $1000 setup
   pros: |
-    something good
+    - Certificate issuing and automation
+    - Online attendance marking
+    - Invoicing and debtors reporting
+    - Document management
+    - Provides coourse templates
   cons: |
-    some cons
+    - No marketing features
+    - No version control
+    - No website integration
+    - No student or tutor portal
   oncourse: |
     the best
 
@@ -770,9 +847,15 @@
   reporting:
   pricing: from $295 per month and $2500 setup
   pros: |
-    something good
+    - Online attendance marking
+    - Invoicing, payment plans and debtors reporting
+    - Document management
+    - Student and tutor portals
   cons: |
-    some cons
+    - Large setup costs
+    - Unable to customise communications
+    - No version control
+    - No website integration or online payments
   oncourse: |
     the best
 
@@ -809,9 +892,17 @@
   reporting:
   pricing: from $299 per month and $7995 setup
   pros: |
-    something good
+    - Certificate issuing and automation
+    - Multi OS functionality
+    - Invoicing, payment plans and debtors reporting
+    - Document management
+    - Calendar functionality
+    - Online Payments and website integration
   cons: |
-    some cons
+    - Large setup costs
+    - No version control
+    - No budgeting functionality
+    - No reporting customisation
   oncourse: |
     the best
 
@@ -843,9 +934,17 @@
   reporting:
   pricing: Not listed on website
   pros: |
-    something good
+    - Online attendance marking
+    - Unlimited users
+    - Multi OS functionality
+    - Survey integration
+    - Document management
+    - Online assessment submission
   cons: |
-    some cons
+    - No financial features
+    - No version control
+    - No student or tutor portals
+    - No website integration
   oncourse: |
     the best
 
@@ -884,10 +983,16 @@
   reporting: 
   pricing: from $90 per month
   pros: |
-    * comprehensive compliant reporting
+    - Comprehensive compliant reporting
+    - Low monthly costs
+    - Cloud and local hosting
+    - Tutor and student portals 
+    - Online assessment submission
   cons: |
-    * basic marketing capability
-    * no integrated website
+    - Basic marketing capability
+    - No website integration
+    - Basic financial integration
+    - No online payments 
   oncourse: |
 
 - name: Wise.NET
@@ -922,9 +1027,18 @@
   reporting: 
   pricing: from $90 per month 
   pros: |
-    something good
+    - Online attendance marking
+    - Low monthly costs
+    - Invoicing
+    - Document management
+    - Task management 
+    - Student and Tutor portals 
+    - Online assessment submission
   cons: |
-    some cons
+    - Minimul financial features
+    - No debtors reporting
+    - No integrated website
+    - No version control
   oncourse: |
     the best
 
@@ -945,9 +1059,17 @@
   reporting:
   pricing: Not listed on website
   pros: |
-    something good
+    - Online attendance marking
+    - Invoicing and debtors reporting
+    - Document management
+    - Online assessment submission
+    - Student and tutor portal
   cons: |
-    some cons
+    - Minimal financial and marketing features
+    - No version control
+    - No calendar features
+    - No website integration
+    - No online payments
   oncourse: |
     the best
 
@@ -976,9 +1098,16 @@
   reporting:
   pricing: Not listed on website
   pros: |
-    something good
+    - Online attendance marking
+    - Invoicing and payment plans
+    - Customised communications, mailing lists and sms functionality
+    - Student portal
+    - Online assessment submission
+    - Online payment
   cons: |
-    some cons
+    - Basic financial functionality
+    - No tutor portal 
+    - No website integration
   oncourse: |
     the best
 
@@ -994,8 +1123,11 @@
   reporting:
   pricing: from $440 per month 
   pros: |
-    something good
+    - Rooms and sites
+    - USI Capible 
   cons: |
-    some cons
+    - No marketing or financial features
+    - No integrated website
+    - No online payments
   oncourse: |
     the best
