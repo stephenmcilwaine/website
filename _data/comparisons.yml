@@ -40,7 +40,7 @@
     - No website integration  
     - Only AVETMISS Compliant in South Australia
   oncourse: |
-    the best
+    - 
 
 - name: Audit Answers
   features:
@@ -71,7 +71,7 @@
     - No website integration
     - No tutor portal
   oncourse: |
-    the best
+    - 
 
 - name: aXcelerate
   features:
@@ -125,7 +125,7 @@
     - No online payments
     - No payroll functionality
   oncourse: |
-    the best
+    - 
 
 - name: BA Advantage
   features:
@@ -165,7 +165,7 @@
     - No website integration
     - Unable to schedule reports
   oncourse: |
-    the best
+    - 
 
 - name: BluegemEXPLORE
   features:
@@ -238,7 +238,7 @@
     - No website integration
     - Focus on staff training
   oncourse: |
-    the best
+    - 
 
 - name: ChalkPort LearnCentre 
   features:
@@ -263,7 +263,7 @@
     - No financial features
     - No website integration or online payments
   oncourse: |
-    the best
+    - 
 
 - name: CourseSales.com
   features:
@@ -293,7 +293,7 @@
     - No Student or Tutor portals
     - No website integration 
   oncourse: |
-    the best
+    - 
 
 - name: eBECAS
   features:
@@ -326,7 +326,7 @@
     - No website integration
     - Limited financial and marketing features
   oncourse: |
-    the best
+    - 
 
 - name: EduPoint
   features:
@@ -361,7 +361,7 @@
     - No website integration
     - No tutor portal
   oncourse: |
-    the best
+    - 
 
 - name: Enquiry Mate for Trainers
   features:
@@ -408,7 +408,7 @@
     - No customisation of reports
     - Limited financial features
   oncourse: |
-    the best
+    - 
 
 - name: Esystats
   features:
@@ -428,7 +428,7 @@
     - Only AVETMISS compliant in Victoria
     - No financial or marketing features
   oncourse: |
-    the best
+    - 
 
 - name: FRONTDESK Enrol
   features:
@@ -453,7 +453,7 @@
     - No marketing features
     - No student or tutor portals
   oncourse: |
-    the best
+    - 
 
 - name: Icare
   features:
@@ -477,7 +477,7 @@
     - Minimal finance features
     - No marketing features
   oncourse: |
-    the best
+    - 
 
 - name: JobReady.RTO
   features:
@@ -529,7 +529,7 @@
     - No CRICOS Management
     - No payroll
   oncourse: |
-    the best
+    - 
 
 - name: Kurious
   features:
@@ -558,7 +558,7 @@
     - No online payments
     - No student or tutor portals
   oncourse: |
-    the best
+    - 
 
 - name: Maze
   features:
@@ -603,7 +603,7 @@
     - No webite integration
     - No version control
   oncourse: |
-    the best
+    - 
 
 - name: N-Rolls Gold
   features:
@@ -624,7 +624,7 @@
     - No marking features
     - No website integration
   oncourse: |
-    the best
+    - 
 
 - name: PowerPro RTO
   features:
@@ -663,7 +663,7 @@
     - No tutor or student portals 
     - Limited finalcial and marketing features
   oncourse: |
-    the best
+    - 
 
 - name: RTO Data
   features:
@@ -699,7 +699,7 @@
     - No tutor or student portal
     - No website integration
   oncourse: |
-    the best
+    - 
 
 - name: RTOManager
   features:
@@ -756,7 +756,7 @@
     - No budgeting features
     - No calendar functionality
   oncourse: |
-    the best
+    - 
 
 - name: Strata
   features:
@@ -786,7 +786,7 @@
     - No version control
     - No website integration
   oncourse: |
-    the best
+    - 
 
 - name: Student Management SmartGuide
   features:
@@ -820,7 +820,7 @@
     - No website integration
     - No student or tutor portal
   oncourse: |
-    the best
+    - 
 
 - name: TEAMS
   features:
@@ -857,7 +857,7 @@
     - No version control
     - No website integration or online payments
   oncourse: |
-    the best
+    - 
 
 - name: Truss RTO
   features:
@@ -904,7 +904,7 @@
     - No budgeting functionality
     - No reporting customisation
   oncourse: |
-    the best
+    - 
 
 - name: tutis
   features:
@@ -946,7 +946,7 @@
     - No student or tutor portals
     - No website integration
   oncourse: |
-    the best
+    - 
 
 - name: VETtrak
   features:
@@ -994,6 +994,7 @@
     - Basic financial integration
     - No online payments 
   oncourse: |
+    - 
 
 - name: Wise.NET
   features:
@@ -1040,7 +1041,7 @@
     - No integrated website
     - No version control
   oncourse: |
-    the best
+    - 
 
 - name: Tribal Campus
   features:
@@ -1071,7 +1072,7 @@
     - No website integration
     - No online payments
   oncourse: |
-    the best
+    - 
 
 - name: Tribal Callista
   features:
@@ -1109,7 +1110,7 @@
     - No tutor portal 
     - No website integration
   oncourse: |
-    the best
+    - 
 
 - name: Weworkbook
   features:
@@ -1130,4 +1131,4 @@
     - No integrated website
     - No online payments
   oncourse: |
-    the best
+    - 
