@@ -1,0 +1,12 @@
+footer {
+    background: $footer-bg;
+    color: $footer-text-color;
+    padding: 15px 0;
+    a {
+        color: $white;
+        &:hover {
+            color: $brand-color;
+            text-decoration: none;
+        }
+    }
+}
