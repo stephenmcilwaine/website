@@ -40,7 +40,10 @@
     - No website integration  
     - Only AVETMISS Compliant in South Australia
   oncourse: |
-    - 
+    - Absolute website integration for courses and classes
+    - AVETMISS Compliant nationally
+    - Advanced financial and marketing features 
+    - Fully integrated tutor portal
 
 - name: Audit Answers
   features:
@@ -71,7 +74,9 @@
     - No website integration
     - No tutor portal
   oncourse: |
-    - 
+    - Absolute website integration for courses and classes
+    - Advanced financial features 
+    - Fully integrated tutor portal
 
 - name: aXcelerate
   features:
@@ -125,7 +130,8 @@
     - No online payments
     - No payroll functionality
   oncourse: |
-    - 
+    - Seamless and secure online payments
+    - Easy to manage payroll
 
 - name: BA Advantage
   features:
@@ -165,7 +171,9 @@
     - No website integration
     - Unable to schedule reports
   oncourse: |
-    - 
+    - Absolute website integration for courses and classes
+    - Advanced financial and marketing features 
+    - Full customisation and scheduling of reports
 
 - name: BluegemEXPLORE
   features:
@@ -205,7 +213,9 @@
     - No online payments
     - Lots of add ons for it to be fully functional 
   oncourse: |
-    the best
+    - Advanced financial and marketing features 
+    - Seamless and secure online payments
+    - Functional at the free version
 
 - name: Capabiliti
   features:
@@ -238,7 +248,10 @@
     - No website integration
     - Focus on staff training
   oncourse: |
-    - 
+    - Absolute website integration for courses and classes
+    - Advanced financial features 
+    - Student focussed
+    - Various pricing options
 
 - name: ChalkPort LearnCentre 
   features:
@@ -263,7 +276,9 @@
     - No financial features
     - No website integration or online payments
   oncourse: |
-    - 
+    - Absolute website integration for courses and classes
+    - Advanced financial features 
+    - Various pricing options 
 
 - name: CourseSales.com
   features:
@@ -293,7 +308,9 @@
     - No Student or Tutor portals
     - No website integration 
   oncourse: |
-    - 
+    - Absolute website integration for courses and classes
+    - Advanced financial and marketing features 
+    - Fully integrated student and tutor portals
 
 - name: eBECAS
   features:
@@ -322,11 +339,13 @@
     - Student portal
     - Online attendance marking
   cons: |
-    - Large initial setup cost
+    - High setup costs
     - No website integration
     - Limited financial and marketing features
   oncourse: |
-    - 
+    - Absolute website integration for courses and classes
+    - Advanced financial and marketing features 
+    - Various pricing options 
 
 - name: EduPoint
   features:
@@ -361,7 +380,9 @@
     - No website integration
     - No tutor portal
   oncourse: |
-    - 
+    - Absolute website integration for courses and classes
+    - Advanced financial and marketing features 
+    - Fully integrated tutor portal
 
 - name: Enquiry Mate for Trainers
   features:
@@ -408,7 +429,10 @@
     - No customisation of reports
     - Limited financial features
   oncourse: |
-    - 
+    - Advanced financial features 
+    - Various pricing options 
+    - Local or cloud hosting
+    - Full customisation and scheduling of reports
 
 - name: Esystats
   features:
@@ -428,7 +452,8 @@
     - Only AVETMISS compliant in Victoria
     - No financial or marketing features
   oncourse: |
-    - 
+    - AVETMISS Compliant nationally
+    - Advanced financial and marketing features 
 
 - name: FRONTDESK Enrol
   features:
@@ -453,7 +478,9 @@
     - No marketing features
     - No student or tutor portals
   oncourse: |
-    - 
+    - AVETMISS Compliant nationally
+    - Advanced marketing features 
+    - Fully integrated student and tutor portals
 
 - name: Icare
   features:
@@ -477,7 +504,9 @@
     - Minimal finance features
     - No marketing features
   oncourse: |
-    - 
+    - Advanced financial and marketing features 
+    - Various pricing options
+    - Advanced marketing features
 
 - name: JobReady.RTO
   features:
@@ -529,7 +558,9 @@
     - No CRICOS Management
     - No payroll
   oncourse: |
-    - 
+    - Absolute website integration for courses and classes
+    - Easy to manage payroll
+    - Fully CRICOS compliant 
 
 - name: Kurious
   features:
@@ -558,7 +589,9 @@
     - No online payments
     - No student or tutor portals
   oncourse: |
-    - 
+    - Absolute website integration for courses and classes
+    - Fully integrated student and tutor portals
+    - Seamless and secure online payments
 
 - name: Maze
   features:
@@ -603,7 +636,9 @@
     - No webite integration
     - No version control
   oncourse: |
-    - 
+    - Absolute website integration for courses and classes
+    - Seamless and secure online payments
+    - Optomised version control
 
 - name: N-Rolls Gold
   features:
@@ -624,7 +659,10 @@
     - No marking features
     - No website integration
   oncourse: |
-    - 
+    - Absolute website integration for courses and classes
+    - AVETMISS Compliant nationally
+    - Advanced marketing features 
+    - Fully USI capible 
 
 - name: PowerPro RTO
   features:
@@ -663,7 +701,9 @@
     - No tutor or student portals 
     - Limited finalcial and marketing features
   oncourse: |
-    - 
+    - Advanced financial and marketing features 
+    - Fully integrated student and tutor portals
+    - Various pricing options
 
 - name: RTO Data
   features:
@@ -699,7 +739,10 @@
     - No tutor or student portal
     - No website integration
   oncourse: |
-    - 
+    - Absolute website integration for courses and classes
+    - Advanced financial and marketing features 
+    - Fully integrated student and tutor portals
+    - Various pricing options
 
 - name: RTOManager
   features:
@@ -756,7 +799,10 @@
     - No budgeting features
     - No calendar functionality
   oncourse: |
-    - 
+    - Absolute website integration for courses and classes
+    - Easy to manage payroll
+    - Scheduling and calendar functionality
+    - Advanced financial features 
 
 - name: Strata
   features:
@@ -780,13 +826,15 @@
     - Online attendance marking
     - Cloud and local hosting
     - Document management
-    - Studnt portal
+    - Student portal
   cons: |
     - Minimul financial and marketing features
     - No version control
     - No website integration
   oncourse: |
-    - 
+    - Absolute website integration for courses and classes
+    - Advanced financial and marketing features 
+    - Optomised version control
 
 - name: Student Management SmartGuide
   features:
@@ -820,7 +868,10 @@
     - No website integration
     - No student or tutor portal
   oncourse: |
-    - 
+    - Absolute website integration for courses and classes
+    - Advanced marketing features 
+    - Fully integrated student and tutor portals
+    - Optomised version control
 
 - name: TEAMS
   features:
@@ -857,7 +908,9 @@
     - No version control
     - No website integration or online payments
   oncourse: |
-    - 
+    - Absolute website integration for courses and classes
+    - Optomised version control
+    - Various pricing options
 
 - name: Truss RTO
   features:
@@ -904,7 +957,10 @@
     - No budgeting functionality
     - No reporting customisation
   oncourse: |
-    - 
+    - Full customisation and scheduling of reports
+    - Optomised version control
+    - Various pricing options
+    - Advanced financial features 
 
 - name: tutis
   features:
@@ -946,7 +1002,10 @@
     - No student or tutor portals
     - No website integration
   oncourse: |
-    - 
+    - Absolute website integration for courses and classes
+    - Advanced financial features 
+    - Fully integrated student and tutor portals
+    - Optomised version control
 
 - name: VETtrak
   features:
@@ -989,12 +1048,13 @@
     - Tutor and student portals 
     - Online assessment submission
   cons: |
-    - Basic marketing capability
+    - Basic marketing and financial features
     - No website integration
-    - Basic financial integration
     - No online payments 
   oncourse: |
-    - 
+    - Absolute website integration for courses and classes
+    - Advanced financial and marketing features 
+    - Seamless and secure online payments
 
 - name: Wise.NET
   features:
@@ -1038,12 +1098,15 @@
   cons: |
     - Minimul financial features
     - No debtors reporting
-    - No integrated website
+    - No website integration
     - No version control
   oncourse: |
-    - 
+    - Absolute website integration for courses and classes
+    - Advanced financial features 
+    - Full customisation and scheduling of reports
+    - Optomised version control
 
-- name: Tribal Campus
+- name: Tribal Campus (including Tribal Pepi)
   features:
     - compliance.states
     - compliance.avetmiss
@@ -1072,7 +1135,10 @@
     - No website integration
     - No online payments
   oncourse: |
-    - 
+    - Absolute website integration for courses and classes
+    - Advanced financial and marketing features 
+    - Seamless and secure online payments
+    - Optomised version control
 
 - name: Tribal Callista
   features:
@@ -1106,11 +1172,13 @@
     - Online assessment submission
     - Online payment
   cons: |
-    - Basic financial functionality
+    - Basic financial features
     - No tutor portal 
     - No website integration
   oncourse: |
-    - 
+    - Absolute website integration for courses and classes
+    - Advanced financial features 
+    - Fully integrated tutor portal
 
 - name: Weworkbook
   features:
@@ -1128,7 +1196,41 @@
     - USI Capible 
   cons: |
     - No marketing or financial features
-    - No integrated website
+    - No website integration
     - No online payments
   oncourse: |
-    - 
+    - Absolute website integration for courses and classes
+    - Advanced financial and marketing features 
+    - Seamless and secure online payments
+
+
+- name: OneEducation
+  features:
+    - compliance.reporting.general
+    - financial.budgeting
+    - financial.invoicing
+    - financial.payroll
+    - hosting.cloud
+    - staff.multi.os
+    - staff.employee
+    - staff.hr
+    - staff.payroll
+    - staff.training
+    - staff.document.management
+    - students.portal
+    - support.phone.online
+    - timetables.calendars
+  reporting:
+  pricing:  
+  pros: |
+    - International company
+    - Budgeting
+    - HR/ Staff focussed
+  cons: |
+    - No marketing features
+    - No version control
+    - No website integration
+  oncourse: |
+    - Absolute website integration for courses and classes
+    - Advanced marketing features 
+    - Optomised version control
