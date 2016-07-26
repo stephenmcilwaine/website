@@ -4,51 +4,52 @@
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
-
-    // Positioning context for the mobile navigation icon
-    position: relative;
-}
-
-.site-title {
-    font-size: 26px;
-    font-weight: 300;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
-
-    &,
-    &:visited {
-        color: $grey-color-dark;
+    min-height: 86px;
+    background: $site-header-background;
+    -webkit-box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    transition: all 0.2s ease-in-out;
+    @include _transition(all 0.2s ease-in-out);
+    .menu-wrapper {
+        padding: 0 10px;
+        position: relative;
     }
-}
+    &.scroll-active {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        min-height: 56px;
 
-.site-nav {
-    float: right;
-    line-height: 56px;
-    margin-top: 6px;
-
-    .menu-icon {
-        display: none;
-    }
-
-    .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
-
-        // Gaps between nav items, but not on the last one
-        &:not(:last-child) {
-            margin-right: 20px;
+        .site-title {
+            font-size: 26px;
         }
-        @include media-query($on-palm) {
-            float: none;
-            border: none;
-            background: #fff;
+        .site-nav {
+            margin-top: 0px;
+            @include responsive($media-small) {
+                margin-top: 12px;
+            }
         }
     }
 
-    @include media-query($on-palm) {
+    .site-title {
+        font-size: 33px;
+        font-weight: 300;
+        line-height: 56px;
+        letter-spacing: -1px;
+        margin-bottom: 0;
+        float: left;
+        @include _transition(all 0.2s ease-in-out);
+        text-decoration: none;
+
+        &,
+        &:visited {
+            color: $grey-color-dark;
+        }
+    }
+
+    .site-nav {
         position: absolute;
         top: 9px;
         right: $spacing-unit / 2;
@@ -56,7 +57,6 @@
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
-        margin-top: 0px;
 
         .menu-icon {
             display: block;
@@ -76,10 +76,13 @@
                 }
             }
         }
-
         .trigger {
             clear: both;
             display: none;
+            @include responsive($media-small) {
+                clear: both;
+                display: block;
+            }
         }
 
         &:hover .trigger {
@@ -88,17 +91,45 @@
         }
 
         .page-link {
+            float: none;
             display: block;
+            border: none;
+            background: #fff;
+            color: $menu-color;
+            line-height: $base-line-height;
             padding: 5px 10px;
-
+            margin-left: 20px;
+            text-decoration: none;
             &:not(:last-child) {
                 margin-right: 0;
             }
-            margin-left: 20px;
+            @include responsive($media-small) {
+                float: left;
+                background: none;
+                // Gaps between nav items, but not on the last one
+                &:not(:last-child) {
+                    margin-right: 20px;
+                }
+            }
+            &:hover {
+                color: darken($menu-color-hover, 5%);
+            }
+        }
+
+        @include responsive($media-small) {
+            float: right;
+            line-height: 56px;
+            margin-top: 12px;
+            position: initial;
+            background: none;
+            border: none;
+
+            .menu-icon {
+                display: none;
+            }
         }
     }
 }
-
 
 
 /**
@@ -128,54 +159,50 @@
 }
 
 .footer-col {
-    float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
+    float: none;
+    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+    width:         calc(100% - (#{$spacing-unit} / 2));
+    @include responsive($media-small) {
+        float: left;
+        margin-bottom: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
 }
 
-.footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
-}
-
+.footer-col-1,
 .footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+    width:         calc(50% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+    width:         calc(100% - (#{$spacing-unit} / 2));
 }
 
-@include media-query($on-laptop) {
-    .footer-col-1,
+@include responsive($media-tablet) {
+    .footer-col-1 {
+        width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+        width:         calc(35% - (#{$spacing-unit} / 2));
+    }
+
     .footer-col-2 {
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
+        width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+        width:         calc(20% - (#{$spacing-unit} / 2));
     }
 
     .footer-col-3 {
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+        width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+        width:         calc(45% - (#{$spacing-unit} / 2));
     }
 }
-
-@include media-query($on-palm) {
-    .footer-col {
-        float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-}
-
-
 
 /**
  * Page content
  */
 .page-content {
     padding: $spacing-unit 0;
+    margin-top: 86px;
 }
 
 .page-heading {
@@ -209,11 +236,10 @@
 }
 
 .post-title {
-    font-size: 42px;
+    font-size: 36px;
     letter-spacing: -1px;
     line-height: 1;
-
-    @include media-query($on-laptop) {
-        font-size: 36px;
+    @include responsive($media-tablet) {
+        font-size: 42px;
     }
 }

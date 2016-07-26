@@ -5,12 +5,6 @@
 /* Bootstrap */
 $grid-columns: 24;
 
-/* Bootstrap */
-
-//@import "bootstrap-sprockets";
-@import "bootstrap/bootstrap";
-@import "bootstrap/bootstrap-grid";
-
 $black: #000;
 $white: #fff;
 
@@ -27,6 +21,10 @@ $text-color:       #222;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
 
+$site-header-background: #eeeeee;
+$menu-color:       #888;
+$menu-color-hover: #222;
+
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
@@ -36,6 +34,16 @@ $content-width:    800px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
+
+$small-screen: 600px;
+$tablet-screen: 800px;
+$desktop-screen: 1024px;
+
+$media-small: 'small';
+$media-tablet: 'tablet';
+$media-desktop: 'desktop';
+$media-custom: 'custom';
+
 
 /* Footer */
 $footer-bg: $black;
@@ -57,9 +65,15 @@ $footer-text-color: $white;
 }
 
 
+/* Bootstrap */
+
+//@import "bootstrap-sprockets";
+@import "bootstrap/bootstrap";
+@import "bootstrap/bootstrap-grid";
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+        "mixins",
         "base",
         "layout",
         "footer",
