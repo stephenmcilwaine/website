@@ -1,9 +1,9 @@
 ---
 layout: page
-title: onCourse document management
-permalink: /features/document-management
+title: onCourse Pricing
+permalink: /features/pricing
 menu:
-  name: document management
+  name: pricing
   parent: features
 ---
 
