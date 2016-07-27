@@ -14,3 +14,8 @@ exclude: ['README.md', 'Gemfile.lock', 'Gemfile']
 sass:
   style: compressed
   sass_dir: assets/css/_sass
+
+paths:
+  img: /assets/img
+  css: /assets/css
+  js: /assets/js

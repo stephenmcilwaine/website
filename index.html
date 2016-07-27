@@ -4,15 +4,75 @@ layout: default
 
 <div class="home">
 
-  <section class="container">
-    <div class="row">
-      <aside class="col col-xs-12">
+  <article>
+    <section class="container">
+      <div class="row">
+        <aside class="col col-sm-12 min-300">
+          <h3>Lorem {% include_relative _formatter/text-highlighted.html text="ipsum" data-text="Phasellus mauris neque, iaculis ut efficitur efficitur, porta eu purus" %} dolor sit {% include_relative _formatter/text-highlighted.html text="amet" data-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit" %}, {% include_relative _formatter/text-highlighted.html text="consectetur" data-text="Vestibulum mattis risus est, non lacinia ante placerat a." %} adipiscing elit.</h3>
+          <p>Maecenas id {% include_relative _formatter/text-highlighted.html text="scelerisque" data-text="Duis laoreet maximus commodo." %} mi. Duis vestibulum magna nibh, ac semper lorem {% include_relative _formatter/text-highlighted.html text="maximus" data-text="Nullam ut tellus eget est commodo mollis." %} eget.</p>
+          <p><a href="#" class="btn btn-primary-outline">Demo</a></p>
+          <div class="clearfix code-display">
+            <p class="show-highlighted-text">
+              [ Click underlined text to learn more. ]
+            </p>
+          </div>
+        </aside>
+        <aside class="col col-sm-12 min-300">
+          <div class="video-container">
+            <iframe src="//player.vimeo.com/video/175888789" width="100%" height="300" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          </div>
+        </aside>
+      </div>
+    </section>
+    <section class="container block-lists site-list">
+      <ul class="col-sm-24">
+        <li class="col-sm-6">
+          <a href="#">
+            {% include_relative _formatter/home-block.html header="Sydney" header-color="#007a87" image="/assets/img/icons/no-preview-courses.png" title-class="h2" title="Scale" text="<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><p><u>Lorem ipsum dolor sit amet</u></p>" %}
+          </a>
+        </li>
+        <li class="col-sm-6">
+          <a href="#">
+            {% include_relative _formatter/home-block.html header="Sydney" header-color="#393c3d" image="/assets/img/icons/no-preview-courses.png" title-class="h2" title="Scale" text="<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><p><u>Lorem ipsum dolor sit amet</u></p>" %}
+          </a>
+        </li>
+        <li class="col-sm-6">
+          <a href="#">
+            {% include_relative _formatter/home-block.html header="Sydney" header-color="#e27145" image="/assets/img/icons/no-preview-courses.png" title-class="h2" title="Scale" text="<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><p><u>Lorem ipsum dolor sit amet</u></p>" %}
+          </a>
+        </li>
+        <li class="col-sm-6">
+          <a href="#">
+            {% include_relative _formatter/home-block.html header="Sydney" header-color="#0f46ab" image="/assets/img/icons/no-preview-courses.png" title-class="h2" title="Scale" text="<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><p><u>Lorem ipsum dolor sit amet</u></p>" %}
+          </a>
+        </li>
+      </ul>
+    </section>
 
-      </aside>
-      <aside class="col col-xs-12">
-
-      </aside>
-    </div>
-  </section>
+    <section class="container block-lists site-list">
+      <ul class="col-sm-24">
+        <li class="col-sm-6">
+          <a href="#">
+            {% include_relative _formatter/home-block.html header="Sydney" header-color="#007a87" image="/assets/img/icons/no-preview-courses.png" title-class="h2" title="Scale" text="<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><p><u>Lorem ipsum dolor sit amet</u></p>" %}
+          </a>
+        </li>
+        <li class="col-sm-6">
+          <a href="#">
+            {% include_relative _formatter/home-block.html header="Sydney" header-color="#393c3d" image="/assets/img/icons/no-preview-courses.png" title-class="h2" title="Scale" text="<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><p><u>Lorem ipsum dolor sit amet</u></p>" %}
+          </a>
+        </li>
+        <li class="col-sm-6">
+          <a href="#">
+            {% include_relative _formatter/home-block.html header="Sydney" header-color="#e27145" image="/assets/img/icons/no-preview-courses.png" title-class="h2" title="Scale" text="<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><p><u>Lorem ipsum dolor sit amet</u></p>" %}
+          </a>
+        </li>
+        <li class="col-sm-6">
+          <a href="#">
+            {% include_relative _formatter/home-block.html header="Sydney" header-color="#0f46ab" image="/assets/img/icons/no-preview-courses.png" title-class="h2" title="Scale" text="<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><p><u>Lorem ipsum dolor sit amet</u></p>" %}
+          </a>
+        </li>
+      </ul>
+    </section>
+  </article>
 
 </div>

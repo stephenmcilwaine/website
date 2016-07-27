@@ -1,0 +1,20 @@
+<span class="clearfix home-site-item">
+    {% if include.header %}
+        <span class="clearfix block-header">
+            <span {% if include.header-color %}style="background: {{ include.header-color }}"{% endif %}>{{ include.header }}</span>
+        </span>
+    {% endif %}
+
+    <span class="clearfix block-image" {% if include.image-background %}style="background: {{ include.image-background }}"{% endif %}>
+        {% if include.image %}
+            <img src="{{ include.image }}" />
+        {% endif %}
+    </span>
+
+    <span class="clearfix block-content">
+        <span class="block-title {{ include.title-class }}">{{ include.title }}</span>
+        <span class="clearfix block-text">
+            {{ include.text }}
+        </span>
+    </span>
+</span>
