@@ -7,3 +7,4 @@ menu:
   parent: __root
 ---
 
+A summary of the features goes here.
