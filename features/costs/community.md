@@ -7,4 +7,3 @@ menu:
   parent: features
 ---
 
-Text here.
