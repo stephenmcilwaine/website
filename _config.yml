@@ -17,6 +17,6 @@ sass:
   sass_dir: assets/css/_sass
 
 paths:
-  img: /assets/img
-  css: /assets/css
-  js: /assets/js
+  img: {{ base }}/assets/img
+  css: {{ base }}/assets/css
+  js: {{ base }}/assets/js
