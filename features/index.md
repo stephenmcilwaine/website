@@ -152,7 +152,7 @@ OK, you really just want a list of features...
 * Faceted search (combining complex search terms)
 * Pre-counting faceted search terms
 * Infinite scroll paginated results
-* Refine results by ‘near me’ or ‘coming soon’
+* Refine results by 'near me' or 'coming soon'
 
 #### Website eCommerce
 * Integrated online enrolments
