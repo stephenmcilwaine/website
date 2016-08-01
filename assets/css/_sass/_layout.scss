@@ -223,10 +223,10 @@
         }
     }
     .code-display {
-        margin-top: 70px;
+        margin-top: 20px;
         .show-highlighted-text {
             margin-top: 0px;
-            font-weight: bold;
+            font-size: 0.9rem;
             @include _transition(all 0.2s ease-in-out);
         }
     }
