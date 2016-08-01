@@ -7,6 +7,7 @@ description: >
   ish onCourse. The most comprehensive and easy to use, marketing and enrolment system available.
 baseurl: ""
 url: "https://www.ish.com.au"
+encoding: utf-8
 
 markdown: kramdown
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile']
