@@ -7,7 +7,7 @@
 
     <span class="clearfix block-image" {% if include.image-background %}style="background: {{ include.image-background }}"{% endif %}>
         {% if include.image %}
-            <img src="{{ base }}{{ include.image }}" />
+            <img src="{{ site.paths.img }}/{{ include.image }}" />
         {% endif %}
     </span>
 
