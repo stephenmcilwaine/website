@@ -221,6 +221,7 @@
         &.text-selected {
             font-weight: 400;
             border-bottom: 1px solid #333;
+            color: $text-highlight;
         }
     }
     .code-display {
@@ -228,6 +229,7 @@
         .show-highlighted-text {
             margin-top: 0px;
             font-size: 0.8rem;
+            color: $text-highlight;
             @include _transition(all 0.2s ease-in-out);
         }
     }

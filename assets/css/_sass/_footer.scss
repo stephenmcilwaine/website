@@ -18,7 +18,7 @@ footer {
         margin-left: 0;
     }
 
-    a {
+    a, a:visited {
         color: $white;
         &:hover {
             color: $brand-color;
