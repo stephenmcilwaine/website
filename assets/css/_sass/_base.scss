@@ -77,7 +77,8 @@ li {
 h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
     font-family: 'Port Lligat Slab', serif;
-    margin-bottom: $spacing-unit / 2;
+    letter-spacing: -0.03em;
+    margin-bottom: 0;
     margin-top: $spacing-unit;
 }
 
@@ -110,7 +111,6 @@ blockquote {
     border-left: 4px solid $grey-color-light;
     padding-left: $spacing-unit / 2;
     font-size: 18px;
-    letter-spacing: -1px;
     font-style: italic;
 
     > :last-child {

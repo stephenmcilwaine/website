@@ -6,9 +6,11 @@ footer:
   - map.html
 ---
 
-<p>Sydney <a href="tel:+61 2 9550 5001">02 9550 5001</a></p>
-<p>Melbourne <a href="tel:+61 3 9999 1033">03 9999 1033</a></p>
-<p><a href="mailto:info@ish.com.au">info@ish.com.au</a></p>
+<ul>
+<li>Sydney <a href="tel:+61 2 9550 5001">02 9550 5001</a></li>
+<li>Melbourne <a href="tel:+61 3 9999 1033">03 9999 1033</a></li>
+<li><a href="mailto:info@ish.com.au">info@ish.com.au</a></li>
+</ul>
 
 #### Head office
 <address>
