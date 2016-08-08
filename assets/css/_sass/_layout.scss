@@ -219,14 +219,15 @@
             border-color: $black;
         }
         &.text-selected {
-            font-weight: bold;
+            font-weight: 400;
+            border-bottom: 1px solid #333;
         }
     }
     .code-display {
         margin-top: 20px;
         .show-highlighted-text {
             margin-top: 0px;
-            font-size: 0.9rem;
+            font-size: 0.8rem;
             @include _transition(all 0.2s ease-in-out);
         }
     }
