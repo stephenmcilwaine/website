@@ -1,9 +1,8 @@
 ---
 layout: page
-title: onCourse features
+title: Features
 permalink: /features/
 menu:
-  name: features
   parent: __root
 ---
 
