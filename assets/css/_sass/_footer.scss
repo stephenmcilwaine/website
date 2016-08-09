@@ -9,4 +9,111 @@ footer {
             text-decoration: none;
         }
     }
+    .col-md-24 {
+        .col-xs-24 {
+            float: none;
+            display: inline-block;
+            vertical-align: top;
+            width: 100%;
+        }
+        @include responsive($media-xsmall) {
+            .col-sm-12 {
+                width: 49.49%;
+            }
+        }
+        @include responsive($media-small) {
+            .col-md-6 {
+                width: 24.49%;
+            }
+        }
+        @include responsive($media-desktop) {
+            .col-lg-6 {
+                width: 24.49%;
+            }
+        }
+    }
+
+    .subscribe {
+        position: relative;
+        padding: 4px 15px 10px;
+        margin-top: 20px;
+        @include responsive($media-xsmall) {
+            margin-top: 0px;
+        }
+        &::before, &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            height: 2px;
+            width: 100%;
+        }
+        &::before {
+            top: 0;
+            background: $white url($imgPath + 'content/subscription_top_border.gif') top left;
+        }
+        &::after {
+            bottom: 0;
+            background: $white url($imgPath + 'content/subscription_bottom_border.gif') top left;
+        }
+        .subscribe-inner {
+            font-size: 14px;
+            &::before , &::after {
+                content: "";
+                position: absolute;
+                top: 0;
+                width: 2px;
+                height: 100%;
+            }
+            &::before {
+                background: $white url($imgPath + 'content/subscription_left_border.gif') top left;
+                left: 0;
+            }
+            &::after {
+                background: $white url($imgPath + 'content/subscription_right_border.gif') top left;
+                right: 0;
+            }
+            h3 {
+                font: 1.9em $font-family-two;
+                margin: 0px;
+                font-size: 1.95em;
+                color: #dcdac0;
+                @include responsive($media-small) {
+                    font-size: 1.85em;
+                }
+                @include responsive($media-desktop) {
+                    font-size: 1.95em;
+                }
+            }
+            p {
+                color: #dddad9;
+                font-size: 0.95em;
+                line-height: 1.34em;
+                margin: 0 0 5px 0;
+            }
+            form {
+                input {
+                    width: 100%;
+                    &.form-control {
+                        padding: .3rem .75rem;
+                    }
+                }
+            }
+            .submit {
+                height: 28px;
+                margin-top: 2px;
+                text-transform: uppercase;
+                color: $white;
+                border: 0 none;
+                background-color: #e27145;
+                font-size: 0.95em;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                width: 100%;
+                font-size: 12px;
+                padding: 5px 0px;
+                outline: 0 none;
+            }
+        }
+    }
 }

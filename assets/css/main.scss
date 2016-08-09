@@ -8,12 +8,16 @@ $grid-columns: 24;
 $black: #000;
 $white: #fff;
 
+$imgPath: '/assets/img/';
+
 // Our variables
 $base-font-family: 'Cardo', serif;
 $base-font-size:   17px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
+
+$font-family-two: 'Cabin Sketch', Helvetica, Arial, sans-serif;
 
 $spacing-unit:     20px;
 
@@ -35,14 +39,21 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-$small-screen: 600px;
-$tablet-screen: 800px;
-$desktop-screen: 1024px;
+$xsmall-screen: 544px;
+$small-screen: 768px;
+$tablet-screen: 992px;
+$desktop-screen: 1200px;
 
+$media-xsmall: 'xsmall';
 $media-small: 'small';
 $media-tablet: 'tablet';
 $media-desktop: 'desktop';
 $media-custom: 'custom';
+
+/* $grid-sm: 544px;
+$grid-md: 768px;
+$grid-lg: 992px;
+$grid-xl: 1200px; */
 
 
 /* Footer */

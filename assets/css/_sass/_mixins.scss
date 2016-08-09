@@ -11,24 +11,36 @@
 /**
  * Following mixin handles responsive media screen from mobile first to desktop
  */
+
+@mixin _media($width) {
+    @media only screen and (min-width: $width) {
+        @content;
+    }
+}
+
 @mixin responsive($media, $custom-width: '') {
-    @if $media == small {
-        @media only screen and (min-width: $small-screen) {
+    @if $media == xsmall {
+        @include _media($xsmall-screen) {
+            @content;
+        }
+    }
+    @else if $media == small {
+        @include _media($small-screen) {
             @content;
         }
     }
     @else if $media == tablet {
-        @media only screen and (min-width: $tablet-screen) {
+        @include _media($tablet-screen) {
             @content;
         }
     }
     @else if $media == desktop {
-        @media only screen and (min-width: $desktop-screen) {
+        @include _media($desktop-screen) {
             @content;
         }
     }
     @else if $media == custom {
-        @media only screen and (min-width: $custom-width) {
+        @include _media($custom-screen) {
             @content;
         }
     }
