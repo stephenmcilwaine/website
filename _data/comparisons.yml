@@ -108,6 +108,7 @@
     - staff.document.management
     - version.control
     - staff.lms 
+    - financial.online.payments
     - students.portal
     - students.assessment
     - timetables.calendars

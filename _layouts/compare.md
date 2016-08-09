@@ -23,9 +23,9 @@ layout: page
 
 | Feature                           | onCourse | {{page.product.name}} |
 |-----------------------------------|:--------:|:-------:|
-| Pricing                           | tick     | {{page.product.pricing}} |
-| Free Version                      | tick     | {% include tick_cross.html param='feature.free' %} |
-| Unlimited users                   | tick     | {% include tick_cross.html param='feature.users' %} |
+| [Pricing](/features/costs/pricing)                         | tick     | {{page.product.pricing}} |
+| [Free Version](/features/costs/pricing)                      | tick     | {% include tick_cross.html param='feature.free' %} |
+| [Unlimited users]                   | tick     | {% include tick_cross.html param='feature.users' %} |
 
 
 ### Financial
