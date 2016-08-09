@@ -40,7 +40,6 @@
         font-size: 33px;
         font-weight: 300;
         line-height: 56px;
-        letter-spacing: -1px;
         margin-bottom: 0;
         float: left;
         @include _transition(all 0.2s ease-in-out);
@@ -219,14 +218,17 @@
             border-color: $black;
         }
         &.text-selected {
-            font-weight: bold;
+            font-weight: 400;
+            border-bottom: 1px solid #333;
+            color: $text-highlight;
         }
     }
     .code-display {
         margin-top: 20px;
         .show-highlighted-text {
             margin-top: 0px;
-            font-size: 0.9rem;
+            font-size: 0.8rem;
+            color: $text-highlight;
             @include _transition(all 0.2s ease-in-out);
         }
     }
@@ -347,7 +349,6 @@
 
 .post-title {
     font-size: 36px;
-    letter-spacing: -1px;
     line-height: 1;
     @include responsive($media-tablet) {
         font-size: 42px;

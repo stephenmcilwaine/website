@@ -1,10 +1,9 @@
 ---
 layout: page
-title: onCourse document management
+title: Document management
 permalink: /features/document-management
 menu:
-  name: document management
-  parent: features
+  parent: /features/index.html
 ---
 
 Text here.
