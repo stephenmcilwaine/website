@@ -1,0 +1,40 @@
+---
+- title: desc
+  cols:
+    - desc:
+    - desc: Ideal for small training organisations just getting started.
+    - desc: Our most popular plan.
+    - desc: Perfect if you want all the features onCourse has to offer.
+    - desc: A customised plan crafted for your needs.
+- title: price
+  cols:
+    - desc:
+    - desc: 'Light'
+      rate: '$190'
+      text: per month
+    - desc: Professional
+      rate: '$490'
+      text: per month
+      highlight: true
+    - desc: Enterprise
+      rate: '$990'
+      text: per month
+    - desc: Ultimate
+      rate:
+      text: negotiable
+- title: text
+  cols:
+    - desc: Features
+      highlight: true
+    - desc:
+    - desc:
+    - desc:
+    - desc:
+- title: text
+  cols:
+    - desc: User client licenses
+      more: The download version of onCourse allows as many simultaneous administration users to connect as you like, limited only by the speed of your network and server. The cloud managed solution includes one concurrent user, with additional concurrent users available for $120 per month, per user.
+    - desc: unlimited
+    - desc: unlimited
+    - desc: unlimited
+    - desc: unlimited
