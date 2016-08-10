@@ -20,27 +20,27 @@
 
 @mixin responsive($media, $custom-width: '') {
     @if $media == xsmall {
-        @include _media($xsmall-screen) {
+        @media only screen and (min-width: $xsmall-screen) {
             @content;
         }
     }
     @else if $media == small {
-        @include _media($small-screen) {
+        @media only screen and (min-width: $small-screen) {
             @content;
         }
     }
     @else if $media == tablet {
-        @include _media($tablet-screen) {
+        @media only screen and (min-width: $tablet-screen) {
             @content;
         }
     }
     @else if $media == desktop {
-        @include _media($desktop-screen) {
+        @media only screen and (min-width: $desktop-screen) {
             @content;
         }
     }
     @else if $media == custom {
-        @include _media($custom-screen) {
+        @media only screen and (min-width: $custom-width) {
             @content;
         }
     }

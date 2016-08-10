@@ -1,6 +1,14 @@
 /**
  * Site header
  */
+
+#home-page {
+    @include responsive($media-custom, 1200px) {
+        .container {
+            max-width: 1400px;
+        }
+    }
+}
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
@@ -247,6 +255,10 @@
                 list-style: none;
                 margin-left: 0;
                 li {
+                    &.col-lg-6.col-sm-12.col-xs-24 {
+                        padding-left: 13.75px;
+                        padding-right: 13.75px;
+                    }
                     >a {
                         display: block;
                         text-decoration: none;
@@ -259,7 +271,7 @@
     .home-site-item {
         display: table;
         position: relative;
-        min-height: 400px;
+        min-height: 492px;
         margin-bottom: 20px;
         width: 100%;
         &:hover {
