@@ -1,6 +1,12 @@
 $highlighted-color: #f37b53;
 $price-background: #f79d67;
+
+
+
 .pricing-container {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
     .hide {
         display: none;
     }
@@ -15,6 +21,7 @@ $price-background: #f79d67;
             font-size: 10px;
             text-align: center;
             border-left: 2px solid $white;
+            padding: 6px;
             &.col-first.highlight {
                 color: $highlighted-color;
                 font-size: 14px;
@@ -26,7 +33,7 @@ $price-background: #f79d67;
         &.row-simple-text {
             .col-price {
                 vertical-align: top;
-                padding-bottom: 30px;
+                padding-bottom: 15px;
                 .col-first {
                     background: none;
                 }
@@ -38,8 +45,35 @@ $price-background: #f79d67;
                 background: $price-background;
                 color: $white;
                 vertical-align: bottom;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
                 &.col-first {
                     background: none;
+                    border: none;
+                }
+                &.col-item-2 {
+                    background: #005C5A;
+                    .col-label {
+                        background: darken(#005C5A, 10%);
+                    }
+                }
+                &.col-item-3 {
+                    background: #ED4D13;
+                    .col-label {
+                        background: darken(#ED4D13, 10%);
+                    }
+                }
+                &.col-item-4 {
+                    background: #199C7B;
+                    .col-label {
+                        background: darken(#199C7B, 10%);
+                    }
+                }
+                &.col-item-5 {
+                    background: #F37100;
+                    .col-label {
+                        background: darken(#F37100, 10%);
+                    }
                 }
                 >span {
                     display: block;
@@ -47,6 +81,8 @@ $price-background: #f79d67;
                 .col-label {
                     background: darken($highlighted-color, 10%);
                     font-size: 14.4px;
+                    border-top-left-radius: 5px;
+                    border-top-right-radius: 5px;
                 }
                 .col-rate {
                     font-size: 25px;
@@ -56,16 +92,84 @@ $price-background: #f79d67;
                 }
                 &.item-highlight {
                     padding: 0px 0px 15px;
-                    background: $highlighted-color;
+                    background: #ED4D13;
                     .col-label {
-                        background: darken($highlighted-color, 10%);
-                        font-size: 14.4px;
+                        background: darken(#ED4D13, 10%);
                         position: relative;
-                        top: -25px;
+                        top: -12px;
                     }
                     .col-rate {
                         font-size: 32px;
                         line-height: 1.42;
+                    }
+                }
+            }
+        }
+        &.row-details {
+            &:nth-child(odd) {
+                .col-price {
+                    background: #f5f5f5 !important;
+                }
+            }
+            &:nth-child(even) {
+                .col-price {
+                    &.col-first {
+                        background: #ddd !important;
+                        &.highlight {
+                            background: #f5f5f5 !important;
+                        }
+                    }
+                }
+            }
+            .col-price {
+                vertical-align: middle;
+                &.highlight {
+                    background: $white !important;
+                    padding-top: 8px;
+                }
+                &.col-item-2 {
+                    background: lighten(#005C5A, 75%);
+                }
+                &.col-item-3 {
+                    background: lighten(#ED4D13, 40%);
+                }
+                &.col-item-4 {
+                    background: lighten(#199C7B, 55%);
+                }
+                &.col-item-5 {
+                    background: lighten(#F37100, 35%);
+                }
+                &.col-first {
+                    &:hover {
+                        .item-more-details {
+                            display: block;
+                            position: absolute;
+                            display: block;
+                            right: -252px;
+                            width: 250px;
+                            top: 50%;
+                            @include _transform(translateY(-50%));
+                            background: $white;
+                            padding: 10px;
+                            z-index: 1;
+                            border: 1px solid darken($price-background, 20%);
+                            border-radius: 5px;
+                            box-shadow: 2px 1px 10px 1px #616161;
+                            @include responsive($media-xsmall) {
+                                width: 300px;
+                                right: -302px;
+                            }
+                            &::before {
+                                content: "";
+                                border-right: 10px solid darken($price-background, 20%);
+                                border-bottom: 10px solid transparent;
+                                border-top: 10px solid transparent;
+                                position: absolute;
+                                left: -11px;
+                                top: 50%;
+                                margin-top: -12px;
+                            }
+                        }
                     }
                 }
             }
