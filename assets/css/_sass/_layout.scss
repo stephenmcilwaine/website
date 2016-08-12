@@ -271,7 +271,8 @@
     .home-site-item {
         display: table;
         position: relative;
-        min-height: 492px;
+        height: 492px;
+        overflow: hidden;
         margin-bottom: 20px;
         width: 100%;
         &:hover {
