@@ -1,0 +1,24 @@
+/**
+*
+* icons.scss
+*
+* Contains styles of all icons
+*
+* Project: ishGroup
+* Author: Chintan Kotadia <chintankotadia13@gmail.com>
+*/
+
+.app-icon {
+  position: relative;
+  display: inline-block;
+  &.icon-arrow-bottom {
+    &::after {
+      @include arrow('top', 6px, #555);
+    }
+  }
+  &.icon-arrow-top {
+    &::after {
+      @include arrow('bottom', 6px, #555);
+    }
+  }
+}

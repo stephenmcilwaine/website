@@ -1,59 +1,30 @@
-<div class="pricing-container">
-{% assign item_highlighted = 0 %}
-{% assign class_first = 'col-price col-first col-sm-4 col-xs-4' %}
-{% assign class_right = 'col-price col-sm-5 col-xs-5' %}
+{% assign item_highlighted = include.price-highlight %}
+{% assign class_right = 'col-price col-sm-6 col-xs-6' %}
 {% for price in include.price-data %}
-  {% assign block = price.block %}
-  {% if block == 'desc' %}
-    <div class="row-item row-simple-text">
-      {% for col in price.cols %}
-        {% if forloop.index == 1 %}
-          <div class="{{ class_first }} col-item-{{ forloop.index }}"></div>
-        {% else %}
-          <div class="{{ class_right }} col-item-{{ forloop.index }}">{{ col.title }}</div>
-        {% endif %}
-      {% endfor %}
-    </div>
-  {% elsif block == 'price' %}
-    <div class="row-item row-price-block">
-      {% for col in price.cols %}
-        {% if forloop.index == 1 %}
-          <div class="{{ class_first }} col-item-{{ forloop.index }}"></div>
-        {% else %}
-          {% if col.highlight == true %}
-            {% assign item_highlighted = forloop.index %}
-          {% endif %}
-          <div class="{{ class_right }} col-item-{{ forloop.index }}{% if col.highlight == true %} item-highlight {% endif %}{{ col.class }}">
-            <span class="col-label">{{ col.title }}</span>
-            <span class="col-rate">{% if col.rate == null %}&nbsp;{% else %}{{ col.rate }}{% endif %}</span>
-            <span class="col-text">{{ col.text }}</span>
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-  {% else %}
-    <div class="row-item row-details">
-      {% assign old_title = '' %}
-      {% assign row_highlighted = false %}
-      {% for col in price.cols %}
-        {% if forloop.index == 1 %}
-          {% assign old_title = col.title %}
-          {% if col.highlight == true %}
-            {% assign row_highlighted = true %}
-          {% endif %}
-          <div class="{{ class_first }} col-item-{{ forloop.index }}{% if row_highlighted == true %} highlight {% endif %}{{ col.class }}">{{ col.title }}
-            {% if col.more %}
-              <div class="hide item-more-details">{{ col.more }}</div>
-            {% endif %}
-          </div>
+  <div class="row-item row-details row-item-{{ forloop.index }}">
+    {% assign row_highlighted = price.highlight %}
+    {% for item in price.plans %}
+      <div class="{{ class_right }} col-item-{{ forloop.index }}{% if row_highlighted == true %} highlight{% endif %}{% if item_highlighted == forloop.index %} item-highlight{% endif %}">
 
-        {% else %}
-          <div class="{{ class_right }} col-item-{{ forloop.index }}{% if row_highlighted == true %} highlight{% endif %}{% if item_highlighted == forloop.index %} item-highlight{% endif %}"{% if forloop.index == 2 %} data-title="{{ old_title }}" {% endif %}>
-            <span class="col-desc">{{ col.title }}</span>
+        {% assign has_no_plan = false %}
+        {% if item.plan == nil %}
+          {% assign has_no_plan = true %}
+        {% endif %}
+        <span class="col-desc{% if has_no_plan == true %} has-no-plan{% endif %}">
+          {{ price.title }}
+          {% if has_no_plan == false %}
+            <i class="app-icon icon-arrow-bottom"></i>
+          {% endif %}
+        </span>
+        {% if has_no_plan == false %}
+          <div class="plan-details">
+            {{ item.plan }}
           </div>
         {% endif %}
-      {% endfor %}
-    </div>
-  {% endif %}
+        {% if price.more %}
+          <div class="hide item-more-details">{{ price.more }}</div>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
 {% endfor %}
-</div>

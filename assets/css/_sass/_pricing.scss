@@ -1,7 +1,15 @@
+/**
+*
+* pricing.scss
+*
+* Contains styles of pricing table
+*
+* Project: ishGroup
+* Author: Chintan Kotadia <chintankotadia13@gmail.com>
+*/
+
 $highlighted-color: #f37b53;
 $price-background: #f79d67;
-
-
 
 .pricing-container {
     border: 1px solid #ddd;
@@ -18,16 +26,27 @@ $price-background: #f79d67;
             position: relative;
             vertical-align: top;
             float: none;
-            font-size: 10px;
+            font-size: 9px;
             text-align: center;
             border-left: 2px solid $white;
             padding: 6px;
+            word-break: break-word;
+            @include responsive($media-xsmall) {
+                word-break: initial;
+                font-size: 10px;
+            }
             &.col-first.highlight {
                 color: $highlighted-color;
                 font-size: 14px;
             }
             &.item-highlight {
 
+            }
+            .icon-arrow-bottom, .icon-arrow-top {
+                position: absolute;
+                top: 12px;
+                right: 18px;
+                cursor: pointer;
             }
         }
         &.row-simple-text {
@@ -41,35 +60,38 @@ $price-background: #f79d67;
         }
         &.row-price-block {
             .col-price {
-                padding: 0px 0 15px 0;
+                padding: 0px 0 8px 0;
                 background: $price-background;
                 color: $white;
                 vertical-align: bottom;
                 border-top-left-radius: 5px;
                 border-top-right-radius: 5px;
+                @include responsive($media-xsmall) {
+                    padding: 0px 0 15px 0;
+                }
                 &.col-first {
                     background: none;
                     border: none;
                 }
-                &.col-item-2 {
+                &.col-item-1 {
                     background: #005C5A;
                     .col-label {
                         background: darken(#005C5A, 10%);
                     }
                 }
-                &.col-item-3 {
+                &.col-item-2 {
                     background: #ED4D13;
                     .col-label {
                         background: darken(#ED4D13, 10%);
                     }
                 }
-                &.col-item-4 {
+                &.col-item-3 {
                     background: #199C7B;
                     .col-label {
                         background: darken(#199C7B, 10%);
                     }
                 }
-                &.col-item-5 {
+                &.col-item-4 {
                     background: #F37100;
                     .col-label {
                         background: darken(#F37100, 10%);
@@ -80,18 +102,26 @@ $price-background: #f79d67;
                 }
                 .col-label {
                     background: darken($highlighted-color, 10%);
-                    font-size: 14.4px;
+                    font-size: 9.4px;
                     border-top-left-radius: 5px;
                     border-top-right-radius: 5px;
+                    @include responsive($media-xsmall) {
+                        font-size: 14.4px;
+                    }
                 }
                 .col-rate {
-                    font-size: 25px;
+                    font-size: 14px;
+                    @include responsive($media-xsmall) {
+                        font-size: 25px;
+                    }
                 }
                 .col-text {
-                    font-size: 11.2px;
+                    font-size: 10.2px;
+                    @include responsive($media-xsmall) {
+                        font-size: 11.2px;
+                    }
                 }
                 &.item-highlight {
-                    padding: 0px 0px 15px;
                     background: #ED4D13;
                     .col-label {
                         background: darken(#ED4D13, 10%);
@@ -99,8 +129,11 @@ $price-background: #f79d67;
                         top: -12px;
                     }
                     .col-rate {
-                        font-size: 32px;
+                        font-size: 19px;
                         line-height: 1.42;
+                        @include responsive($media-xsmall) {
+                            font-size: 32px;
+                        }
                     }
                 }
             }
@@ -122,21 +155,40 @@ $price-background: #f79d67;
                 }
             }
             .col-price {
-                vertical-align: middle;
-                &.highlight {
-                    background: $white !important;
-                    padding-top: 8px;
+                padding-right: 12px;
+                @include responsive($media-xsmall) {
+                    padding-right: 21px;
                 }
-                &.col-item-2 {
+                &.highlight {
+                    background: #7148d4 !important;
+                    padding-top: 7px;
+                    padding-bottom: 7px;
+                    padding-right: 6px;
+                    color: $white;
+                    text-transform: uppercase;
+                    font-size: 9px;
+                    box-shadow: 1px 2px 10px #ddd;
+                    font-weight: normal;
+                    @include responsive($media-xsmall) {
+                        font-size: 14px;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                    }
+                    .col-desc.has-no-plan {
+                        color: $white;
+                        text-decoration: none;
+                    }
+                }
+                &.col-item-1 {
                     background: lighten(#005C5A, 75%);
                 }
-                &.col-item-3 {
+                &.col-item-2 {
                     background: lighten(#ED4D13, 40%);
                 }
-                &.col-item-4 {
+                &.col-item-3 {
                     background: lighten(#199C7B, 55%);
                 }
-                &.col-item-5 {
+                &.col-item-4 {
                     background: lighten(#F37100, 35%);
                 }
                 &.col-first {
@@ -171,6 +223,18 @@ $price-background: #f79d67;
                             }
                         }
                     }
+                }
+                .col-desc {
+                    font-weight: bold;
+                    cursor: pointer;
+                    &.has-no-plan {
+                        cursor: auto;
+                        color: #A8A9AC;
+                        text-decoration: line-through;
+                    }
+                }
+                .plan-details {
+                    display: none;
                 }
             }
         }

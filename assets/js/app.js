@@ -19,5 +19,13 @@
 
             $('.show-highlighted-text').html(data_text);
         });
+
+        $(document).on('click', '.pricing-container .row-item.row-details .col-price .col-desc:not(.has-no-plan)', function() {
+            var _parents = $(this).parents('.row-item.row-details');
+            _parents.addClass('row-active');
+            _parents.find('.plan-details').slideToggle();
+            _parents.find('.app-icon').toggleClass('icon-arrow-top icon-arrow-bottom');
+
+        })
     })
 })(jQuery);

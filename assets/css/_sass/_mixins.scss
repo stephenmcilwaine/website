@@ -4,7 +4,7 @@
 *
 * Contains different type of functions
 *
-* Project: Base
+* Project: ishGroup
 * Author: Chintan Kotadia <chintankotadia13@gmail.com>
 */
 
@@ -12,62 +12,56 @@
  * Following mixin handles responsive media screen from mobile first to desktop
  */
 
-@mixin _media($width) {
-    @media only screen and (min-width: $width) {
-        @content;
-    }
-}
-
 @mixin responsive($media, $custom-width: '') {
-    @if $media == xsmall {
-        @media only screen and (min-width: $xsmall-screen) {
-            @content;
-        }
+  @if $media == xsmall {
+    @media only screen and (min-width: $xsmall-screen) {
+      @content;
     }
-    @else if $media == small {
-        @media only screen and (min-width: $small-screen) {
-            @content;
-        }
+  }
+  @else if $media == small {
+    @media only screen and (min-width: $small-screen) {
+      @content;
     }
-    @else if $media == tablet {
-        @media only screen and (min-width: $tablet-screen) {
-            @content;
-        }
+  }
+  @else if $media == tablet {
+    @media only screen and (min-width: $tablet-screen) {
+      @content;
     }
-    @else if $media == desktop {
-        @media only screen and (min-width: $desktop-screen) {
-            @content;
-        }
+  }
+  @else if $media == desktop {
+    @media only screen and (min-width: $desktop-screen) {
+      @content;
     }
-    @else if $media == custom {
-        @media only screen and (min-width: $custom-width) {
-            @content;
-        }
+  }
+  @else if $media == custom {
+    @media only screen and (min-width: $custom-width) {
+      @content;
     }
+  }
 }
 
 @mixin _transition($transition: none) {
-    @include _prefixer(transition, $transition, webkit moz ms o spec);
+  @include _prefixer(transition, $transition, webkit moz ms o spec);
 }
 
 @mixin responsive-image() {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    margin: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: block;
+  overflow: hidden;
+  img {
+    position: relative;
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    max-width: none;
+    @include _transform(translateX(-50%));
     display: block;
-    overflow: hidden;
-    img {
-        position: relative;
-        left: 50%;
-        min-height: 100%;
-        min-width: 100%;
-        width: auto;
-        max-width: none;
-        @include _transform(translateX(-50%));
-        display: block;
-        height: auto;
-    }
+    height: auto;
+  }
 }
 
 @mixin _transform($property: none) {
@@ -90,5 +84,23 @@
     } @else  {
       @warn "Unrecognized prefix: #{$prefix}";
     }
+  }
+}
+
+@mixin arrow($arrow, $width, $color, $position: absolute) {
+  content: "";
+  position: $position;
+  @if $arrow == 'top' or $arrow == 'bottom' {
+    border-right: $width solid transparent;
+    border-#{$arrow}: $width solid $color;
+    border-left: $width solid transparent;
+  } @else if $arrow == 'left' or $arrow == 'right' {
+    border-top: $width solid transparent;
+    border-#{$arrow}: $width solid $color;
+    border-bottom: $width solid transparent;
+  } @else {
+    border-style: solid;
+    border-width: $width;
+    border-color: $color;
   }
 }

@@ -51,11 +51,6 @@ $media-tablet: 'tablet';
 $media-desktop: 'desktop';
 $media-custom: 'custom';
 
-/* $grid-sm: 544px;
-$grid-md: 768px;
-$grid-lg: 992px;
-$grid-xl: 1200px; */
-
 
 /* Footer */
 $footer-bg: $black;
@@ -86,6 +81,7 @@ $footer-text-color: $white;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "mixins",
+        "icons",
         "base",
         "layout",
         "pricing",
