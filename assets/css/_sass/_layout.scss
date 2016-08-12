@@ -303,9 +303,6 @@
         }
         .block-image {
             @include responsive-image();
-            img {
-                width: 100%;
-            }
             z-index: -1;
             &::before {
                 content: "";
