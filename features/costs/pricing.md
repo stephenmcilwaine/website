@@ -54,22 +54,12 @@ menu:
     {% else %}
       {% for item in price.plans %}
         <div class="{{ class_right }} col-item-{{ forloop.index }}">
-          {% assign has_no_plan = false %}
-          {% if item.plan == nil %}
-            {% assign has_no_plan = true %}
-          {% endif %}
-          <span class="col-desc{% if has_no_plan == true %} has-no-plan{% endif %}">
-            {{ price.title }}
-              <i class="app-icon icon-arrow-bottom"></i>
+          <span class="col-desc{% unless item.plan %} has-no-plan{% endunless %}">
+            {{ price.title }}<i class="app-icon icon-arrow-bottom"></i>
           </span>
-          {% if has_no_plan == false %}
-            <div class="plan-details">
-              {{ item.plan }}
-            </div>
-          {% endif %}
-          {% if price.more %}
-            <div class="hide item-more-details">{{ price.more }}</div>
-          {% endif %}
+          <div class="plan-details">
+            {{ price.more }}
+          </div>
         </div>
       {% endfor %}
     {% endif %}
