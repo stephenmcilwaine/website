@@ -3,18 +3,18 @@
 * pricing.scss
 *
 * Contains styles of pricing table
-*
-* Project: ishGroup
-* Author: Chintan Kotadia <chintankotadia13@gmail.com>
 */
 
 $highlighted-color: #f37b53;
 $price-background: #f79d67;
 
+$plan1: #005C5A;
+$plan2: #ED4D13;
+$plan3: #199C7B;
+$plan4: #F37100;
+
 .pricing-container {
-    border: 1px solid #ddd;
-    padding: 10px;
-    border-radius: 5px;
+
     .hide {
         display: none;
     }
@@ -26,14 +26,12 @@ $price-background: #f79d67;
             position: relative;
             vertical-align: top;
             float: none;
-            font-size: 9px;
             text-align: center;
             border-left: 2px solid $white;
             padding: 6px;
             word-break: break-word;
             @include responsive($media-xsmall) {
                 word-break: initial;
-                font-size: 10px;
             }
             &.col-first.highlight {
                 color: $highlighted-color;
@@ -58,6 +56,10 @@ $price-background: #f79d67;
                 }
             }
         }
+        .app-icon.icon-arrow-bottom::after {
+            border-top: 6px solid #bfbfbf;
+        }
+
         &.row-price-block {
             .col-price {
                 padding: 0px 0 8px 0;
@@ -74,27 +76,27 @@ $price-background: #f79d67;
                     border: none;
                 }
                 &.col-item-1 {
-                    background: #005C5A;
+                    background: $plan1;
                     .col-label {
-                        background: darken(#005C5A, 10%);
+                        background: darken($plan1, 10%);
                     }
                 }
                 &.col-item-2 {
-                    background: #ED4D13;
+                    background: $plan2;
                     .col-label {
-                        background: darken(#ED4D13, 10%);
+                        background: darken($plan2, 10%);
                     }
                 }
                 &.col-item-3 {
-                    background: #199C7B;
+                    background: $plan3;
                     .col-label {
-                        background: darken(#199C7B, 10%);
+                        background: darken($plan3, 10%);
                     }
                 }
                 &.col-item-4 {
-                    background: #F37100;
+                    background: $plan4;
                     .col-label {
-                        background: darken(#F37100, 10%);
+                        background: darken($plan4, 10%);
                     }
                 }
                 >span {
@@ -102,7 +104,6 @@ $price-background: #f79d67;
                 }
                 .col-label {
                     background: darken($highlighted-color, 10%);
-                    font-size: 9.4px;
                     border-top-left-radius: 5px;
                     border-top-right-radius: 5px;
                     @include responsive($media-xsmall) {
@@ -116,7 +117,6 @@ $price-background: #f79d67;
                     }
                 }
                 .col-text {
-                    font-size: 10.2px;
                     @include responsive($media-xsmall) {
                         font-size: 11.2px;
                     }
@@ -141,7 +141,7 @@ $price-background: #f79d67;
         &.row-details {
             &:nth-child(odd) {
                 .col-price {
-                    background: #f5f5f5 !important;
+                    background: #FBFAF7 !important;
                 }
             }
             &:nth-child(even) {
@@ -160,14 +160,10 @@ $price-background: #f79d67;
                     padding-right: 21px;
                 }
                 &.highlight {
-                    background: #7148d4 !important;
                     padding-top: 7px;
                     padding-bottom: 7px;
                     padding-right: 6px;
-                    color: $white;
                     text-transform: uppercase;
-                    font-size: 9px;
-                    box-shadow: 1px 2px 10px #ddd;
                     font-weight: normal;
                     @include responsive($media-xsmall) {
                         font-size: 14px;
@@ -180,16 +176,16 @@ $price-background: #f79d67;
                     }
                 }
                 &.col-item-1 {
-                    background: lighten(#005C5A, 75%);
+                    // background: lighten(#005C5A, 75%);
                 }
                 &.col-item-2 {
-                    background: lighten(#ED4D13, 40%);
+                    // background: lighten(#ED4D13, 40%);
                 }
                 &.col-item-3 {
-                    background: lighten(#199C7B, 55%);
+                    // background: lighten(#199C7B, 55%);
                 }
                 &.col-item-4 {
-                    background: lighten(#F37100, 35%);
+                    // background: lighten(#F37100, 35%);
                 }
                 &.col-first {
                     &:hover {
@@ -204,9 +200,7 @@ $price-background: #f79d67;
                             background: $white;
                             padding: 10px;
                             z-index: 1;
-                            border: 1px solid darken($price-background, 20%);
-                            border-radius: 5px;
-                            box-shadow: 2px 1px 10px 1px #616161;
+
                             @include responsive($media-xsmall) {
                                 width: 300px;
                                 right: -302px;
@@ -225,11 +219,10 @@ $price-background: #f79d67;
                     }
                 }
                 .col-desc {
-                    font-weight: bold;
                     cursor: pointer;
                     &.has-no-plan {
                         cursor: auto;
-                        color: #A8A9AC;
+                        color: lighten($text-color, 50%);
                         text-decoration: line-through;
                     }
                 }
