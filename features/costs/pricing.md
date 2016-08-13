@@ -47,18 +47,18 @@ menu:
   </div>
 
 {% assign class_right = 'col-price col-sm-6 col-xs-6' %}
-{% for price in site.data.pricing-table-oncourse %}
+{% for row in site.data.pricing-table-oncourse %}
   <div class="row-item row-details row-item-{{ forloop.index }}">
-    {% if price.section %}
-      <div class="{{ class_right }} col-item-{{ forloop.index }} highlight">{{ price.title }}</div>
+    {% if row.section %}
+      <div class="{{ class_right }} col-item-{{ forloop.index }} highlight">{{ row.title }}</div>
     {% else %}
-      {% for item in price.plans %}
+      {% for item in row.plans %}
         <div class="{{ class_right }} col-item-{{ forloop.index }}">
           <span class="col-desc{% unless item.plan %} has-no-plan{% endunless %}">
-            {{ price.title }}<i class="app-icon icon-arrow-bottom"></i>
+            {% if item.plan == true or item.plan == false %}{{ row.title }}{% else %}{{ item.plan }}{% endif %}<i class="app-icon icon-arrow-bottom"></i>
           </span>
           <div class="plan-details">
-            {{ price.more }}
+            {{ row.more }}
           </div>
         </div>
       {% endfor %}
