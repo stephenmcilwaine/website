@@ -60,9 +60,7 @@ menu:
           {% endif %}
           <span class="col-desc{% if has_no_plan == true %} has-no-plan{% endif %}">
             {{ price.title }}
-            {% if has_no_plan == false %}
               <i class="app-icon icon-arrow-bottom"></i>
-            {% endif %}
           </span>
           {% if has_no_plan == false %}
             <div class="plan-details">

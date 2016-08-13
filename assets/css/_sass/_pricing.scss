@@ -42,8 +42,8 @@ $plan4: #F37100;
             }
             .icon-arrow-bottom, .icon-arrow-top {
                 position: absolute;
-                top: 12px;
-                right: 18px;
+                top: 16px;
+                right: 24px;
                 cursor: pointer;
             }
         }
@@ -159,22 +159,7 @@ $plan4: #F37100;
                 @include responsive($media-xsmall) {
                     padding-right: 21px;
                 }
-                &.highlight {
-                    padding-top: 7px;
-                    padding-bottom: 7px;
-                    padding-right: 6px;
-                    text-transform: uppercase;
-                    font-weight: normal;
-                    @include responsive($media-xsmall) {
-                        font-size: 14px;
-                        padding-top: 10px;
-                        padding-bottom: 10px;
-                    }
-                    .col-desc.has-no-plan {
-                        color: $white;
-                        text-decoration: none;
-                    }
-                }
+
                 &.col-item-1 {
                     // background: lighten(#005C5A, 75%);
                 }
@@ -224,6 +209,10 @@ $plan4: #F37100;
                         cursor: auto;
                         color: lighten($text-color, 50%);
                         text-decoration: line-through;
+
+                        .app-icon {
+                            display: none;
+                        }
                     }
                 }
                 .plan-details {
