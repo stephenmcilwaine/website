@@ -46,7 +46,6 @@ menu:
     </div>
   </div>
 
-{% assign item_highlighted = 2 %}
 {% assign class_right = 'col-price col-sm-6 col-xs-6' %}
 {% for price in site.data.pricing-table-oncourse %}
   <div class="row-item row-details row-item-{{ forloop.index }}">
@@ -54,7 +53,7 @@ menu:
       <div class="{{ class_right }} col-item-{{ forloop.index }} highlight">{{ price.title }}</div>
     {% else %}
       {% for item in price.plans %}
-        <div class="{{ class_right }} col-item-{{ forloop.index }}{% if item_highlighted == forloop.index %} item-highlight{% endif %}">
+        <div class="{{ class_right }} col-item-{{ forloop.index }}">
           {% assign has_no_plan = false %}
           {% if item.plan == nil %}
             {% assign has_no_plan = true %}

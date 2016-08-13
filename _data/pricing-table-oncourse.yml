@@ -8,7 +8,7 @@
     - plan: unlimited
     - plan: unlimited
     - plan: unlimited
-- title: Enrolments per year
+- title: Unlimited enrolments
   more: Use onCourse to process 100 enrolments per year or 100,000.
   plans:
     - plan: unlimited
