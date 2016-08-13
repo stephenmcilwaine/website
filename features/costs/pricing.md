@@ -50,30 +50,32 @@ menu:
 {% assign class_right = 'col-price col-sm-6 col-xs-6' %}
 {% for price in site.data.pricing-table-oncourse %}
   <div class="row-item row-details row-item-{{ forloop.index }}">
-    {% assign row_highlighted = price.highlight %}
-    {% for item in price.plans %}
-      <div class="{{ class_right }} col-item-{{ forloop.index }}{% if row_highlighted == true %} highlight{% endif %}{% if item_highlighted == forloop.index %} item-highlight{% endif %}">
-
-        {% assign has_no_plan = false %}
-        {% if item.plan == nil %}
-          {% assign has_no_plan = true %}
-        {% endif %}
-        <span class="col-desc{% if has_no_plan == true %} has-no-plan{% endif %}">
-          {{ price.title }}
-          {% if has_no_plan == false %}
-            <i class="app-icon icon-arrow-bottom"></i>
+    {% if price.section %}
+      <div class="{{ class_right }} col-item-{{ forloop.index }} highlight">{{ price.title }}</div>
+    {% else %}
+      {% for item in price.plans %}
+        <div class="{{ class_right }} col-item-{{ forloop.index }}{% if item_highlighted == forloop.index %} item-highlight{% endif %}">
+          {% assign has_no_plan = false %}
+          {% if item.plan == nil %}
+            {% assign has_no_plan = true %}
           {% endif %}
-        </span>
-        {% if has_no_plan == false %}
-          <div class="plan-details">
-            {{ item.plan }}
-          </div>
-        {% endif %}
-        {% if price.more %}
-          <div class="hide item-more-details">{{ price.more }}</div>
-        {% endif %}
-      </div>
-    {% endfor %}
+          <span class="col-desc{% if has_no_plan == true %} has-no-plan{% endif %}">
+            {{ price.title }}
+            {% if has_no_plan == false %}
+              <i class="app-icon icon-arrow-bottom"></i>
+            {% endif %}
+          </span>
+          {% if has_no_plan == false %}
+            <div class="plan-details">
+              {{ item.plan }}
+            </div>
+          {% endif %}
+          {% if price.more %}
+            <div class="hide item-more-details">{{ price.more }}</div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    {% endif %}
   </div>
 {% endfor %}
 

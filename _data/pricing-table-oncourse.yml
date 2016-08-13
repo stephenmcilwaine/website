@@ -1,11 +1,6 @@
 ---
 - title: Features
-  highlight: true
-  plans:
-    - plan:
-    - plan:
-    - plan:
-    - plan:
+  section: true
 - title: User client licenses
   more: The download version of onCourse allows as many simultaneous administration users to connect as you like, limited only by the speed of your network and server. The cloud managed solution includes one concurrent user, with additional concurrent users available for $120 per month, per user.
   plans:
@@ -168,12 +163,7 @@
     - plan:
     - plan: <img src="/assets/img/content/check.png" />
 - title: Support
-  highlight: true
-  plans:
-    - plan:
-    - plan:
-    - plan:
-    - plan:
+  section: true
 - title: training.gov.au data updates
   more: Daily data feeds built into the software so you'll always have the information you need to build your courses and report your data
   plans:
