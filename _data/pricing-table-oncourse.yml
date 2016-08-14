@@ -1,250 +1,141 @@
 ---
-- title: Features
-  section: true
 - title: User client licenses
   more: The download version of onCourse allows as many simultaneous administration users to connect as you like, limited only by the speed of your network and server. The cloud managed solution includes one concurrent user, with additional concurrent users available for $120 per month, per user.
   plans:
-    - plan: true
-    - plan: true
-    - plan: true
-    - plan: true
-- title: Unlimited enrolments
-  more: Use onCourse to process 100 or 1,000,000 enrolments per year.
-  plans:
-    - plan: true
-    - plan: true
-    - plan: true
-    - plan: true
-- title: Software download
+    - true
+    - true
+    - true
+    - true
+- title: Self hosted
   more: Download, installed and manage in your environment by your IT staff. You are responsible for your data security, backups and upgrades.
   plans:
-    - plan: true
-    - plan: true
-    - plan: true
-    - plan: true
-- title: Cloud
+    - true
+    - true
+    - true
+    - true
+- title: Cloud hosted
   more: Managed cloud solution includes data centre hosting, 24/7 server monitoring, offsite backups and automated upgrades. One concurrent user connection is included in all paid onCourse support plans, with additional concurrent users available for $120 per month, per user.
   plans:
-    - plan: false
-    - plan: true
-    - plan: true
-    - plan: true
-- title: Upgrades
-  more: Unlimited product upgrades are available during the life of your contract. Release candidate testing process also available, prior to each upgrade.
-  plans:
-    - plan: true
-    - plan: true
-    - plan: true
-    - plan: true
-- title: AVETMISS export
-  more: onCourse supports the AVETMISS export flavours for every state in Australia.
-  plans:
-    - plan: true
-    - plan: true
-    - plan: true
-    - plan: true
-- title: Traineeship reporting
-  more: Class by class or single student exporting and reports for traineeships
-  plans:
-    - plan: true
-    - plan: true
-    - plan: true
-    - plan: true
-- title: Integrated email
-  more: Send as many emails as you want to students, tutors and other contacts at no cost.
-  plans:
-    - plan: true
-    - plan: true
-    - plan: true
-    - plan: true
+    - false
+    - true
+    - true
+    - true
 - title: SMS
   more: onCourse is able to send SMS directly to the mobile phone of anyone in the system, either one at a time or in bulk.
   plans:
-    - plan: false
-    - plan: SMS (11 cents)
-    - plan: SMS (13 cents)
-    - plan: SMS (11 cents)
+    - false
+    - SMS (11 cents)
+    - SMS (13 cents)
+    - SMS (11 cents)
 - title: Credit card processing
   more: If you choose to link to your existing credit card merchant account you can process payments and refunds from directly within onCourse. This processing fee is in addition to whatever charges your bank may impose. It is not charged for enrolments you take through an onCourse website.
   plans:
-    - plan: false
-    - plan: Credit card processing 45c
-    - plan: 50 free per month then 42 cents each
-    - plan: 100 free per month then 39 cents each
+    - false
+    - Credit card processing 45c
+    - 50 free per month then 42 cents each
+    - 100 free per month then 39 cents each
 - title: Student & tutor portals
   more: Give your students and tutors access to their timetables, attendance marking and communication tools
   plans:
-    - plan: true
-    - plan: true
-    - plan: true
-    - plan: true
+    - false
+    - true
+    - true
+    - true
 - title: Attendance marking
   more: The attendance module in onCourse allows you to mark the role for tutors and students, including through an online portal for mobile phones and browsers.
   plans:
-    - plan: true
-    - plan: true
-    - plan: true
-    - plan: true
+    - true
+    - true
+    - true
+    - true
 - title: Membership
   more: Create and sell memberships to allow special discounts or varied pricing for individuals or employers and their staff
   plans:
-    - plan: true
-    - plan: true
-    - plan: true
-    - plan: true
+    - true
+    - true
+    - true
+    - true
 - title: USI Verification
   more: Integrate your AUSKey and verify student USI details in real time
   plans:
-    - plan: true
-    - plan: true
-    - plan: true
-    - plan: true
+    - true
+    - true
+    - true
+    - true
 - title: USI & AVETMISS student portal
   more: Send all enrolling students a link to complete the USI and AVETMISS student questions electronically, on a mobile phone, tablet or in their desktop browser
   plans:
-    - plan: true
-    - plan: true
-    - plan: true
-    - plan: true
+    - false
+    - true
+    - true
+    - true
 - title: Advanced authorisation
   more: All users of onCourse have their own login password. This feature allows you to define what specific part of the system they are allowed to access, including integration with your LDAP directory.
   plans:
-    - plan: false
-    - plan: false
-    - plan: true
-    - plan: true
+    - false
+    - false
+    - true
+    - true
 - title: Budgeting
   more: Line by line define, track and manage the associated costs of each class and monitor profitability as each enrolment is processed
   plans:
-    - plan: false
-    - plan: false
-    - plan: true
-    - plan: true
+    - false
+    - false
+    - true
+    - true
 - title: Vouchers
   more: Create gift certificates, product packages and many other type of vouchers
   plans:
-    - plan: false
-    - plan: false
-    - plan: true
-    - plan: true
+    - false
+    - false
+    - true
+    - true
 - title: VET Fee HELP
   more: All your reporting requirements around courses by application and the government reporting needed to use the VET Fee HELP system
   plans:
-    - plan: false
-    - plan: false
-    - plan: true
-    - plan: true
+    - false
+    - false
+    - true
+    - true
 - title: Workflow and scripting
   more: Create your own automated scripts inside onCourse to automate workflow processes particular to your business, like sending automated messages and running reports based on database events or dates
   plans:
-    - plan: false
-    - plan: false
-    - plan: false
-    - plan: true
+    - false
+    - false
+    - false
+    - true
 - title: Payroll
   more: Set tutor rates, assign tutors to classes, confirm attendance and variations ready for processing through your payroll software
   plans:
-    - plan: false
-    - plan: false
-    - plan: false
-    - plan: true
-- title: MySql or Microsoft SQL options
-  more: Use either the built in Derby database or your choice of MySQL or Microsoft SQL backend
-  plans:
-    - plan: false
-    - plan: false
-    - plan: false
-    - plan: false
-- title: Access to source code
-  more: The Java source code to the onCourse client and server applications for your own peace of mind should something befall the ish team, or for your own code review and enhancement.
-  plans:
-    - plan: false
-    - plan: false
-    - plan: false
-    - plan: false
-- title: Support
-  section: true
-- title: training.gov.au data updates
-  more: Daily data feeds built into the software so you'll always have the information you need to build your courses and report your data
-  plans:
-    - plan: true
-    - plan: true
-    - plan: true
-    - plan: true
-- title: User documentation
-  more: Our comprehensive documentation of the product. Available to read or in editable form so that you can customise it for your own needs.
-  plans:
-    - plan: true
-    - plan: true
-    - plan: true
-    - plan: pdf, web & editable source
+    - false
+    - false
+    - false
+    - true
 - title: Custom reports
   more: Templates and open source tools available for editing existing reports or creating your own.
   plans:
-    - plan: self service or quote
-    - plan: self service or quote
-    - plan: self service or quote
-    - plan: self service or quote
+    - Self service custom reports
+    - true
+    - true
+    - true
 - title: Support
   more: You will have access to the onCourse experts, from first level "how to" support, through to technical staff, onCourse designers and developers for particularly tricky issues.
   plans:
-    - plan: false
-    - plan: Email support
-    - plan: Email and phone support
-    - plan: Email, phone, web tracking portal. Priority support.
-- title: Designated support contacts
+    - Forum only support
+    - Forum and email support
+    - Forum, email and phone support
+    - Forum, email, phone, web tracking portal. Priority support.
+- title: Support contacts
   more: The number of contact people within your organisation who have direct access to the ish support team.
   plans:
-    - plan: 1
-    - plan: 2
-    - plan: 3
-    - plan: as required
+    - false
+    - 1 support contact
+    - 2 support contact
+    - 3 support contact
 - title: Maximum response time (see SLA for details)
   more: Response times for requests logged via our support portal
   plans:
-    - plan: 5 days
-    - plan: 2 days
-    - plan: 1 days
-    - plan: from 2 business hours
-- title: Account manager
-  more: Your own personal point of contact with the ish team, giving you access to developers, support engineers and the product manager of onCourse. You can receive regular SLA reports.
-  plans:
-    - plan: false
-    - plan: false
-    - plan: false
-    - plan: false
-- title: Marketing support
-  more: Analytics and marketing support, assisting you with copywriting, interpreting website analytics and helping you to achieve your optimal SEO.
-  plans:
-    - plan: false
-    - plan: false
-    - plan: false
-    - plan: false
-- title: 3rd party product integration
-  more: Whether you require live reporting, daily emails with key figures or any other business intelligence from onCourse that will be exported to another system, our engineers are able to devise an automated process for your needs.
-  plans:
-    - plan: false
-    - plan: false
-    - plan: false
-    - plan: false
-- title: Managed hosting
-  more: Have the ish technical team look after your onCourse installation, backups, upgrades and ongoing maintenance in your data centre or ours.
-  plans:
-    - plan: false
-    - plan: false
-    - plan: false
-    - plan: false
-- title: Custom contract
-  more: Modification to the standard ish onCourse EULA and/or compliance with additional contractual obligations.
-  plans:
-    - plan: false
-    - plan: false
-    - plan: false
-    - plan: false
-- title: Custom feature development
-  more: When onCourse does not quite everything you need it to, we can build new or additional functionality to meet your specifications
-  plans:
-    - plan: false
-    - plan: false
-    - plan: false
-    - plan: false
+    - 5 days
+    - 2 days
+    - 1 days
+    - from 2 business hours

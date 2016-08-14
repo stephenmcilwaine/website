@@ -54,8 +54,8 @@ menu:
     {% else %}
       {% for item in row.plans %}
         <div class="{{ class_right }} col-item-{{ forloop.index }}">
-          <span class="col-desc{% unless item.plan %} has-no-plan{% endunless %}">
-            {% if item.plan == true or item.plan == false %}{{ row.title }}{% else %}{{ item.plan }}{% endif %}<i class="app-icon icon-arrow-bottom"></i>
+          <span class="col-desc{% unless item %} has-no-plan{% endunless %}">
+            {% if item == true or item == false %}{{ row.title }}{% else %}{{ item }}{% endif %}<i class="app-icon icon-arrow-bottom"></i>
           </span>
           <div class="plan-details">
             {{ row.more }}
@@ -67,3 +67,30 @@ menu:
 {% endfor %}
 
 </div>
+
+
+<h2>All plans give you</h2>
+
+<h3>Unlimited enrolments</h3>
+<p>Use onCourse to process 100 or 1,000,000 enrolments per year. No artificial limits.</p>
+
+<h3>Upgrades</h3>
+<p>Unlimited product upgrades are available during the life of your contract. Release candidate testing process also available, prior to each upgrade.</p>
+
+
+<h3>AVETMISS export</h3>
+<p>onCourse supports the AVETMISS export flavours for every state in Australia.</p>
+
+
+<h3>Traineeship reporting</h3>
+<p>Class by class or single student exporting and reports for traineeships</p>
+
+<h3>Integrated email</h3>
+<p>Send as many emails as you want to students, tutors and other contacts at no cost.
+
+
+<h3>training.gov.au data updates</h3>
+<p>Daily data feeds built into the software so you'll always have the information you need to build your courses and report your data</p>
+
+<h3>User documentation</h3>
+<p>Our comprehensive documentation of the product. Available to read or in editable form so that you can customise.</p>
