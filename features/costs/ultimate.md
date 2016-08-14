@@ -7,7 +7,7 @@ menu:
   parent: pricing
 ---
 
-If you want more than our standard plans offer, can are here to help. ish 
+If you want more than our standard plans offer, we are here to help. ish 
 
 <h3>Account manager</h3>
 <p>Your own personal point of contact with the ish team, giving you access to developers, support engineers and the product manager of onCourse. You can receive regular SLA reports.</p>
@@ -28,7 +28,7 @@ If you want more than our standard plans offer, can are here to help. ish
 <p>When onCourse does not quite everything you need it to, we can build new or additional functionality to meet your specifications</p>
 
 <h3>MySql or Microsoft SQL options</h3>
-<p>Use either the built in Derby database or your choice of MySQL or Microsoft SQL backend</p>
+<p>Instead of the integrated Apache Derby database, you can choose an alternative database for your self-hosted onCourse. We've also supported Oracle in the past and can bring it back if there is demand again.</p>
 
 <h3>Access to source code</h3>
 <p>The Java source code to the onCourse client and server applications for your own peace of mind should something befall the ish team, or for your own code review and enhancement.</p>

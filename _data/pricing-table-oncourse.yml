@@ -1,39 +1,32 @@
 ---
-- title: User client licenses
-  more: The download version of onCourse allows as many simultaneous administration users to connect as you like, limited only by the speed of your network and server. The cloud managed solution includes one concurrent user, with additional concurrent users available for $120 per month, per user.
-  plans:
-    - true
-    - true
-    - true
-    - true
 - title: Self hosted
-  more: Download, installed and manage in your environment by your IT staff. You are responsible for your data security, backups and upgrades.
+  more: Download, install and manage on your own servers. No user limits.
   plans:
     - true
     - true
     - true
     - true
 - title: Cloud hosted
-  more: Managed cloud solution includes data centre hosting, 24/7 server monitoring, offsite backups and automated upgrades. One concurrent user connection is included in all paid onCourse support plans, with additional concurrent users available for $120 per month, per user.
+  more: Managed cloud hosting. Two concurrent users included with more at $120 per month.
   plans:
     - false
     - true
     - true
     - true
 - title: SMS
-  more: onCourse is able to send SMS directly to the mobile phone of anyone in the system, either one at a time or in bulk.
+  more: Send messages in bulk or one at a time.
   plans:
     - false
-    - SMS (11 cents)
-    - SMS (13 cents)
-    - SMS (11 cents)
-- title: Credit card processing
-  more: If you choose to link to your existing credit card merchant account you can process payments and refunds from directly within onCourse. This processing fee is in addition to whatever charges your bank may impose. It is not charged for enrolments you take through an onCourse website.
+    - title: SMS <br/><small>11 cents</small>
+    - title: SMS <br/><small>13 cents</small>
+    - title: SMS <br/><small>11 cents</small>
+- title: Credit card payments
+  more: Processing Mastercard, Visa and Amex payments directly inside onCourse.
   plans:
     - false
-    - Credit card processing 45c
-    - 50 free per month then 42 cents each
-    - 100 free per month then 39 cents each
+    - title: Credit card payments <br/><small>45c</small>
+    - title: Credit card payments <br/><small>42c (first 50 free)</small>
+    - title: Credit card payments <br/><small>39c (first 100 free)</small>
 - title: Student & tutor portals
   more: Give your students and tutors access to their timetables, attendance marking and communication tools
   plans:
@@ -44,25 +37,25 @@
 - title: Attendance marking
   more: The attendance module in onCourse allows you to mark the role for tutors and students, including through an online portal for mobile phones and browsers.
   plans:
-    - true
+    - false
     - true
     - true
     - true
 - title: Membership
   more: Create and sell memberships to allow special discounts or varied pricing for individuals or employers and their staff
   plans:
-    - true
+    - false
     - true
     - true
     - true
 - title: USI Verification
   more: Integrate your AUSKey and verify student USI details in real time
   plans:
+    - false
     - true
     - true
     - true
-    - true
-- title: USI & AVETMISS student portal
+- title: USI & AVETMISS portal
   more: Send all enrolling students a link to complete the USI and AVETMISS student questions electronically, on a mobile phone, tablet or in their desktop browser
   plans:
     - false
@@ -77,7 +70,7 @@
     - true
     - true
 - title: Budgeting
-  more: Line by line define, track and manage the associated costs of each class and monitor profitability as each enrolment is processed
+  more: Track and manage the associated costs of each class and monitor profitability as each enrolment is processed
   plans:
     - false
     - false
@@ -97,13 +90,14 @@
     - false
     - true
     - true
-- title: Workflow and scripting
-  more: Create your own automated scripts inside onCourse to automate workflow processes particular to your business, like sending automated messages and running reports based on database events or dates
+- title: Basic scripts
+  more: Use scripts and workflows provided with onCourse
   plans:
-    - false
-    - false
-    - false
     - true
+    - true
+    - true
+    - title: Advanced and custom scripts
+      more: Use the onCourse DSL and programming language to map onCourse to your own custom workflow.
 - title: Payroll
   more: Set tutor rates, assign tutors to classes, confirm attendance and variations ready for processing through your payroll software
   plans:
@@ -114,28 +108,29 @@
 - title: Custom reports
   more: Templates and open source tools available for editing existing reports or creating your own.
   plans:
-    - Self service custom reports
+    - title: Self service custom reports
     - true
     - true
     - true
 - title: Support
   more: You will have access to the onCourse experts, from first level "how to" support, through to technical staff, onCourse designers and developers for particularly tricky issues.
   plans:
-    - Forum only support
-    - Forum and email support
-    - Forum, email and phone support
-    - Forum, email, phone, web tracking portal. Priority support.
+    - title: Forum only support
+      more: Community support through the public forum. ish staff will post there from time to time.
+    - title: Forum and email support
+    - title: Forum, email and phone support
+    - title: Forum, email, phone, web tracking portal. Priority support.
 - title: Support contacts
   more: The number of contact people within your organisation who have direct access to the ish support team.
   plans:
     - false
-    - 1 support contact
-    - 2 support contact
-    - 3 support contact
-- title: Maximum response time (see SLA for details)
+    - title: 1 support contact
+    - title: 2 support contact
+    - title: 3 support contact
+- title: Support response
   more: Response times for requests logged via our support portal
   plans:
-    - 5 days
-    - 2 days
-    - 1 days
-    - from 2 business hours
+    - false
+    - title: Support response<br/><small>5 days</small>
+    - title: Support response<br/><small>2 days</small>
+    - title: Support response<br/><small>1 day</small>

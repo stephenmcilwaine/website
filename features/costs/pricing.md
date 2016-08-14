@@ -7,6 +7,8 @@ menu:
   parent: features
 ---
 
+<a role="button" href="{{base}}/pricing/ultimate" class="btn btn-secondary">Our ultimate custom plan</a>
+
 <div class="pricing-container">
   <div class="row-item row-simple-text">
     <div class="col-price col-sm-6 col-xs-6 col-item-1">
@@ -55,10 +57,10 @@ menu:
       {% for item in row.plans %}
         <div class="{{ class_right }} col-item-{{ forloop.index }}">
           <span class="col-desc{% unless item %} has-no-plan{% endunless %}">
-            {% if item == true or item == false %}{{ row.title }}{% else %}{{ item }}{% endif %}<i class="app-icon icon-arrow-bottom"></i>
+            {{ item.title | default: row.title }}<i class="app-icon icon-arrow-bottom"></i>
           </span>
           <div class="plan-details">
-            {{ row.more }}
+            {% if item %}{{ item.more | default: row.more }}{% endif %}
           </div>
         </div>
       {% endfor %}
