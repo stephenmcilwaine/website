@@ -2,9 +2,6 @@
 layout: page
 title: Memebership Sales and Benefits
 permalink: /features/marketing/memberships
-menu:
-  name: features
-  parent: marketing
 ---
 
 Memberships in onCourse are another marketing tool available to you to sell your education products in a way that works for your business model. Memberships can be sold, or given away for free, and can include special benefits like access to membership only discounts. Memberships can expire after a period of time, or offer lifelong benefits.

@@ -2,9 +2,6 @@
 layout: page
 title: onCourse Ultimate
 permalink: /pricing/ultimate
-menu:
-  name: ultimate
-  parent: pricing
 ---
 
 If you want more than our standard plans offer, we are here to help. ish 

@@ -2,9 +2,6 @@
 layout: page
 title: Corporate & Bulk Sales
 permalink: /features/marketing/corporate_sales
-menu:
-  name: features
-  parent: marketing
 ---
 
 Selling enrolments to corporate contacts couldn't be easier with the bulk enrolment and invoicing tools available in onCourse. 

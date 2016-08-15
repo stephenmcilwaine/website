@@ -2,8 +2,6 @@
 layout: page
 title: Internet Merchant Number Guide
 permalink: /internet-merchant-number-guide
-menu:
-  parent: __root
 ---
 
 ### How to request your merchant/terminal ID from your bank to allow internet payments

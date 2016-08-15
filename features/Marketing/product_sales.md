@@ -2,9 +2,6 @@
 layout: page
 title: Product Sales
 permalink: /features/marketing/products
-menu:
-  name: features
-  parent: marketing
 ---
 
 Would you like fries with that? onCourse product sales allow you to up sell on the traditional online enrolment model, selling textbooks, material kits, overseas student health insurance policies or even the official college mug.

@@ -2,8 +2,6 @@
 layout: page
 title: Features
 permalink: /features/
-menu:
-  parent: __root
 ---
 
 onCourse is a highly customisable student management and marketing system. We could list its features, but let's focus instead on the results of using onCourse:

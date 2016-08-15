@@ -2,9 +2,6 @@
 layout: page
 title: Customised Communications
 permalink: /features/marketing/custom_messaging
-menu:
-  name: features
-  parent: marketing
 ---
 
 Build beautiful email templates and craft custom communications to your contacts. Email templates for automated communications and freehand messaging for ad-hoc correspondence is all part of onCourse as standard. In a matter of minutes, notify all students at a particular campus tonight of a special fund raising activity running this evening, or remind all your currently engaged casual tutors of an upcoming professional development opportunity. 

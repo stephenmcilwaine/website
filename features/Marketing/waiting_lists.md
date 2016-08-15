@@ -2,9 +2,6 @@
 layout: page
 title: Waiting Lists & Applications
 permalink: /features/marketing/wait_lists
-menu:
-  name: features
-  parent: marketing
 ---
 
 What happens to a contact who visits your website who is interested in what you have to offer but isn't ready to commit to the enrolment process? By enabling waiting lists on some or all of your courses, you have a ready made way to capture a list of potential students while your enrolling others.

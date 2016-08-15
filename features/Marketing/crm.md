@@ -2,9 +2,6 @@
 layout: page
 title: Customer Relationship Management
 permalink: /features/marketing/crm
-menu:
-  name: features
-  parent: marketing
 ---
 
 With powerful data mining capabilities, onCourse can help you create micro-marketing campaigns crafted to your needs. All potential students can be captured through wait list and mailing list sign ups, with custom tags for grouping and follow up. 

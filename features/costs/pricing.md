@@ -2,9 +2,6 @@
 layout: page
 title: onCourse Pricing
 permalink: /features/pricing
-menu:
-  name: pricing
-  parent: features
 ---
 
 <a role="button" href="{{base}}/pricing/ultimate" class="btn btn-secondary">Our ultimate custom plan</a>

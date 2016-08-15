@@ -2,9 +2,6 @@
 layout: page
 title: Automatic Email Alerts
 permalink: /features/marketing/emails
-menu:
-  name: features
-  parent: marketing
 ---
 
 If you can imagine a rule that triggers a system based email, you can automate it. Out of the box, onCourse comes with a number of email templates and scripts ready to trigger the emails. All you need to do is decide which ones to turn on.

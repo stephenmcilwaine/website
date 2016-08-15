@@ -2,9 +2,6 @@
 layout: page
 title: Promotions and Discounts
 permalink: /features/marketing/promotions
-menu:
-  name: features
-  parent: marketing
 ---
 
 For a limited time only, discount your prices and encourage those impulse sales. You offer the ultimate perishable product - once a classroom based training program takes off, just like an airplane, those unfilled seats become unsellable. Use your micro-marketing strategies to offer just in time pricing to a limited few and see whose going to fight for those deeply discounted seats.

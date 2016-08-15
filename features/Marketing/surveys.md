@@ -2,9 +2,6 @@
 layout: page
 title: Student & Employer Surveys
 permalink: /features/marketing/survey_tools
-menu:
-  name: features
-  parent: marketing
 ---
 
 It's one thing to deliver training year in year out, it's another thing to know if your product is meeting your customers expectation and if they are willing to come back for more.

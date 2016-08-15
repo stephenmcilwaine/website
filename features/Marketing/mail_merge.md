@@ -2,9 +2,6 @@
 layout: page
 title: Mail Merge & Postal Marketing
 permalink: /features/marketing/mail_merge
-menu:
-  name: features
-  parent: marketing
 ---
 
 When only postal messaging will do, the onCourse messaging system will assemble a mail merge data file for you to send to your brochure distributer or embed inside your own mail addressing system.

@@ -2,9 +2,6 @@
 layout: page
 title: Contact Relationships
 permalink: /features/marketing/contact_relationships
-menu:
-  name: features
-  parent: marketing
 ---
 
 Customisable contact relationships allows you to define connections between the companies, students, tutors and other contacts in your onCourse database.

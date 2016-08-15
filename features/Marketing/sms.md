@@ -2,9 +2,6 @@
 layout: page
 title: SMS Alerts
 permalink: /features/marketing/sms_messaging
-menu:
-  name: features
-  parent: marketing
 ---
 
 For alerts that are sure to be read, and just in time marketing opportunities, the built in SMS messaging tools in onCourse are just the trick to get information to your communities quickly.

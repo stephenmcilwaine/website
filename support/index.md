@@ -2,9 +2,6 @@
 layout: page
 title: onCourse support
 permalink: /support
-menu:
-  name: support
-  parent: __root
 footer:
   - googleSearch.html
 ---

@@ -2,9 +2,6 @@
 layout: page
 title: Mailing Lists
 permalink: /features/marketing/mailing_lists
-menu:
-  name: features
-  parent: marketing
 ---
 
 Mailing lists are built right into the onCourse software so you can allow users to self subscribe on the web, subscribe users by conducting searches of their enrolment history or auto subscribe users during certain actions, like after they enrol online.
