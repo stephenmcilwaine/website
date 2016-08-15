@@ -223,3 +223,38 @@ $plan4: #F37100;
         }
     }
 }
+
+.pricing-calculation {
+    >.row>.col-sm-12 {
+        padding: 80px 15px;
+    }
+    #pricing-in-slider {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .price-panel {
+        border: 1px solid #ddd;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        .panel-heading {
+            background: #79589F;
+            color: $white;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #ddd;
+            text-align: center;
+            font-size: 12px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            h5 {
+                margin-top: 0px;
+            }
+            p {
+                margin-top: 0px;
+            }
+        }
+        .panel-body {
+            padding: 15px;
+        }
+    }
+}

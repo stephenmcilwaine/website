@@ -4,9 +4,9 @@ title: onCourse Pricing
 permalink: /features/pricing
 ---
 
-<a role="button" href="{{base}}/pricing/ultimate" class="btn btn-secondary">Our ultimate custom plan</a>
+<a role="button" href="{{base}}/pricing/ultimate" class="btn btn-secondary pull-xs-right">Our ultimate custom plan</a>
 
-<div class="pricing-container">
+<div class="clearfix pricing-container">
   <div class="row-item row-simple-text">
     <div class="col-price col-sm-6 col-xs-6 col-item-1">
       Completely free.
@@ -80,6 +80,50 @@ permalink: /features/pricing
     </div>
   </div>
 
+
+</div>
+
+<div class="pricing-calculation">
+
+  <div class="row">
+    <div class="col-sm-12">
+      <p>
+        All paid onCourse systems come with a beautiful website to display your courses and take enrolments. Reduce your ecommerce fees by selecting a website plan.
+      </p>
+
+      <h3>Turnover</h3>
+      <input id="pricing-in-slider" data-slider-id='pricing-in-slider' type="text" data-slider-min="1" data-slider-max="4" data-slider-step="1" data-slider-value="1"/>
+
+    </div>
+    <div class="col-sm-12">
+      <div class="panel panel-default price-panel">
+        <div class="panel-heading">
+          <h5 class="panel-title">Website</h5>
+          <p class="price-text">$<span>285</span></p>
+          <p>per month</p>
+        </div>
+        <div class="panel-body">
+          <div class="row">
+            <div class="col-xs-18">
+              eCommerce
+            </div>
+            <div class="col-xs-6">
+              <span class="ecommerce-text">2%</span>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-18">
+              Transaction
+            </div>
+            <div class="col-xs-6">
+              <span class="transaction-text">85</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </div>
 
