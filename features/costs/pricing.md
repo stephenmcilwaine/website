@@ -68,6 +68,22 @@ menu:
   </div>
 {% endfor %}
 
+  <div class="row-item">
+    <div class="col-price col-sm-6 col-xs-6 col-item-1">
+      <a role="button" href="{{base}}/download" class="btn btn-secondary">Download now</a>
+    </div>
+    <div class="col-price col-sm-6 col-xs-6 col-item-2 item-highlight">
+      <a role="button" href="{{base}}/buy" class="btn btn-primary">Buy now</a>
+    </div>
+    <div class="col-price col-sm-6 col-xs-6 col-item-3">
+      <a role="button" href="{{base}}/buy" class="btn btn-primary">Buy now</a>
+    </div>
+    <div class="col-price col-sm-6 col-xs-6 col-item-4">
+      <a role="button" href="{{base}}/buy" class="btn btn-primary">Buy now</a>
+    </div>
+  </div>
+
+
 </div>
 
 

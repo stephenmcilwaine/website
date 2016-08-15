@@ -14,28 +14,19 @@
     - true
     - true
 - title: SMS
-  more: Send messages in bulk or one at a time.
   plans:
     - false
-    - title: SMS <br/><small>11 cents</small>
-    - title: SMS <br/><small>13 cents</small>
-    - title: SMS <br/><small>11 cents</small>
+    - more: Send messages at 15 cents
+    - more: Send messages at 13 cents
+    - more: Send messages at 11 cents
 - title: Credit card payments
-  more: Processing Mastercard, Visa and Amex payments directly inside onCourse.
   plans:
     - false
-    - title: Credit card payments <br/><small>45c</small>
-    - title: Credit card payments <br/><small>42c (first 50 free)</small>
-    - title: Credit card payments <br/><small>39c (first 100 free)</small>
-- title: Student & tutor portals
-  more: Give your students and tutors access to their timetables, attendance marking and communication tools
-  plans:
-    - false
-    - true
-    - true
-    - true
-- title: Attendance marking
-  more: The attendance module in onCourse allows you to mark the role for tutors and students, including through an online portal for mobile phones and browsers.
+    - more: Processing Mastercard, Visa and Amex payments at 45c each
+    - more: Processing Mastercard, Visa and Amex payments at 42c (first 50 free)
+    - more: Processing Mastercard, Visa and Amex payments at 39c (first 100 free)
+- title: Student & tutor portal
+  more: Access to timetables, attendance marking and communication tools. USI verification and AVETMISS collection.
   plans:
     - false
     - true
@@ -48,20 +39,6 @@
     - true
     - true
     - true
-- title: USI Verification
-  more: Integrate your AUSKey and verify student USI details in real time
-  plans:
-    - false
-    - true
-    - true
-    - true
-- title: USI & AVETMISS portal
-  more: Send all enrolling students a link to complete the USI and AVETMISS student questions electronically, on a mobile phone, tablet or in their desktop browser
-  plans:
-    - false
-    - true
-    - true
-    - true
 - title: Advanced authorisation
   more: All users of onCourse have their own login password. This feature allows you to define what specific part of the system they are allowed to access, including integration with your LDAP directory.
   plans:
@@ -69,20 +46,14 @@
     - false
     - true
     - true
-- title: Budgeting
-  more: Track and manage the associated costs of each class and monitor profitability as each enrolment is processed
+- title: Advanced finance
+  more: Create gift certificates, product packages and many other type of vouchers. Track detailed budgets per class and monitor profitability.
   plans:
     - false
     - false
     - true
     - true
-- title: Vouchers
-  more: Create gift certificates, product packages and many other type of vouchers
-  plans:
-    - false
-    - false
-    - true
-    - true
+
 - title: VET Fee HELP
   more: All your reporting requirements around courses by application and the government reporting needed to use the VET Fee HELP system
   plans:
@@ -90,14 +61,7 @@
     - false
     - true
     - true
-- title: Basic scripts
-  more: Use scripts and workflows provided with onCourse
-  plans:
-    - true
-    - true
-    - true
-    - title: Advanced and custom scripts
-      more: Use the onCourse DSL and programming language to map onCourse to your own custom workflow.
+
 - title: Payroll
   more: Set tutor rates, assign tutors to classes, confirm attendance and variations ready for processing through your payroll software
   plans:
@@ -105,32 +69,23 @@
     - false
     - false
     - true
-- title: Custom reports
-  more: Templates and open source tools available for editing existing reports or creating your own.
+
+- title: Basic workflow
+  more: Use scripts, templates and workflows provided with onCourse
   plans:
-    - title: Self service custom reports
     - true
     - true
     - true
+    - title: Advanced and custom workflow
+      more: Use the onCourse DSL and programming language to map onCourse to your own custom workflow.
+
 - title: Support
-  more: You will have access to the onCourse experts, from first level "how to" support, through to technical staff, onCourse designers and developers for particularly tricky issues.
   plans:
     - title: Forum only support
       more: Community support through the public forum. ish staff will post there from time to time.
     - title: Forum and email support
+      more: 1 support contact, 5 day response
     - title: Forum, email and phone support
+      more: 2 support contacts, 3 day response
     - title: Forum, email, phone, web tracking portal. Priority support.
-- title: Support contacts
-  more: The number of contact people within your organisation who have direct access to the ish support team.
-  plans:
-    - false
-    - title: 1 support contact
-    - title: 2 support contact
-    - title: 3 support contact
-- title: Support response
-  more: Response times for requests logged via our support portal
-  plans:
-    - false
-    - title: Support response<br/><small>5 days</small>
-    - title: Support response<br/><small>2 days</small>
-    - title: Support response<br/><small>1 day</small>
+      more: <strong>3</strong> support contacts, <strong>1</strong> day response
