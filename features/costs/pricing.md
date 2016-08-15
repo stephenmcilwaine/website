@@ -108,7 +108,7 @@ permalink: /features/pricing
               eCommerce
             </div>
             <div class="col-xs-6">
-              <span class="ecommerce-text">2%</span>
+              <span class="ecommerce-text">2</span>%
             </div>
           </div>
 
@@ -117,7 +117,7 @@ permalink: /features/pricing
               Transaction
             </div>
             <div class="col-xs-6">
-              <span class="transaction-text">85</span>
+              <span class="transaction-text">85</span> cents
             </div>
           </div>
         </div>
