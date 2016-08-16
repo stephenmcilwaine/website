@@ -4,10 +4,12 @@ title: onCourse Pricing
 permalink: /features/pricing
 ---
 
-<a role="button" href="{{base}}/pricing/ultimate" class="btn btn-secondary pull-xs-right">Our ultimate custom plan</a>
+<p class="pull-xs-right">
+  <a role="button" href="{{base}}/pricing/ultimate" class="btn btn-secondary">Our ultimate custom plan</a>
+</p>
 
 <div class="clearfix pricing-container">
-  <div class="row-item row-simple-text">
+  <div class="row row-item row-simple-text">
     <div class="col-price col-sm-6 col-xs-6 col-item-1">
       Completely free.
     </div>
@@ -22,7 +24,7 @@ permalink: /features/pricing
     </div>
   </div>
 
-  <div class="row-item row-price-block">
+  <div class="row row-item row-price-block">
     <div class="col-price col-sm-6 col-xs-6 col-item-1">
       <span class="col-label">Community</span>
       <span class="col-rate">Free</span>
@@ -47,7 +49,7 @@ permalink: /features/pricing
 
 {% assign class_right = 'col-price col-sm-6 col-xs-6' %}
 {% for row in site.data.pricing-table-oncourse %}
-  <div class="row-item row-details row-item-{{ forloop.index }}">
+  <div class="row row-item row-details row-item-{{ forloop.index }}">
     {% if row.section %}
       <div class="{{ class_right }} col-item-{{ forloop.index }} highlight">{{ row.title }}</div>
     {% else %}
@@ -65,7 +67,7 @@ permalink: /features/pricing
   </div>
 {% endfor %}
 
-  <div class="row-item">
+  <div class="row row-item">
     <div class="col-price col-sm-6 col-xs-6 col-item-1">
       <a role="button" href="{{base}}/download" class="btn btn-secondary">Download now</a>
     </div>
@@ -128,10 +130,10 @@ permalink: /features/pricing
             <div class="col-xs-24">
               Student and tutor portals
             </div>
-            <div class="col-xs-24 not-free">
+            <div class="col-xs-24 not-free hide">
               Your domain
             </div>
-            <div class="col-xs-24 not-free">
+            <div class="col-xs-24 not-free hide">
               Domain hosting
             </div>
           </div>
@@ -143,29 +145,49 @@ permalink: /features/pricing
 
 </div>
 
+<div class="clearfix plans-support">
+  <h2 class="text-xs-center">All plans give you</h2>
+  <div class="row text-xs-center">
+    <div class="col-lg-8 col-sm-12 col-xs-24">
+      <img src="{{ site.paths.img }}/icons/no-preview-courses.png" class="icon-plans" />
+      <h3>Unlimited enrolments</h3>
+      <p>Use onCourse to process 100 or 1,000,000 enrolments per year. No artificial limits.</p>
+    </div>
 
-<h2>All plans give you</h2>
+    <div class="col-lg-8 col-sm-12 col-xs-24">
+      <img src="{{ site.paths.img }}/icons/no-preview-courses.png" class="icon-plans" />
+      <h3>Upgrades</h3>
+      <p>Unlimited product upgrades are available during the life of your contract. Release candidate testing process also available, prior to each upgrade.</p>
+    </div>
 
-<h3>Unlimited enrolments</h3>
-<p>Use onCourse to process 100 or 1,000,000 enrolments per year. No artificial limits.</p>
+    <div class="col-lg-8 col-sm-12 col-xs-24">
+      <img src="{{ site.paths.img }}/icons/no-preview-courses.png" class="icon-plans" />
+      <h3>AVETMISS export</h3>
+      <p>onCourse supports the AVETMISS export flavours for every state in Australia.</p>
+    </div>
 
-<h3>Upgrades</h3>
-<p>Unlimited product upgrades are available during the life of your contract. Release candidate testing process also available, prior to each upgrade.</p>
+    <div class="col-lg-8 col-sm-12 col-xs-24">
+      <img src="{{ site.paths.img }}/icons/no-preview-courses.png" class="icon-plans" />
+      <h3>Traineeship reporting</h3>
+      <p>Class by class or single student exporting and reports for traineeships</p>
+    </div>
 
+    <div class="col-lg-8 col-sm-12 col-xs-24">
+      <img src="{{ site.paths.img }}/icons/no-preview-courses.png" class="icon-plans" />
+      <h3>Integrated email</h3>
+      <p>Send as many emails as you want to students, tutors and other contacts at no cost.</p>
+    </div>
 
-<h3>AVETMISS export</h3>
-<p>onCourse supports the AVETMISS export flavours for every state in Australia.</p>
+    <div class="col-lg-8 col-sm-12 col-xs-24">
+      <img src="{{ site.paths.img }}/icons/no-preview-courses.png" class="icon-plans" />
+      <h3>training.gov.au data updates</h3>
+      <p>Daily data feeds built into the software so you'll always have the information you need to build your courses and report your data</p>
+    </div>
 
-
-<h3>Traineeship reporting</h3>
-<p>Class by class or single student exporting and reports for traineeships</p>
-
-<h3>Integrated email</h3>
-<p>Send as many emails as you want to students, tutors and other contacts at no cost.
-
-
-<h3>training.gov.au data updates</h3>
-<p>Daily data feeds built into the software so you'll always have the information you need to build your courses and report your data</p>
-
-<h3>User documentation</h3>
-<p>Our comprehensive documentation of the product. Available to read or in editable form so that you can customise.</p>
+    <div class="col-lg-8 col-sm-12 col-xs-24">
+      <img src="{{ site.paths.img }}/icons/no-preview-courses.png" class="icon-plans" />
+      <h3>User documentation</h3>
+      <p>Our comprehensive documentation of the product. Available to read or in editable form so that you can customise.</p>
+    </div>
+  </div>
+</div>

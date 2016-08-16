@@ -4,6 +4,7 @@
 
 /* Bootstrap */
 $grid-columns: 24;
+$enable-flex: true;
 
 $black: #000;
 $white: #fff;
@@ -76,6 +77,7 @@ $footer-text-color: $white;
 
 //@import "bootstrap-sprockets";
 @import "bootstrap/bootstrap";
+@import "bootstrap/bootstrap-flex";
 @import "bootstrap/bootstrap-grid";
 @import "bootstrap-slider/bootstrap-slider";
 

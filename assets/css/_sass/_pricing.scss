@@ -13,19 +13,15 @@ $plan2: #ED4D13;
 $plan3: #199C7B;
 $plan4: #F37100;
 
+.hide {
+    display: none;
+}
 .pricing-container {
-
-    .hide {
-        display: none;
-    }
     .row-item {
-        display: table;
         width: 100%;
         .col-price {
-            display: table-cell;
             position: relative;
             vertical-align: top;
-            float: none;
             text-align: center;
             border-left: 2px solid $white;
             padding: 6px;
@@ -256,5 +252,15 @@ $plan4: #F37100;
         .panel-body {
             padding: 15px;
         }
+    }
+}
+
+.plans-support {
+    >.row>div {
+        margin-top: 25px;
+    }
+    .icon-plans {
+        max-width: 30px;
+        max-height: 30px;
     }
 }
