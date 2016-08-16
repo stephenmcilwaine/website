@@ -20,3 +20,6 @@ paths:
   img: /assets/img
   css: /assets/css
   js: /assets/js
+
+gems:
+  - jekyll-sitemap
