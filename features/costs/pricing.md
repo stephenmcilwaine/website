@@ -90,9 +90,9 @@ permalink: /features/pricing
       <p>
         All paid onCourse systems come with a beautiful website to display your courses and take enrolments. Reduce your ecommerce fees by selecting a website plan.
       </p>
-
-      <h3>Turnover</h3>
+      <p></p>
       <input id="pricing-in-slider" data-slider-id='pricing-in-slider' type="text" data-slider-min="1" data-slider-max="4" data-slider-step="1" data-slider-value="1"/>
+      <small>Website ecommerce turnover</small>
 
     </div>
     <div class="col-sm-12">

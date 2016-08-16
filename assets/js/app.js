@@ -28,47 +28,52 @@
         });
 
         var pricing = {
-            1: {
-                turnover: '500,000',
-                price: '285',
-                ecommerce: '2',
-                transaction: '85'
+            80000: {
+                price: 0,
+                ecommerce: 6,
+                transaction: 110
             },
-            2: {
-                turnover: '1,000,000',
-                price: '570',
-                ecommerce: '3',
-                transaction: '170'
+            450000: {
+                price: 285,
+                ecommerce: 2,
+                transaction: 85
             },
-            3: {
-                turnover: '2,000,000',
-                price: '855',
-                ecommerce: '4',
-                transaction: '340'
+            1000000: {
+                price: 480,
+                ecommerce: 1.5,
+                transaction: 75
             },
-            4: {
-                turnover: '3,000,000',
-                price: '1140',
-                ecommerce: '5',
-                transaction: '510'
-            },
+            20000000: {
+                price: 930,
+                ecommerce: 1,
+                transaction: 65
+            }
         };
 
         $('#pricing-in-slider').slider({
+            min: 100000,
+            max: 20000000,
+            step: 100000,
+            scale: 'logarithmic',
+            tooltip: 'always',
             formatter: function(value) {
-                var data = pricing[value];
-                var turnover = data.turnover;
-                var price = data.price;
-                var ecommerce = data.ecommerce;
-                var transaction = data.transaction;
-
-                var price_wrapper = $('.pricing-calculation');
-                price_wrapper.find('.price-text>span').text(price);
-                price_wrapper.find('.ecommerce-text').text(ecommerce);
-                price_wrapper.find('.transaction-text').text(transaction);
-
-                return '$' + turnover;
+                if (value == 20000000) return "$20,000,000 and over";
+                return '$' + value.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")
             }
         });
+
+        $('#pricing-in-slider').on("change", function(slideEvt) {
+            for (var i in pricing) {
+                if (slideEvt.value.newValue < i) {
+                    break;
+                }
+            }
+
+            var price_wrapper = $('.pricing-calculation');
+            price_wrapper.find('.price-text>span').text(pricing[i].price);
+            price_wrapper.find('.ecommerce-text').text(pricing[i].ecommerce);
+            price_wrapper.find('.transaction-text').text(pricing[i].transaction);
+        });
+
     })
 })(jQuery);
