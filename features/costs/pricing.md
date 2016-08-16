@@ -4,11 +4,14 @@ title: onCourse Pricing
 permalink: /features/pricing
 ---
 
-<p class="pull-xs-right">
-  <a role="button" href="{{base}}/pricing/ultimate" class="btn btn-secondary">Our ultimate custom plan</a>
-</p>
+
 
 <div class="clearfix pricing-container">
+
+  <p class="pull-xs-right">
+    <a role="button" href="{{base}}/pricing/ultimate" class="btn btn-secondary">Our ultimate custom plan</a>
+  </p>
+
   <div class="row row-item row-simple-text">
     <div class="col-price col-sm-6 col-xs-6 col-item-1">
       Completely free.
@@ -83,64 +86,94 @@ permalink: /features/pricing
   </div>
 
 
-</div>
 
-<div class="pricing-calculation">
+  <div class="pricing-calculation">
 
-  <div class="row">
-    <div class="col-sm-12">
-      <p>
-        All paid onCourse systems come with a beautiful website to display your courses and take enrolments. Reduce your ecommerce fees by selecting a website plan.
-      </p>
-      <p></p>
-      <input id="pricing-in-slider" data-slider-id='pricing-in-slider' type="text" data-slider-min="1" data-slider-max="4" data-slider-step="1" data-slider-value="1"/>
-      <small>Website annual ecommerce turnover</small>
+    <div class="row">
+      <div class="col-sm-12">
+        <p>
+          All paid onCourse systems come with a beautiful website to display your courses and take enrolments.
+        </p>
+        <p></p>
+        <input id="pricing-in-slider" data-slider-id='pricing-in-slider' type="text" data-slider-min="1" data-slider-max="4" data-slider-step="1" data-slider-value="1"/>
+        <small>Website annual ecommerce turnover</small>
 
-    </div>
-    <div class="col-sm-10">
-      <div class="panel panel-default price-panel">
-        <div class="panel-heading">
-          <h5 class="panel-title">Website</h5>
-          <p class="price-text">$<span>0</span></p>
-          <p>per month</p>
-        </div>
-        <div class="panel-body">
-          <div class="row">
-            <div class="col-xs-12">
-              eCommerce fee
-            </div>
-            <div class="col-xs-12">
-              <span class="ecommerce-text">6</span>%
-            </div>
+      </div>
+      <div class="col-sm-10">
+        <div class="panel panel-default price-panel">
+          <div class="panel-heading">
+            <h5 class="panel-title">Website</h5>
+            <p class="price-text">$<span>0</span></p>
+            <p>per month</p>
           </div>
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-xs-12">
+                eCommerce fee
+              </div>
+              <div class="col-xs-12">
+                <span class="ecommerce-text">6</span>%
+              </div>
+              <i class="app-icon icon-arrow-bottom"></i>
+              <div class="plan-details">
+                A usage fee based on the total of the student charges.
+              </div>
+            </div>
 
-          <div class="row">
-            <div class="col-xs-12">
-              Per transaction
+            <div class="row">
+              <div class="col-xs-12">
+                Per transaction
+              </div>
+              <div class="col-xs-12">
+                <span class="transaction-text">110</span> cents
+              </div>
+              <i class="app-icon icon-arrow-bottom"></i>
+              <div class="plan-details">
+                A fee per payment processed.
+              </div>
             </div>
-            <div class="col-xs-12">
-              <span class="transaction-text">110</span> cents
-            </div>
-          </div>
-          <br/>
-          <div class="row">
-            <div class="col-xs-24">
-              Load balanced servers and 99.5% SLA
-            </div>
-            <div class="col-xs-24">
-              Student and tutor portals
-            </div>
-            <div class="col-xs-24 not-free">
-              Your domain
-            </div>
-            <div class="col-xs-24 not-free">
-              Domain hosting
-            </div>
-          </div>
+            <br/>
+            <div class="row">
 
+              <div class="col-xs-24">
+                Load balanced servers and 99.5% SLA
+              </div>
+              <i class="app-icon icon-arrow-bottom"></i>
+              <div class="plan-details">
+                We recognise that your website needs to be up. Always.
+              </div>
+
+              <div class="col-xs-24">
+                Student and tutor portals
+              </div>
+              <i class="app-icon icon-arrow-bottom"></i>
+              <div class="plan-details">
+                Access to timetables, attendance marking and communication tools. USI verification and AVETMISS collection.
+              </div>
+
+              <div class="col-xs-24 not-free">
+                Your domain
+              </div>
+              <i class="app-icon icon-arrow-bottom"></i>
+              <div class="plan-details">
+                Any URL you choose. We'll even organise the SSL certificate.
+              </div>
+
+              <div class="col-xs-24 not-free">
+                Domain hosting
+              </div>
+              <i class="app-icon icon-arrow-bottom"></i>
+              <div class="plan-details">
+                Our three domain servers on two continents will ensure your domain is always available.
+              </div>
+
+            </div>
+
+          </div>
         </div>
       </div>
     </div>
+
   </div>
 
 </div>

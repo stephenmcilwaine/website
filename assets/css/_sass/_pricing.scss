@@ -33,12 +33,7 @@ $plan4: #F37100;
             &.item-highlight {
 
             }
-            .icon-arrow-bottom, .icon-arrow-top {
-                position: absolute;
-                top: 16px;
-                right: 24px;
-                cursor: pointer;
-            }
+
         }
         &.row-simple-text {
             .col-price {
@@ -199,23 +194,33 @@ $plan4: #F37100;
                 .col-desc {
                     cursor: pointer;
                 }
-                .plan-details {
-                    display: none;
-                    font-size: 0.8em;
-                }
+
             }
         }
     }
-}
 
-.has-no-plan {
-    cursor: auto;
-    color: lighten($text-color, 50%);
-    text-decoration: line-through;
-
-    .app-icon {
-        display: none;
+    .icon-arrow-bottom, .icon-arrow-top {
+        position: absolute;
+        top: 16px;
+        right: 24px;
+        cursor: pointer;
     }
+        
+    .plan-details {
+        display: none;
+        font-size: 0.8em;
+    }
+
+    .has-no-plan {
+        cursor: auto;
+        color: lighten($text-color, 50%);
+        text-decoration: line-through;
+
+        .app-icon {
+            display: none;
+        }
+    }
+
 }
 
 .pricing-calculation {
