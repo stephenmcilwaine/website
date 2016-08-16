@@ -57,10 +57,10 @@
             price_wrapper.find('.transaction-text').text(pricing[volume].transaction);
 
             if (pricing[volume].price == 0) {
-                price_wrapper.find('.not-free').slideUp();
+                price_wrapper.find('.not-free').addClass('has-no-plan');
 
             } else {
-                price_wrapper.find('.not-free').slideDown();
+                price_wrapper.find('.not-free').removeClass('has-no-plan');
             }
         }
 

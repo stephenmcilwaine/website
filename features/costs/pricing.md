@@ -130,10 +130,10 @@ permalink: /features/pricing
             <div class="col-xs-24">
               Student and tutor portals
             </div>
-            <div class="col-xs-24 not-free hide">
+            <div class="col-xs-24 not-free">
               Your domain
             </div>
-            <div class="col-xs-24 not-free hide">
+            <div class="col-xs-24 not-free">
               Domain hosting
             </div>
           </div>
