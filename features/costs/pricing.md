@@ -92,34 +92,50 @@ permalink: /features/pricing
       </p>
       <p></p>
       <input id="pricing-in-slider" data-slider-id='pricing-in-slider' type="text" data-slider-min="1" data-slider-max="4" data-slider-step="1" data-slider-value="1"/>
-      <small>Website ecommerce turnover</small>
+      <small>Website annual ecommerce turnover</small>
 
     </div>
-    <div class="col-sm-12">
+    <div class="col-sm-10">
       <div class="panel panel-default price-panel">
         <div class="panel-heading">
           <h5 class="panel-title">Website</h5>
-          <p class="price-text">$<span>285</span></p>
+          <p class="price-text">$<span>0</span></p>
           <p>per month</p>
         </div>
         <div class="panel-body">
           <div class="row">
-            <div class="col-xs-18">
-              eCommerce
+            <div class="col-xs-12">
+              eCommerce fee
             </div>
-            <div class="col-xs-6">
-              <span class="ecommerce-text">2</span>%
+            <div class="col-xs-12">
+              <span class="ecommerce-text">6</span>%
             </div>
           </div>
 
           <div class="row">
-            <div class="col-xs-18">
-              Transaction
+            <div class="col-xs-12">
+              Per transaction
             </div>
-            <div class="col-xs-6">
-              <span class="transaction-text">85</span> cents
+            <div class="col-xs-12">
+              <span class="transaction-text">110</span> cents
             </div>
           </div>
+          <br/>
+          <div class="row">
+            <div class="col-xs-24">
+              Load balanced servers and 99.5% SLA
+            </div>
+            <div class="col-xs-24">
+              Student and tutor portals
+            </div>
+            <div class="col-xs-24 not-free">
+              Your domain
+            </div>
+            <div class="col-xs-24 not-free">
+              Domain hosting
+            </div>
+          </div>
+
         </div>
       </div>
     </div>

@@ -50,10 +50,23 @@
             }
         };
 
+        function updateSlider(volume) {
+            var price_wrapper = $('.pricing-calculation');
+            price_wrapper.find('.price-text>span').text(pricing[volume].price);
+            price_wrapper.find('.ecommerce-text').text(pricing[volume].ecommerce);
+            price_wrapper.find('.transaction-text').text(pricing[volume].transaction);
+
+            if (pricing[volume].price == 0) {
+                price_wrapper.find('.not-free').addClass('has-no-plan');
+            } else {
+                price_wrapper.find('.not-free').removeClass('has-no-plan');
+            }
+        }
+
         $('#pricing-in-slider').slider({
-            min: 100000,
+            min: 10000,
             max: 20000000,
-            step: 100000,
+            step: 1000,
             scale: 'logarithmic',
             tooltip: 'always',
             formatter: function(value) {
@@ -68,12 +81,10 @@
                     break;
                 }
             }
-
-            var price_wrapper = $('.pricing-calculation');
-            price_wrapper.find('.price-text>span').text(pricing[i].price);
-            price_wrapper.find('.ecommerce-text').text(pricing[i].ecommerce);
-            price_wrapper.find('.transaction-text').text(pricing[i].transaction);
+            updateSlider(i);
         });
+
+        updateSlider(80000);
 
     })
 })(jQuery);

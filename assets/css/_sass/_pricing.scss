@@ -205,15 +205,6 @@ $plan4: #F37100;
                 }
                 .col-desc {
                     cursor: pointer;
-                    &.has-no-plan {
-                        cursor: auto;
-                        color: lighten($text-color, 50%);
-                        text-decoration: line-through;
-
-                        .app-icon {
-                            display: none;
-                        }
-                    }
                 }
                 .plan-details {
                     display: none;
@@ -224,10 +215,19 @@ $plan4: #F37100;
     }
 }
 
-.pricing-calculation {
-    >.row>.col-sm-12 {
-        padding: 80px 15px;
+.has-no-plan {
+    cursor: auto;
+    color: lighten($text-color, 50%);
+    text-decoration: line-through;
+
+    .app-icon {
+        display: none;
     }
+}
+
+.pricing-calculation {
+    padding: 80px 15px;
+
     #pricing-in-slider {
         margin-top: 20px;
         width: 100%;
