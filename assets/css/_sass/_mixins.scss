@@ -104,3 +104,13 @@
     border-color: $color;
   }
 }
+
+@mixin opacity($value) {
+  $ie: $value*100;
+  /* This works in IE 8 & 9 */
+  /* ... but also 5, 6, 7 */
+  filter: alpha(opacity=#{$ie}); // IE 5-7
+
+  /* Modern Browsers */
+  opacity: $value;
+}

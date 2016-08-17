@@ -13,6 +13,13 @@ $plan2: #ED4D13;
 $plan3: #199C7B;
 $plan4: #F37100;
 
+.glyphicon-chevron-down, .glyphicon-chevron-up {
+    position: absolute;
+    top: 8px;
+    right: 4px;
+    cursor: pointer;
+}
+
 .pricing-container {
     .row-item {
         width: 100%;
@@ -43,9 +50,6 @@ $plan4: #F37100;
                     background: none;
                 }
             }
-        }
-        .app-icon.icon-arrow-bottom::after {
-            border-top: 6px solid #bfbfbf;
         }
 
         &.row-price-block {
@@ -100,6 +104,8 @@ $plan4: #F37100;
                 }
                 .price-rate, .price-rate-annual {
                     font-size: 14px;
+                    display: inline-block;
+                    height: auto !important;
                     @include responsive($media-xsmall) {
                         font-size: 25px;
                     }
@@ -119,7 +125,7 @@ $plan4: #F37100;
                         position: relative;
                         top: -12px;
                     }
-                    .price-rate {
+                    .price-rate, .price-rate-annual {
                         font-size: 19px;
                         line-height: 1.42;
                         @include responsive($media-xsmall) {
@@ -150,50 +156,6 @@ $plan4: #F37100;
                 @include responsive($media-xsmall) {
                     padding-right: 21px;
                 }
-
-                &.col-item-1 {
-                    // background: lighten(#005C5A, 75%);
-                }
-                &.col-item-2 {
-                    // background: lighten(#ED4D13, 40%);
-                }
-                &.col-item-3 {
-                    // background: lighten(#199C7B, 55%);
-                }
-                &.col-item-4 {
-                    // background: lighten(#F37100, 35%);
-                }
-                &.col-first {
-                    &:hover {
-                        .item-more-details {
-                            display: block;
-                            position: absolute;
-                            display: block;
-                            right: -252px;
-                            width: 250px;
-                            top: 50%;
-                            @include _transform(translateY(-50%));
-                            background: $white;
-                            padding: 10px;
-                            z-index: 1;
-
-                            @include responsive($media-xsmall) {
-                                width: 300px;
-                                right: -302px;
-                            }
-                            &::before {
-                                content: "";
-                                border-right: 10px solid darken($price-background, 20%);
-                                border-bottom: 10px solid transparent;
-                                border-top: 10px solid transparent;
-                                position: absolute;
-                                left: -11px;
-                                top: 50%;
-                                margin-top: -12px;
-                            }
-                        }
-                    }
-                }
                 .col-desc {
                     cursor: pointer;
                 }
@@ -202,13 +164,14 @@ $plan4: #F37100;
         }
     }
 
-    .icon-arrow-bottom, .icon-arrow-top {
-        position: absolute;
-        top: 16px;
-        right: 24px;
-        cursor: pointer;
+    .glyphicon-chevron-down, .glyphicon-chevron-up {
+        top: 14px;
     }
-        
+
+    .glyphicon.glyphicon-chevron-down {
+        @include opacity(0.5);
+    }
+
     .plan-details {
         display: none;
         font-size: 0.8em;
@@ -223,7 +186,14 @@ $plan4: #F37100;
             display: none;
         }
     }
+}
 
+.price-rate, .price-rate-annual {
+    display: inline-block;
+    height: auto !important;
+}
+.price-rate-annual {
+    display: none;
 }
 
 .pricing-calculation {
@@ -238,7 +208,7 @@ $plan4: #F37100;
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
         .panel-heading {
-            background: #79589F;
+            background: $black;
             color: $white;
             padding-top: 15px;
             padding-bottom: 15px;

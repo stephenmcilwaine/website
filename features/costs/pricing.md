@@ -58,13 +58,15 @@ permalink: /pricing
 {% assign class_right = 'col-price col-sm-6 col-xs-6' %}
 {% for row in site.data.pricing-table-oncourse %}
   <div class="row row-item row-details row-item-{{ forloop.index }}">
+    {% assign index = forloop.index %}
     {% if row.section %}
       <div class="{{ class_right }} col-item-{{ forloop.index }} highlight">{{ row.title }}</div>
     {% else %}
       {% for item in row.plans %}
         <div class="{{ class_right }} col-item-{{ forloop.index }}">
           <span class="col-desc{% unless item %} has-no-plan{% endunless %}">
-            {{ item.title | default: row.title }}<i class="app-icon icon-arrow-bottom"></i>
+            {{ item.title | default: row.title }}
+            {% if item %}<i class="glyphicon glyphicon-chevron-down"></i>{% endif %}
           </span>
           <div class="plan-details">
             {% if item %}{{ item.more | default: row.more }}{% endif %}
@@ -113,66 +115,84 @@ permalink: /pricing
             <p>per month</p>
           </div>
           <div class="panel-body">
-            <div class="row">
+            <div class="row data-toggle">
               <div class="col-xs-12">
                 eCommerce fee
               </div>
               <div class="col-xs-12">
                 <span class="ecommerce-text">6</span>%
+                <i class="pull-xs-right glyphicon glyphicon-chevron-down"></i>
               </div>
-              <i class="app-icon icon-arrow-bottom"></i>
-              <div class="plan-details">
-                A usage fee based on the total of the student charges.
+            </div>
+            <div class="row toggle-details">
+              <div class="col-xs-24">
+                A usage fee based on the total of the student charges.<br><br>
               </div>
             </div>
 
-            <div class="row">
+            <div class="row data-toggle">
               <div class="col-xs-12">
                 Per transaction
               </div>
               <div class="col-xs-12">
                 <span class="transaction-text">110</span> cents
+                <i class="pull-xs-right glyphicon glyphicon-chevron-down"></i>
               </div>
-              <i class="app-icon icon-arrow-bottom"></i>
-              <div class="plan-details">
-                A fee per payment processed.
+            </div>
+            <div class="row toggle-details">
+              <div class="col-xs-24">
+                A fee per payment processed.<br><br>
               </div>
             </div>
             <br/>
-            <div class="row">
 
+            <div class="row data-toggle">
               <div class="col-xs-24">
                 Load balanced servers and 99.5% SLA
+                <i class="pull-xs-right glyphicon glyphicon-chevron-down"></i>
               </div>
-              <i class="app-icon icon-arrow-bottom"></i>
-              <div class="plan-details">
-                We recognise that your website needs to be up. Always. We take care of monitoring, backups and full redundancy in an Australian data centre.
-              </div>
+            </div>
 
+            <div class="row toggle-details">
+              <div class="col-xs-24">
+                We recognise that your website needs to be up. Always. We take care of monitoring, backups and full redundancy in an Australian data centre.<br><br>
+              </div>
+            </div>
+
+            <div class="row data-toggle">
               <div class="col-xs-24">
                 Student and tutor portals
+                <i class="pull-xs-right glyphicon glyphicon-chevron-down"></i>
               </div>
-              <i class="app-icon icon-arrow-bottom"></i>
-              <div class="plan-details">
-                Access to timetables, attendance marking and communication tools. USI verification and AVETMISS collection.
+            </div>
+            <div class="row toggle-details">
+              <div class="col-xs-24">
+                Access to timetables, attendance marking and communication tools. USI verification and AVETMISS collection.<br><br>
               </div>
+            </div>
 
+            <div class="row data-toggle">
               <div class="col-xs-24 not-free">
                 Your domain
+                <i class="pull-xs-right glyphicon glyphicon-chevron-down"></i>
               </div>
-              <i class="app-icon icon-arrow-bottom"></i>
-              <div class="plan-details">
-                Any URL you choose. We'll even organise the SSL certificate.
+            </div>
+            <div class="row toggle-details">
+              <div class="col-xs-24">
+                Any URL you choose. We'll even organise the SSL certificate.<br><br>
               </div>
+            </div>
 
+            <div class="row data-toggle">
               <div class="col-xs-24 not-free">
                 Domain hosting
+                <i class="pull-xs-right glyphicon glyphicon-chevron-down"></i>
               </div>
-              <i class="app-icon icon-arrow-bottom"></i>
-              <div class="plan-details">
-                Our three domain servers on two continents will ensure your domain is always available.
+            </div>
+            <div class="row toggle-details">
+              <div class="col-xs-24">
+                Our three domain servers on two continents will ensure your domain is always available.<br><br>
               </div>
-
             </div>
 
           </div>

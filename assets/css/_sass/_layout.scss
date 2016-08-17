@@ -367,3 +367,31 @@
         font-size: 42px;
     }
 }
+
+.toggle-details {
+    display: none;
+}
+
+.toggle.btn {
+    width: 250px !important;
+    .toggle-group {
+        width: 100%;
+    }
+    .btn-primary.toggle-on {
+        background-color: $toggle-primary-color;
+        border-color: $toggle-primary-border-color;
+    }
+    &.off {
+        .toggle-group {
+            left: 0;
+        }
+        .btn-primary.toggle-on {
+            background-color: $toggle-primary-on-color;
+            border-color: $toggle-primary-on-border-color;
+        }
+        .btn-info.toggle-off {
+            background-color: $toggle-primary-color;
+            border-color: $toggle-primary-border-color;
+        }
+    }
+}

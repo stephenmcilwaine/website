@@ -24,17 +24,24 @@
             var _parents = $(this).parents('.row-item.row-details');
             _parents.addClass('row-active');
             _parents.find('.plan-details').slideToggle();
-            _parents.find('.app-icon').toggleClass('icon-arrow-top icon-arrow-bottom');
+            _parents.find('.glyphicon').toggleClass('glyphicon-chevron-up glyphicon-chevron-down');
+        });
+
+        $(document).on('click', '.data-toggle', function() {
+            var _item = $(this).next('.toggle-details');
+            _item.slideToggle();
+            $(this).find('.glyphicon').toggleClass('glyphicon-chevron-up glyphicon-chevron-down');
         });
 
         $(document).on('change', 'input#annual-toggle', function() {
-            $('.price-rate-annual').toggle(2000);
-            $('.price-rate').toggle(2000);
+            $('.price-rate-annual').toggle();
+            $('.price-rate').toggle();
         });
 
         var pricing = {
             80000: {
                 price: 0,
+                price_annual: 0,
                 ecommerce: 6,
                 transaction: 110
             },
