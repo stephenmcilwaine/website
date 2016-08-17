@@ -2,6 +2,8 @@
 layout: page
 title: onCourse support
 permalink: /support
+redirect_from:
+  - /oncourse/support
 footer:
   - googleSearch.html
 ---
