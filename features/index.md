@@ -4,6 +4,9 @@ title: Features
 permalink: /features/
 ---
 
+* TOC
+{:toc}
+
 onCourse is a highly customisable student management and marketing system. We could list its features, but let's focus instead on the results of using onCourse:
 
 #### Reduced costs
