@@ -4,6 +4,9 @@ title: Compliance
 permalink: /features/compliance
 ---
 
+* TOC
+{:toc}
+
 ### AVETMISS
 
 Data in, data out, and a big tick from AVS. If only AVETMISS was a simple as that....onCourse makes it so.

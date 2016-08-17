@@ -4,6 +4,8 @@ title: onCourse financial features
 permalink: /features/financial
 ---
 
+* TOC
+{:toc}
 
 ### Accounting
 

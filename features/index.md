@@ -4,6 +4,11 @@ title: Features
 permalink: /features/
 ---
 
+[Compliance](/features/compliance)
+[Document management](/features/document-management)
+[Marketing](/features/marketing)
+[Financial](/features/financial)
+
 * TOC
 {:toc}
 
