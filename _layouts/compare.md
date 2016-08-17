@@ -23,8 +23,8 @@ layout: page
 
 | Feature                           | onCourse | {{page.product.name}} |
 |-----------------------------------|:--------:|:-------:|
-| [Pricing](/features/costs/pricing)                         | tick     | {{page.product.pricing}} |
-| [Free Version](/features/costs/pricing)                      | tick     | {% include tick_cross.html param='feature.free' %} |
+| [Pricing](/pricing)                         | tick     | {{page.product.pricing}} |
+| [Free Version](/pricing)                      | tick     | {% include tick_cross.html param='feature.free' %} |
 | [Unlimited users]                   | tick     | {% include tick_cross.html param='feature.users' %} |
 
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: onCourse Pricing
-permalink: /features/pricing
+permalink: /pricing
 ---
 
 
