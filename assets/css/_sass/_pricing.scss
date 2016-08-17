@@ -98,11 +98,14 @@ $plan4: #F37100;
                         font-size: 14.4px;
                     }
                 }
-                .col-rate {
+                .price-rate, .price-rate-annual {
                     font-size: 14px;
                     @include responsive($media-xsmall) {
                         font-size: 25px;
                     }
+                }
+                .price-rate-annual {
+                    display: none;
                 }
                 .col-text {
                     @include responsive($media-xsmall) {
@@ -116,7 +119,7 @@ $plan4: #F37100;
                         position: relative;
                         top: -12px;
                     }
-                    .col-rate {
+                    .price-rate {
                         font-size: 19px;
                         line-height: 1.42;
                         @include responsive($media-xsmall) {

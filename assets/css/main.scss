@@ -81,6 +81,8 @@ $footer-text-color: $white;
 @import "bootstrap/bootstrap-grid";
 @import "bootstrap-slider/bootstrap-slider";
 
+@import "bootstrap-toggle";
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "mixins",

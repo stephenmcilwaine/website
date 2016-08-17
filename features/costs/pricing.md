@@ -4,6 +4,7 @@ title: onCourse Pricing
 permalink: /pricing
 ---
 
+<input id="annual-toggle" checked data-toggle="toggle" data-on="Monthly" data-off="Annual" data-onstyle="primary" data-offstyle="info" type="checkbox">
 
 
 <div class="clearfix pricing-container">
@@ -30,22 +31,26 @@ permalink: /pricing
   <div class="row row-item row-price-block">
     <div class="col-price col-sm-6 col-xs-6 col-item-1">
       <span class="col-label">Community</span>
-      <span class="col-rate">Free</span>
+      <span class="price-rate">Free</span>
+      <span class="price-rate-annual">Free</span>
       <span class="col-text">&nbsp;</span>
     </div>
     <div class="col-price col-sm-6 col-xs-6 col-item-2 item-highlight">
       <span class="col-label">Light</span>
-      <span class="col-rate">$190</span>
+      <span class="price-rate">$190</span>
+      <span class="price-rate-annual">$162</span>
       <span class="col-text">per month</span>
     </div>
     <div class="col-price col-sm-6 col-xs-6 col-item-3">
       <span class="col-label">Professional</span>
-      <span class="col-rate">$490</span>
+      <span class="price-rate">$490</span>
+      <span class="price-rate-annual">$417</span>
       <span class="col-text">per month</span>
     </div>
     <div class="col-price col-sm-6 col-xs-6 col-item-4">
       <span class="col-label">Enterprise</span>
-      <span class="col-rate">$990</span>
+      <span class="price-rate">$990</span>
+      <span class="price-rate-annual">$842</span>
       <span class="col-text">per month</span>
     </div>
   </div>
@@ -103,7 +108,8 @@ permalink: /pricing
         <div class="panel panel-default price-panel">
           <div class="panel-heading">
             <h5 class="panel-title">Website</h5>
-            <p class="price-text">$<span>0</span></p>
+            <p class="price-rate">$<span>0</span></p>
+            <p class="price-rate-annual">$<span>0</span></p>
             <p>per month</p>
           </div>
           <div class="panel-body">
@@ -140,7 +146,7 @@ permalink: /pricing
               </div>
               <i class="app-icon icon-arrow-bottom"></i>
               <div class="plan-details">
-                We recognise that your website needs to be up. Always.
+                We recognise that your website needs to be up. Always. We take care of monitoring, backups and full redundancy in an Australian data centre.
               </div>
 
               <div class="col-xs-24">

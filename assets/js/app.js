@@ -27,6 +27,11 @@
             _parents.find('.app-icon').toggleClass('icon-arrow-top icon-arrow-bottom');
         });
 
+        $(document).on('change', 'input#annual-toggle', function() {
+            $('.price-rate-annual').toggle(2000);
+            $('.price-rate').toggle(2000);
+        });
+
         var pricing = {
             80000: {
                 price: 0,
@@ -35,16 +40,19 @@
             },
             450000: {
                 price: 285,
+                price_annual: 243,
                 ecommerce: 2,
                 transaction: 85
             },
             1000000: {
                 price: 480,
+                price_annual: 408,
                 ecommerce: 1.5,
                 transaction: 75
             },
             20000000: {
                 price: 930,
+                price_annual: 791,
                 ecommerce: 1,
                 transaction: 65
             }
@@ -52,7 +60,8 @@
 
         function updateSlider(volume) {
             var price_wrapper = $('.pricing-calculation');
-            price_wrapper.find('.price-text>span').text(pricing[volume].price);
+            price_wrapper.find('.price-rate>span').text(pricing[volume].price);
+            price_wrapper.find('.price-rate-annual>span').text(pricing[volume].price_annual);
             price_wrapper.find('.ecommerce-text').text(pricing[volume].ecommerce);
             price_wrapper.find('.transaction-text').text(pricing[volume].transaction);
 
