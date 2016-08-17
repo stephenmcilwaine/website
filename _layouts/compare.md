@@ -6,17 +6,17 @@ layout: page
 | Feature                           | onCourse | {{page.product.name}} |
 |-----------------------------------|:--------:|:-------:|
 | Compliance in all states          | tick     | {% include tick_cross.html param='compliance.states' %} |
-| [AVETMISS Compliant](/features/rto-compliance/AVETMISS)                | tick     | {% include tick_cross.html param='compliance.avetmiss' %} |
+| [AVETMISS Compliant](/features/compliance#AVETMISS)                | tick     | {% include tick_cross.html param='compliance.avetmiss' %} |
 | Reporting - general               | tick     | {% include tick_cross.html param='compliance.reporting.general' %} |
 | Reporting - Customise             | tick     | {% include tick_cross.html param='compliance.reporting.customise' %} |
 | Reporting - formats               | XML, csv, pdf, Excel, inDesign and any other format you want | {{page.product.reporting | join: ', ' }} |
 | RTO Management                    | tick     | {% include tick_cross.html param='compliance.rto.management' %} |
-| [USI Capable](/features/rto-compliance/usi)                       | tick     | {% include tick_cross.html param='compliance.usi.capible' %} |
-| [ASQA 2015 Standards Compliance](/features/rto-compliance/asqa)    | tick | {% include tick_cross.html param='compliance.asqa' %} |
-| [Certificate Issuing and Automation](/features/rto-compliance/certificates)    | tick   | {% include tick_cross.html param='compliance.certificate' %} |
-| [Online Attendance and Outcome Marking](/features/rto-compliance/marking)    | tick 	| {% include tick_cross.html param='compliance.attendance' %} |
-| [CRICOS](/features/rto-compliance/cricos)    | tick 	| {% include tick_cross.html param='compliance.cricos' %} |
-| [VET Fee-Help](/features/rto-compliance/vetfeehelp)    | tick 	| {% include tick_cross.html param='compliance.vetfee' %} |
+| [USI Capable](/features/compliance#usi)                       | tick     | {% include tick_cross.html param='compliance.usi.capible' %} |
+| [ASQA 2015 Standards Compliance](/features/compliance#asqa)    | tick | {% include tick_cross.html param='compliance.asqa' %} |
+| [Certificate Issuing and Automation](/features/compliance#certificates)    | tick   | {% include tick_cross.html param='compliance.certificate' %} |
+| [Online Attendance and Outcome Marking](/features/compliance#marking)    | tick 	| {% include tick_cross.html param='compliance.attendance' %} |
+| [CRICOS](/features/compliance#cricos)    | tick 	| {% include tick_cross.html param='compliance.cricos' %} |
+| [VET Fee-Help](/features/compliance#vetfeehelp)    | tick 	| {% include tick_cross.html param='compliance.vetfee' %} |
 
 
 ### Costs
@@ -32,16 +32,16 @@ layout: page
 
 | Feature                           | onCourse | {{page.product.name}} |
 |-----------------------------------|:--------:|:-------:|
-| [Accounting Integration](/features/financial/accounting)            | tick     | {% include tick_cross.html param='financial.accounting' %} |
-| [Budgeting](/features/financial/budgeting)                         | tick     | {% include tick_cross.html param='financial.budgeting' %} |
-| [Debtors Reporting](/features/financial/debtors)                 | tick     | {% include tick_cross.html param='financial.debtors' %} |
-| [Discounting](/features/financial/discounts)                       | tick     | {% include tick_cross.html param='financial.discounting' %} |
-| [MYOB, XERO, QuickBooks integration](/features/financial/accounting_integration) | tick     | {% include tick_cross.html param='financial.export' %} |
-| [Flexi Currency](/features/financial/currency)                    | tick     | {% include tick_cross.html param='financial.currency' %} |
-| [Gift Vouchers](/features/financial/gift_vouchers)                     | tick     | {% include tick_cross.html param='financial.vouchers' %} |
-| [Invoicing](/features/financial/invoices)                          | tick     | {% include tick_cross.html param='financial.invoicing' %} |
-| [Payment Plans](/features/financial/payment_plans)                     | tick     | {% include tick_cross.html param='financial.payment.plans' %} |
-| [Payroll](/features/financial/payroll)							| tick | {% include tick_cross.html param='financial.payroll' %} |
+| [Accounting Integration](/features/financial#accounting)            | tick     | {% include tick_cross.html param='financial.accounting' %} |
+| [Budgeting](/features/financial#budgeting)                         | tick     | {% include tick_cross.html param='financial.budgeting' %} |
+| [Debtors Reporting](/features/financial#debtors)                 | tick     | {% include tick_cross.html param='financial.debtors' %} |
+| [Discounting](/features/financial#discounts)                       | tick     | {% include tick_cross.html param='financial.discounting' %} |
+| [MYOB, XERO, QuickBooks integration](/features/financial#accounting_integration) | tick     | {% include tick_cross.html param='financial.export' %} |
+| [Flexi Currency](/features/financial#currency)                    | tick     | {% include tick_cross.html param='financial.currency' %} |
+| [Gift Vouchers](/features/financial#gift_vouchers)                     | tick     | {% include tick_cross.html param='financial.vouchers' %} |
+| [Invoicing](/features/financial#invoices)                          | tick     | {% include tick_cross.html param='financial.invoicing' %} |
+| [Payment Plans](/features/financial#payment_plans)                     | tick     | {% include tick_cross.html param='financial.payment.plans' %} |
+| [Payroll](/features/financial#payroll)							| tick | {% include tick_cross.html param='financial.payroll' %} |
 
 ### Hosting Options
 
@@ -54,20 +54,20 @@ layout: page
 
 | Feature                           | onCourse | {{page.product.name}} |
 |-----------------------------------|:--------:|:-------:|
-| [Customised communictions](/features/marketing/custom_messaging)           | tick     | {% include tick_cross.html param='marketing.communication' %} |
-| [Email Alerts](/features/marketing/emails)                      | tick     | {% include tick_cross.html param='marketing.email.alerts' %} |
-| [Mail Merge](/features/marketing/mail_merge)                        | tick     | {% include tick_cross.html param='marketing.mail.merge' %} |
+| [Customised communictions](/features/marketing#custom_messaging)           | tick     | {% include tick_cross.html param='marketing.communication' %} |
+| [Email Alerts](/features/marketing#emails)                      | tick     | {% include tick_cross.html param='marketing.email.alerts' %} |
+| [Mail Merge](/features/marketing#mail_merge)                        | tick     | {% include tick_cross.html param='marketing.mail.merge' %} |
 | Marketing                         | tick     | {% include tick_cross.html param='marketing.marketing' %} |
-| [SMS functionality](/features/marketing/sms_messaging)                 | tick     | {% include tick_cross.html param='marketing.sms.functionalit' %} |
-| [Survey and Feedback integration](/features/marketing/survey_tools)      | tick     | {% include tick_cross.html param='marketing.survey' %} |
-| [Customer Relationship Management (CRM)](/features/marketing/crm)      | tick 	| {% include tick_cross.html param='marketing.crm' %} |
-| [Memberships](/features/marketing/memberships)      | tick | {% include tick_cross.html param='marketing.memberships' %} |
-| [Promotions](/features/marketing/promotions)      | tick | {% include tick_cross.html param='marketing.spromotions' %} |
-| [Contact Relationships](/features/marketing/contact_relationships)      | tick | {% include tick_cross.html param='marketing.relationships' %} |
-| [Mailing Lists](/features/marketing/mailing_lists)      | tick | {% include tick_cross.html param='marketing.mailinglists' %} |
-| [Waiting Lists](/features/marketing/wait_lists)      | tick | {% include tick_cross.html param='marketing.waitinglists' %} |
-| [Corporate Sales](/features/marketing/corporate_sales)      | tick | {% include tick_cross.html param='marketing.corporate' %} |
-| [Product Sales](/features/marketing/products)      | tick       | {% include tick_cross.html param='marketing.product' %} |
+| [SMS functionality](/features/marketing#sms_messaging)                 | tick     | {% include tick_cross.html param='marketing.sms.functionalit' %} |
+| [Survey and Feedback integration](/features/marketing#survey_tools)      | tick     | {% include tick_cross.html param='marketing.survey' %} |
+| [Customer Relationship Management (CRM)](/features/marketing#crm)      | tick 	| {% include tick_cross.html param='marketing.crm' %} |
+| [Memberships](/features/marketing#memberships)      | tick | {% include tick_cross.html param='marketing.memberships' %} |
+| [Promotions](/features/marketing#promotions)      | tick | {% include tick_cross.html param='marketing.spromotions' %} |
+| [Contact Relationships](/features/marketing#contact_relationships)      | tick | {% include tick_cross.html param='marketing.relationships' %} |
+| [Mailing Lists](/features/marketing#mailing_lists)      | tick | {% include tick_cross.html param='marketing.mailinglists' %} |
+| [Waiting Lists](/features/marketing#wait_lists)      | tick | {% include tick_cross.html param='marketing.waitinglists' %} |
+| [Corporate Sales](/features/marketing#corporate_sales)      | tick | {% include tick_cross.html param='marketing.corporate' %} |
+| [Product Sales](/features/marketing#products)      | tick       | {% include tick_cross.html param='marketing.product' %} |
 
 
 
