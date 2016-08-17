@@ -58,7 +58,6 @@ permalink: /pricing
 {% assign class_right = 'col-price col-sm-6 col-xs-6' %}
 {% for row in site.data.pricing-table-oncourse %}
   <div class="row row-item row-details row-item-{{ forloop.index }}">
-    {% assign index = forloop.index %}
     {% if row.section %}
       <div class="{{ class_right }} col-item-{{ forloop.index }} highlight">{{ row.title }}</div>
     {% else %}

@@ -158,14 +158,13 @@ $plan4: #F37100;
                 }
                 .col-desc {
                     cursor: pointer;
+                    .glyphicon-chevron-down, .glyphicon-chevron-up {
+                        top: 14px;
+                    }
                 }
 
             }
         }
-    }
-
-    .glyphicon-chevron-down, .glyphicon-chevron-up {
-        top: 14px;
     }
 
     .glyphicon.glyphicon-chevron-down {
