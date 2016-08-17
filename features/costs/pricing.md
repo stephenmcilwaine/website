@@ -170,25 +170,25 @@ permalink: /pricing
               </div>
             </div>
 
-            <div class="row data-toggle">
-              <div class="col-xs-24 not-free">
+            <div class="row data-toggle not-free">
+              <div class="col-xs-24">
                 Your domain
                 <i class="pull-xs-right glyphicon glyphicon-chevron-down"></i>
               </div>
             </div>
-            <div class="row toggle-details">
+            <div class="row toggle-details not-free">
               <div class="col-xs-24">
                 Any URL you choose. We'll even organise the SSL certificate.<br><br>
               </div>
             </div>
 
-            <div class="row data-toggle">
-              <div class="col-xs-24 not-free">
+            <div class="row data-toggle not-free">
+              <div class="col-xs-24">
                 Domain hosting
                 <i class="pull-xs-right glyphicon glyphicon-chevron-down"></i>
               </div>
             </div>
-            <div class="row toggle-details">
+            <div class="row toggle-details not-free">
               <div class="col-xs-24">
                 Our three domain servers on two continents will ensure your domain is always available.<br><br>
               </div>

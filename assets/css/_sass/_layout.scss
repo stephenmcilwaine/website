@@ -371,4 +371,7 @@
 .toggle-details {
     display: none;
     font-size: 0.8em;
+    &.has-no-plan {
+        display: none !important;
+    }
 }

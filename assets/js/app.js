@@ -28,9 +28,11 @@
         });
 
         $(document).on('click', '.data-toggle', function() {
-            var _item = $(this).next('.toggle-details');
-            _item.slideToggle();
-            $(this).find('.glyphicon').toggleClass('glyphicon-chevron-up glyphicon-chevron-down');
+            if(!$(this).find('>div').hasClass('has-no-plan')) {
+                var _item = $(this).next('.toggle-details');
+                _item.slideToggle();
+                $(this).find('.glyphicon').toggleClass('glyphicon-chevron-up glyphicon-chevron-down');
+            }
         });
 
         $(document).on('change', 'input#annual-toggle', function() {
