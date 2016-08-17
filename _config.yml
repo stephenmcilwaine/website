@@ -26,3 +26,4 @@ paths:
 
 gems:
   - jekyll-sitemap
+  - jekyll-redirect-from

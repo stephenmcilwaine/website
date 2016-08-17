@@ -2,11 +2,13 @@
 layout: page
 title: onCourse support
 permalink: /support
+redirect_from:
+  - /oncourse/support
 footer:
   - googleSearch.html
 ---
 
-The ish onCourse documentation will guide you through some common setups and scenarios. There are two manuals to read through. The first for the onCourse software you download and install, and the second for using the onCourse website. We now also have an onCourse web design manual to assist designers in developing the best website for your College. 
+The ish onCourse documentation will guide you through some common setups and scenarios. There are two manuals to read through. The first for the onCourse software you download and install, and the second for using the onCourse website. We now also have an onCourse web design manual to assist designers in developing the best website for your College.
 
 Search all the handbooks and the user forums...
 

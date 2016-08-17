@@ -34,8 +34,8 @@
         });
 
         $(document).on('change', 'input#annual-toggle', function() {
-            $('.price-rate-annual').toggle();
-            $('.price-rate').toggle();
+            $('.price-rate-annual').toggle('slow');
+            $('.price-rate').toggle('slow');
         });
 
         var pricing = {
