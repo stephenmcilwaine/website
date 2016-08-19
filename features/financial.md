@@ -24,7 +24,7 @@ Student fee income, funding income, discounts, direct class expenses and tutor p
 Overview and detailed level reporting allows you to analyse on a class by class, or program grouping level the overall profitability of each activity in your organisation so you can make informed decisions when they matter the most.
 
 
-### Gift certificates
+### Training Vouchers
 
 Any way you want to pre-sell product without the user having to make a class selection is achievable in onCourse. Three distinct types of system gift vouchers offer the ultimate flexibility in sales and redemption.
 

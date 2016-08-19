@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Compliance
+title: RTO Compliance
 permalink: /features/compliance
 ---
 
@@ -36,7 +36,7 @@ Your customised certificate templates can be uploaded as PDF documents to allow 
 You onCourse certificate register implements validation at each point, to confirm that the all outcomes have been marked, students have meet the completion requirements of their course and that they have supplied you with a valid USI, before a certificate can be issued.
 
 
-### Marking
+### Attendance & Outcome Marking
 
 Ever wish computers could do the leg work of compliance data collection for you? Well now they can, with the addition of some 3rd party data feeds, and possibly some human button clicking.
 
@@ -49,7 +49,7 @@ Session by sessions attendance marking marking is also handled by the online tut
 If you're dead set on using paper and pencil to record attendance marking and outcome achievement, onCourse also contains a range of print based reports for trainers, and then whole class group attendance or outcome results can be set quickly in the onCourse software by your admin staff, and variations like end date extensions or funding source changes can be adjusted at any time.
 
 
-### USI
+### Unique Student Identifier (USI)
 
 All students, all USIs, all of the time. Didn't collect the USI on enrolment? Never fear, an onCourse script is here to automatically send the student a USI completion email request with their enrolment confirmation.
 
@@ -62,7 +62,7 @@ I freaking love ish, says Jacinda from St George and Sutherland Community Colleg
 Built in system verification against your AusKey will confirm in real time that all USIs supplied by students are current and correct, so you've met your requirement to not only collect, but verify, all USIs. 
 
 
-### VET FEE HELP
+### VET FEE-HELP
 
 Are you an evil private provider[1] who offers government funded training loans so your students have opportunities to access vocational training and improve their chances of gaining employment?
 
