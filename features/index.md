@@ -4,10 +4,13 @@ title: Features
 permalink: /features/
 ---
 
-[Compliance](/features/compliance)
-[Document management](/features/document-management)
+[Student Management System](/features/student_management_system)
+[Training Management](/features/timetables)
+[RTO Compliance](/features/compliance)
 [Marketing](/features/marketing)
 [Financial](/features/financial)
+[Website](/features/website)
+[Portals](/features/portal)
 
 * TOC
 {:toc}
