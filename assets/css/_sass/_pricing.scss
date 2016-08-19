@@ -8,10 +8,7 @@
 $highlighted-color: #f37b53;
 $price-background: #f79d67;
 
-$plan1: #005C5A;
-$plan2: #ED4D13;
-$plan3: #199C7B;
-$plan4: #F37100;
+$plans: #005C5A #ED4D13 #199C7B #F37100;
 
 .glyphicon {
     &.glyphicon-chevron-down, &.glyphicon-chevron-up {
@@ -23,6 +20,16 @@ $plan4: #F37100;
 
     &.glyphicon-chevron-down {
         @include opacity(0.5);
+    }
+}
+
+%common-price-rate {
+    .price-rate, .price-rate-annual {
+        display: inline-block;
+        height: auto !important;
+    }
+    .price-rate-annual {
+        display: none;
     }
 }
 
@@ -52,33 +59,17 @@ $plan4: #F37100;
                 background: $price-background;
                 color: $white;
                 vertical-align: bottom;
-                border-top-left-radius: 5px;
-                border-top-right-radius: 5px;
+                border-radius: 5px 5px 0 0;
                 @include responsive($media-xsmall) {
                     padding: 0px 0 15px 0;
                 }
-                &.col-item-1 {
-                    background: $plan1;
-                    .col-label {
-                        background: darken($plan1, 10%);
-                    }
-                }
-                &.col-item-2 {
-                    background: $plan2;
-                    .col-label {
-                        background: darken($plan2, 10%);
-                    }
-                }
-                &.col-item-3 {
-                    background: $plan3;
-                    .col-label {
-                        background: darken($plan3, 10%);
-                    }
-                }
-                &.col-item-4 {
-                    background: $plan4;
-                    .col-label {
-                        background: darken($plan4, 10%);
+                @each $plan in $plans {
+                    $i: index($plans, $plan);
+                    &.col-item-#{$i} {
+                        background: $plan;
+                        .col-label {
+                            background: darken($plan, 10%);
+                        }
                     }
                 }
                 >span {
@@ -86,27 +77,20 @@ $plan4: #F37100;
                 }
                 .col-label {
                     background: darken($highlighted-color, 10%);
-                    border-top-left-radius: 5px;
-                    border-top-right-radius: 5px;
+                    border-radius: 5px 5px 0 0;
                     @include responsive($media-xsmall) {
                         font-size: 14.4px;
                     }
                 }
                 .price-rate, .price-rate-annual {
                     font-size: 14px;
-                    display: inline-block;
-                    height: auto !important;
                     @include responsive($media-xsmall) {
                         font-size: 25px;
                     }
                 }
-                .price-rate-annual {
-                    display: none;
-                }
+                @extend %common-price-rate;
                 .col-text {
-                    @include responsive($media-xsmall) {
-                        font-size: 11.2px;
-                    }
+                    font-size: 11.2px;
                 }
                 &.item-highlight {
                     background: #ED4D13;
@@ -142,7 +126,6 @@ $plan4: #F37100;
                         top: 14px;
                     }
                 }
-
             }
         }
     }
@@ -156,46 +139,31 @@ $plan4: #F37100;
         cursor: auto;
         color: lighten($text-color, 50%);
         text-decoration: line-through;
-
         .glyphicon {
             display: none;
         }
     }
-}
-
-.price-rate, .price-rate-annual {
-    display: inline-block;
-    height: auto !important;
-}
-.price-rate-annual {
-    display: none;
+    @extend %common-price-rate;
 }
 
 .pricing-calculation {
     padding: 80px 15px;
-
     #pricing-in-slider {
         margin-top: 20px;
         width: 100%;
     }
     .price-panel {
         border: 1px solid #ddd;
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
+        border-radius: 5px 5px 0 0;
         .panel-heading {
             background: $black;
             color: $white;
-            padding-top: 15px;
-            padding-bottom: 15px;
+            padding: 15px 0;
             border-bottom: 1px solid #ddd;
             text-align: center;
             font-size: 12px;
-            border-top-left-radius: 5px;
-            border-top-right-radius: 5px;
-            h5 {
-                margin-top: 0px;
-            }
-            p {
+            border-radius: 5px 5px 0 0;
+            h5, p {
                 margin-top: 0px;
             }
         }
