@@ -1,27 +1,32 @@
 <header class="site-header navbar-fixed-top">
 
-  <div class="clearfix menu-wrapper">
-
-    <a class="site-title" href="{{base}}/" title="{{ site.title }}">
-      <img src="{{ site.paths.img }}/icons/logo.png" />
-    </a>
-
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        <svg viewBox="0 0 18 15">
-          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-        </svg>
+  <nav class="navbar">
+    <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header">
+      &#9776;
+    </button>
+    <div class="collapse navbar-toggleable-xs" id="navbar-header">
+      <a class="site-title navbar-brand" href="{{base}}/" title="{{ site.title }}">
+        <img src="{{ site.paths.img }}/icons/logo.png" />
       </a>
-
-      <div class="trigger">
-          <a class="page-link" href="{{base}}/features">Features</a>
-          <a class="page-link" href="{{base}}/pricing">Pricing</a>
-          <a class="page-link" href="{{base}}/about/contact">Contact Us</a>
-      </div>
-    </nav>
-
-  </div>
+      <ul class="nav navbar-nav pull-xs-right">
+        <li class="nav-item dropdown active">
+          <a href="{{base}}/features" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Features</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{base}}/pricing.html">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{base}}/about/contact">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav> <!-- /navbar -->
 
 </header>

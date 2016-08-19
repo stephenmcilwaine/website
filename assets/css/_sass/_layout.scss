@@ -21,6 +21,10 @@
     padding-bottom: 12px;
     transition: all 0.2s ease-in-out;
     @include _transition(all 0.2s ease-in-out);
+    .navbar {
+        padding: 0 16px;
+        padding: 0 1rem;
+    }
     .menu-wrapper {
         padding: 0 10px;
         position: relative;
