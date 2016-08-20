@@ -1,18 +1,21 @@
 <header class="site-header navbar-fixed-top">
 
   <nav class="navbar">
-    <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header">
-      &#9776;
-    </button>
-    <div class="collapse navbar-toggleable-xs" id="navbar-header">
+    <div class="clearfix pull-sm-left mobile-nav">
       <a class="site-title navbar-brand" href="{{base}}/" title="{{ site.title }}">
         <img src="{{ site.paths.img }}/icons/logo.png" />
       </a>
-      <ul class="nav navbar-nav pull-xs-right">
+      <button class="navbar-toggler hidden-sm-up pull-xs-right" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header">
+        &#9776;
+      </button>
+    </div>
+    <div class="collapse navbar-toggleable-xs pull-sm-right" id="navbar-header">
+      <ul class="clearfix nav navbar-nav">
         <li class="nav-item dropdown active">
           <a href="{{base}}/features" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Features</a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="{{base}}/features">Features</a>
+            <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Another action</a>
             <a class="dropdown-item" href="#">Something else here</a>
             <div class="dropdown-divider"></div>

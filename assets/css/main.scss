@@ -57,6 +57,11 @@ $media-custom: 'custom';
 $footer-bg: $black;
 $footer-text-color: $white;
 
+/* Sidebar */
+$sidebar-right: "on";
+$content-width: 70%;
+$sidebar-width: 30%;
+
 
 
 // Use media queries like this:
@@ -89,6 +94,7 @@ $footer-text-color: $white;
         "icons",
         "glyphicon",
         "base",
+        "sidebar",
         "layout",
         "pricing",
         "footer",

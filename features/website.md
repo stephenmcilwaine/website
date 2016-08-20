@@ -2,6 +2,8 @@
 layout: page
 title: onCourse Web
 permalink: /features/website
+sidebar: true
+sidebar_item: markdown-toc
 ---
 
 * TOC
