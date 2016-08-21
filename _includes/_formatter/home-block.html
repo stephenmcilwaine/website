@@ -1,20 +1,25 @@
+<li class="col-lg-8 col-sm-12 col-xs-24">
+<a href="#">
 <span class="clearfix home-site-item">
-    {% if include.header %}
+    {% if include.panel.header %}
         <span class="clearfix block-header">
-            <span {% if include.header-color %}style="background: {{ include.header-color }}"{% endif %}>{{ include.header }}</span>
+            <span style="background: {{ include.panel.color | default '#black'}}">{{ include.panel.header }}</span>
         </span>
     {% endif %}
 
-    <span class="clearfix block-image" {% if include.image-background %}style="background: {{ include.image-background }}"{% endif %}>
-        {% if include.image %}
-            <img src="{{ site.paths.img }}/{{ include.image }}" />
+    <span class="clearfix block-image">
+        {% if include.panel.image %}
+            <img src="{{ site.paths.img }}/front/{{ include.panel.image }}" />
         {% endif %}
     </span>
 
     <span class="clearfix block-content">
-        <span class="block-title {{ include.title-class }}">{{ include.title }}</span>
+        <span class="block-title {{ include.panel.title-class | default 'h2' }}">{{ include.panel.title }}</span>
         <span class="clearfix block-text">
-            {{ include.text }}
+            <p>{{ include.panel.text }}</p>
+            <p class="block-helped">Learn how onCourse helped.</p>
         </span>
     </span>
 </span>
+</a>
+</li>
