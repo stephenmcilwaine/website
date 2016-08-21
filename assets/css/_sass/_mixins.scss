@@ -87,16 +87,21 @@
   }
 }
 
-@mixin arrow($arrow, $width, $color, $position: absolute) {
+@mixin arrow($arrow, $width, $color: '', $position: absolute) {
+  $border: $width solid $color;
+  @if $color == '' {
+    $border: $width solid;
+  }
+
   content: "";
   position: $position;
   @if $arrow == 'top' or $arrow == 'bottom' {
     border-right: $width solid transparent;
-    border-#{$arrow}: $width solid $color;
+    border-#{$arrow}: $border;
     border-left: $width solid transparent;
   } @else if $arrow == 'left' or $arrow == 'right' {
     border-top: $width solid transparent;
-    border-#{$arrow}: $width solid $color;
+    border-#{$arrow}: $border;
     border-bottom: $width solid transparent;
   } @else {
     border-style: solid;

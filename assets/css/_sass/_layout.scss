@@ -42,6 +42,73 @@
                     @include responsive($media-xsmall) {
                         margin-top: 10px;
                     }
+                    li {
+                        position: relative;
+                        >a {
+                            position: relative;
+                            &.has-child {
+                                &::after {
+                                    margin-left: 0.3em;
+                                    display: inline-block;
+                                    vertical-align: middle;
+                                    @include arrow('top', 0.3em, '', relative);
+                                }
+                            }
+                        }
+                        &:hover {
+                            >a {
+                                color: $menu-color-hover;
+                            }
+                            ul.children {
+                                display: block;
+                            }
+                        }
+                        ul {
+                            li {
+                                &.nav-item {
+                                    float: none;
+                                    margin-left: 0;
+                                    a {
+                                        color: $white;
+                                        &:hover {
+                                            color: $children-item-color-hover;
+                                        }
+                                    }
+                                }
+                            }
+                            &.children {
+                                position: absolute;
+                                top: 100%;
+                                left: 0;
+                                z-index: 1000;
+                                display: none;
+                                float: left;
+                                min-width: 160px;
+                                padding: 5px 0;
+                                margin: 0;
+                                font-size: 1rem;
+                                color: #373a3c;
+                                text-align: left;
+                                list-style: none;
+                                background-color: $black;
+                                background-color: rgba($black, 0.8);
+                                background-clip: padding-box;
+                                border: 1px solid rgba(0,0,0,0.15);
+                                border-radius: .25rem;
+                                li {
+                                    &.nav-item {
+                                        .dropdown-divider {
+                                            margin: 0;
+                                        }
+                                    }
+                                    >ul.children {
+                                        position: relative;
+                                        margin-left: 15px;
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
