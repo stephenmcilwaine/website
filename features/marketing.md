@@ -2,6 +2,8 @@
 layout: page
 title: onCourse Marketing Features
 permalink: /features/marketing
+sidebar: true
+sidebar_item: markdown-toc
 ---
 
 * TOC
@@ -9,11 +11,11 @@ permalink: /features/marketing
 
 ### CRM
 
-With powerful data mining capabilities, onCourse can help you create micro-marketing campaigns crafted to your needs. All potential students can be captured through wait list and mailing list sign ups, with custom tags for grouping and follow up. 
+With powerful data mining capabilities, onCourse can help you create micro-marketing campaigns crafted to your needs. All potential students can be captured through wait list and mailing list sign ups, with custom tags for grouping and follow up.
 
 Convert those leads into sales through automated and highly directed email campaigns leading students to your integrated online ecommerce website and enticing them with promotional offers or discounts.
 
-Find the right students in your database with flexible search options. Who works for an employer in an industry undergoing regulations change? Who lives within 15 minutes of your campus and might be willing to take up a last minute offer on a class starting tonight? And which students completed level one, but never continued on to level two? 
+Find the right students in your database with flexible search options. Who works for an employer in an industry undergoing regulations change? Who lives within 15 minutes of your campus and might be willing to take up a last minute offer on a class starting tonight? And which students completed level one, but never continued on to level two?
 
 Craft your pricing to target each market segment to a custom price point - reward your regular students and well as encouraging your reluctant buyers.
 
@@ -21,11 +23,11 @@ Craft your pricing to target each market segment to a custom price point - rewar
 
 ### Custom communications
 
-Build beautiful email templates and craft custom communications to your contacts. Email templates for automated communications and freehand messaging for ad-hoc correspondence is all part of onCourse as standard. In a matter of minutes, notify all students at a particular campus tonight of a special fund raising activity running this evening, or remind all your currently engaged casual tutors of an upcoming professional development opportunity. 
+Build beautiful email templates and craft custom communications to your contacts. Email templates for automated communications and freehand messaging for ad-hoc correspondence is all part of onCourse as standard. In a matter of minutes, notify all students at a particular campus tonight of a special fund raising activity running this evening, or remind all your currently engaged casual tutors of an upcoming professional development opportunity.
 
 All messages sent from the system are logged against the contact record in an auditable trail, so you can have complete confidence in how and when your students, tutors and other contacts are receiving emails, SMS or postal mail outs. Scheduled email reminders to pay invoices, turn up to class and the electronic issuing of tax invoices and certificates of completion are all scripted ready for you to set and forget. Take our standard templates and make them as chatty or as professional sounding as suits your business.
 
-If you love the power and reporting flexibility of expert communication tools like MailChimp, take your messaging to the next level with database level integration to multiple mailing lists. Want to subscribe every student to a mailing list automatically on enrolment? Consider it done. 
+If you love the power and reporting flexibility of expert communication tools like MailChimp, take your messaging to the next level with database level integration to multiple mailing lists. Want to subscribe every student to a mailing list automatically on enrolment? Consider it done.
 
 
 
@@ -33,7 +35,7 @@ If you love the power and reporting flexibility of expert communication tools li
 
 If you can imagine a rule that triggers a system based email, you can automate it. Out of the box, onCourse comes with a number of email templates and scripts ready to trigger the emails. All you need to do is decide which ones to turn on.
 
-From reminder notifications, to marketing emails, automated certificate distribution and internal reports, automatic email alerts can be a simple or as complex as you want to make them. 
+From reminder notifications, to marketing emails, automated certificate distribution and internal reports, automatic email alerts can be a simple or as complex as you want to make them.
 
 Build yourself a set of HTML templates to auto respond to common customer requests and if you want to get a little fancier than that, you can make changes to the built in scripts or add your own set of automation rules.
 
@@ -64,7 +66,7 @@ It's one thing to deliver training year in year out, it's another thing to know 
 
 Keep on top of the mood in the moment by offering quick five star rating surveys to students completing classes. Catch the feedback as it's fresh in their mind, and where they give you a great review, be sure to add the comments to your website copy.
 
-For more in depth and detailed surveys, enable one of our standard integrations with SurveyMonkey or SurveyGizmo. Let their specialised tools assist you design, distribute and analyse the results of your student, tutor or employer feedback requirements. 
+For more in depth and detailed surveys, enable one of our standard integrations with SurveyMonkey or SurveyGizmo. Let their specialised tools assist you design, distribute and analyse the results of your student, tutor or employer feedback requirements.
 
 
 
@@ -72,7 +74,7 @@ For more in depth and detailed surveys, enable one of our standard integrations 
 
 Memberships in onCourse are another marketing tool available to you to sell your education products in a way that works for your business model. Memberships can be sold, or given away for free, and can include special benefits like access to membership only discounts. Memberships can expire after a period of time, or offer lifelong benefits.
 
-Want to sell your fitness classes like the gym does? Offer a six or twelve month membership option that then allows the user access to all of your healthy living classes at no additional cost.  
+Want to sell your fitness classes like the gym does? Offer a six or twelve month membership option that then allows the user access to all of your healthy living classes at no additional cost.
 
 Corporate memberships for your loyal companies? Be sure to extend the membership benefits to their employees purchasing programs from you either via the company account our out of their own pocket. Any way you choose, onCourse can make it worthwhile for you to be a member of our club.
 
@@ -96,7 +98,7 @@ Our onCourse product suite also includes a range of membership and voucher produ
 
 ### Corporate sales
 
-Selling enrolments to corporate contacts couldn't be easier with the bulk enrolment and invoicing tools available in onCourse. 
+Selling enrolments to corporate contacts couldn't be easier with the bulk enrolment and invoicing tools available in onCourse.
 
 Contact relationships can be used to quickly add employers to invoices, or employees to the enrolment so you can book a dozen employees into a few different classes all in a single transaction.
 
@@ -118,7 +120,7 @@ Mailing lists are built right into the onCourse software so you can allow users 
 
 Unsubscribe options can be embedded in the footer of your marketing emails and students can manage their subscription options through their skillsOnCourse portal.
 
-The onCourse mailing lists can then be used to send email communications straight out of the software, or if you prefer to, integrate with specialist products like MailChimp with an API that sends all onCourse mailing list subscriptions through to your various MailChimp lists, ready for you to craft gorgeous campaigns, and monitor and track them via their advanced and specialised tool sets. 
+The onCourse mailing lists can then be used to send email communications straight out of the software, or if you prefer to, integrate with specialist products like MailChimp with an API that sends all onCourse mailing list subscriptions through to your various MailChimp lists, ready for you to craft gorgeous campaigns, and monitor and track them via their advanced and specialised tool sets.
 
 
 

@@ -2,7 +2,12 @@
 layout: page
 title: Features
 permalink: /features/
+sidebar: true
+sidebar_item: markdown-toc
 ---
+
+* TOC
+{:toc}
 
 [Student Management System](/features/student_management_system)
 [Training Management](/features/timetables)
@@ -12,8 +17,6 @@ permalink: /features/
 [Website](/features/website)
 [Portals](/features/portal)
 
-* TOC
-{:toc}
 
 onCourse is a highly customisable student management and marketing system. We could list its features, but let's focus instead on the results of using onCourse:
 
@@ -59,7 +62,7 @@ OK, you really just want a list of features...
 * Customer Relationship Management
 * Integrated SMS, email and postal marketing campaigns
 * Auditable customer notes
-* Relationships between contacts (eg. staff/employer)	
+* Relationships between contacts (eg. staff/employer)
 * Powerful searching options
 * Tagging
 * Promotional codes and discounts

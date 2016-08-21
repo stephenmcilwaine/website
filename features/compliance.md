@@ -2,6 +2,8 @@
 layout: page
 title: RTO Compliance
 permalink: /features/compliance
+sidebar: true
+sidebar_item: markdown-toc
 ---
 
 * TOC
@@ -17,10 +19,10 @@ Whether it's total VET activity reports to NCVER or funded training lodgements t
 
 As Nicole from Byron says:
 
-> Pretty excited to say that it was a completely stress free and extremely fast process to get our data off to STS - thanks so much for your help 
+> Pretty excited to say that it was a completely stress free and extremely fast process to get our data off to STS - thanks so much for your help
 and again it only reinforces what a great choice we have made in taking in ish as our database friends :)
 
-onCourse, now and always, compliant with every state variation of AVETMISS. 
+onCourse, now and always, compliant with every state variation of AVETMISS.
 
 
 ### Certificates
@@ -59,7 +61,7 @@ Course finished and no USI supplied? The certificate issuing process will halt a
 
 I freaking love ish, says Jacinda from St George and Sutherland Community College, and we know we think we know why - all this automation has suddenly made her life a whole lot easier.
 
-Built in system verification against your AusKey will confirm in real time that all USIs supplied by students are current and correct, so you've met your requirement to not only collect, but verify, all USIs. 
+Built in system verification against your AusKey will confirm in real time that all USIs supplied by students are current and correct, so you've met your requirement to not only collect, but verify, all USIs.
 
 
 ### VET FEE-HELP
@@ -68,7 +70,7 @@ Are you an evil private provider[1] who offers government funded training loans 
 
 As an evil private provider[1] do you spend many hours collecting data and jumping through HEPCAT shaped reporting hoops to advise HEIMS of your census dates and load liabilities?
 
-Let us help you become less evilly minded towards the many and nefarious government reporting systems by simplifying the data collection and reporting requirements of VET FEE-HELP. 
+Let us help you become less evilly minded towards the many and nefarious government reporting systems by simplifying the data collection and reporting requirements of VET FEE-HELP.
 
 [1] onCourse will not report data for evil providers. Only nice ones.
 
@@ -77,7 +79,7 @@ Let us help you become less evilly minded towards the many and nefarious governm
 
 If student visa compliance and attendance management makes you lose sleep at night, then onCourse is the answer you've been dreaming of.
 
-International student attendance monitoring, agent commission payments, student payment plans and automatic warning emails for missed classes all available as standard, and all accessible in real time via tutor, student, parent and agent portals. 
+International student attendance monitoring, agent commission payments, student payment plans and automatic warning emails for missed classes all available as standard, and all accessible in real time via tutor, student, parent and agent portals.
 
 Make sure everyone knows where your international students are supposed to be...including the student. No more excuses for missed classes or student visa non-compliance.
 

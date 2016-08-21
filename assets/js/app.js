@@ -1,16 +1,58 @@
 (function($) {
     $(document).ready(function() {
-        if($(window).scrollTop() > 30) {
+
+        var _sidebar = $('.page-content #sidebar');
+        var _sidebar_item = _sidebar.attr('data-item');
+        if(_sidebar_item !== '' && _sidebar_item !== undefined) {
+            _sidebar.removeClass('hidden-xs-up');
+            _sidebar.find('.dy-content').html($('#' + _sidebar_item).get(0).outerHTML);
+        }
+
+        var _scrollTop = $(window).scrollTop();
+        var _content_height = $('.page-content').height();
+
+        if(_scrollTop > 30) {
             $('.site-header.navbar-fixed-top').addClass('scroll-active');
         }
 
+        if(_scrollTop < (_content_height - (_sidebar.height() + 30))) {
+            if(_scrollTop > 30) {
+                $('#sidebar').css('top', parseInt(_scrollTop - 30) + 'px');
+            } else {
+                $('#sidebar').css('top', '0px');
+            }
+        }
+
         $(window).on('scroll', function() {
-            if($(window).scrollTop() > 30) {
+            _scrollTop = $(window).scrollTop();
+            _content_height = $('.page-content').height();
+
+            if(_scrollTop > 30) {
                 $('.site-header.navbar-fixed-top').addClass('scroll-active');
             } else {
                 $('.site-header.navbar-fixed-top').removeClass('scroll-active');
             }
+
+            if(_scrollTop < (_content_height - (_sidebar.height() + 30))) {
+                if(_scrollTop > 30) {
+                    $('#sidebar').css('top', parseInt(_scrollTop - 30) + 'px');
+                } else {
+                    $('#sidebar').css('top', '0px');
+                }
+            }
         });
+
+        _sidebar.find('#markdown-toc li a').on('click', function(e) {
+            e.preventDefault();
+            _sidebar.find('#markdown-toc li').removeClass('toc-active');
+            $(this).parent().addClass('toc-active');
+
+            var _id = $(this).attr('href');
+            window.location.hash = _id;
+            $('body, html').animate({
+                scrollTop: parseInt($(_id).offset().top - 65)
+            }, '500');
+        })
 
         $(document).on('click', '.text-highlighted', function() {
             var data_text = $(this).attr('data-text');

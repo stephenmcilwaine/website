@@ -2,6 +2,8 @@
 layout: page
 title: onCourse Portals
 permalink: /features/portal
+sidebar: true
+sidebar_item: markdown-toc
 ---
 
 * TOC
@@ -27,7 +29,7 @@ Once classes are open for enrolments, tutors can check their portal at any time 
 
 When the training commences, tutors can mark their class rolls electronicly, on their mobile phones as students walk into the room, identifying the students via their profile picture.
 
-As assessments are completed, tutors can update the student training outcomes, triggering automatic certification to be issued. 
+As assessments are completed, tutors can update the student training outcomes, triggering automatic certification to be issued.
 
 ### Employer Portal
 

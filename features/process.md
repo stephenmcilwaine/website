@@ -2,6 +2,8 @@
 layout: page
 title: Business Process Management
 permalink: /features/student_management_system
+sidebar: true
+sidebar_item: markdown-toc
 ---
 
 * TOC

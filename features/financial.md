@@ -2,6 +2,8 @@
 layout: page
 title: onCourse financial features
 permalink: /features/financial
+sidebar: true
+sidebar_item: markdown-toc
 ---
 
 * TOC
@@ -43,7 +45,7 @@ Automatic time based discounts can be set to change the class fee automatically 
 
 Reporting and discount tracking allows you to judge your successful promotional activities through the use of directed marketing campaigns with unique promotional codes.
 
-Discounts can also be based on memberships which you can sell or give away. A membership based discount may apply to all employees of a member employer, of for the families of your own employees. 
+Discounts can also be based on memberships which you can sell or give away. A membership based discount may apply to all employees of a member employer, of for the families of your own employees.
 
 Discounts also allow the creation of classes with multiple student fee charges, where government funding and student type dictate the one of many fee options applicable. Discounts schemes which can be created and assigned to multiple programs, with class level overrides offer the ultimate flexibility in grouping, reporting and managing all the price points you offer.
 
@@ -72,7 +74,7 @@ Many short course providers require payment in full for enrolments under a nomin
 
 For enrolments of sufficient value, a pre-defined payment plan can be put in place with regular payments scheduled for a manageable amount. Students who miss a payment will be sent an automatic reminder to pay with a link to the payment gateway where they can process their payment themselves.
 
-Aged debtor reporting allows you to keep track of you students on payment plans and ensure they are meeting their commitments. 
+Aged debtor reporting allows you to keep track of you students on payment plans and ensure they are meeting their commitments.
 
 
 
@@ -96,7 +98,7 @@ Should pre-paid enrolments be canceled, a transfer wizard allows you to allocate
 
 Built for Australian and overseas markets, onCourse allows you to select your currency of choice and build in your own tax rates, like Australia's own GST or international VAT and other sales taxes.
 
-Sales taxes are posted to a liability account in the general ledger, ensuring that for all financial calculations only the portion of your total cost of sale that is your income, is used to calculate your program profitability. 
+Sales taxes are posted to a liability account in the general ledger, ensuring that for all financial calculations only the portion of your total cost of sale that is your income, is used to calculate your program profitability.
 
 With full unicode character support, course descriptions, student emails and other internal text can also be written in the language of your choice.
 
