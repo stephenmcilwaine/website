@@ -16,7 +16,7 @@
 
   <script type="text/javascript">
     var paths = {
-      'base': '{{ base }}',
+      'base': '{{ site.baseurl }}',
       'url': '{{ page.url | replace:"index.html","" | prepend: site.baseurl | prepend: site.url }}'
     };
   </script>

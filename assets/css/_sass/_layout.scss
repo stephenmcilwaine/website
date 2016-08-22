@@ -21,7 +21,7 @@
     transition: all 0.2s ease-in-out;
     @include _transition(all 0.2s ease-in-out);
     @include responsive($media-xsmall) {
-        padding: 12px 0;
+        padding: 12px 0 0;
     }
     .navbar {
         padding: 0 16px;
@@ -129,6 +129,39 @@
                 font-size: 26px;
                 img {
                     max-width: 65px;
+                }
+            }
+            >nav.navbar {
+                display: none;
+            }
+        }
+    }
+    #markdown-toc-menu {
+        background: #e2e2e2;
+        padding: 10px 16px;
+        box-shadow: 2px 2px 6px #ddd;
+        text-align: center;
+        .navbar {
+            ul.nav {
+                margin: 0;
+                li.nav-item {
+                    float: none;
+                    display: block;
+                    @include responsive($media-small) {
+                        display: inline-block;
+                    }
+                    &.active {
+                        border-bottom: 2px solid #2e2e2e;
+                        a {
+                            color: #2a7ae2;
+                        }
+                    }
+                    a {
+                        color: #616161;
+                        &:hover {
+                            color: #2a7ae2;
+                        }
+                    }
                 }
             }
         }

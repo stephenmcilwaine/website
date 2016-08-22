@@ -3,19 +3,13 @@
 
   {% include head.html %}
 
-  <body>
+  <body data-spy="scroll" data-target="#markdown-toc-menu" data-offset="110">
 
     {% include header.html %}
 
     <div class="page-content">
       <div class="clearfix container">
-        <aside id="sidebar" class="{% if page.sidebar != true %} hidden-xs-up{% endif %}" data-item="{{ page.sidebar_item }}">
-          <div class="dy-content">
-
-          </div>
-        </aside>
-
-        <aside id="content" class="{% if page.sidebar != true %}full-content{% endif %}">
+        <aside id="content">
           {{ content }}
         </aside>
       </div>
