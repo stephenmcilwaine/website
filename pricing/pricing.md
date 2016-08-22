@@ -104,7 +104,7 @@ permalink: /pricing
       <div class="col-sm-10">
         <div class="panel panel-default price-panel">
           <div class="panel-heading">
-            <h5 class="panel-title">Website</h5>
+            <div class="col-label">Website</div>
             <p class="price-rate">$<span>0</span></p>
             <p class="price-rate-annual">$<span>0</span></p>
             <p>per month</p>

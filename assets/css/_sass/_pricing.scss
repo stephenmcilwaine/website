@@ -27,9 +27,20 @@ $plans: #005C5A #ED4D13 #199C7B #F37100;
     .price-rate, .price-rate-annual {
         display: inline-block;
         height: auto !important;
+        font-size: 14px;
+        @include responsive($media-xsmall) {
+            font-size: 25px;
+        }
     }
     .price-rate {
         display: none;
+    }
+    .col-label {
+        background: darken($highlighted-color, 10%);
+        border-radius: 5px 5px 0 0;
+        @include responsive($media-xsmall) {
+            font-size: 14.4px;
+        }
     }
 }
 
@@ -74,19 +85,6 @@ $plans: #005C5A #ED4D13 #199C7B #F37100;
                 }
                 >span {
                     display: block;
-                }
-                .col-label {
-                    background: darken($highlighted-color, 10%);
-                    border-radius: 5px 5px 0 0;
-                    @include responsive($media-xsmall) {
-                        font-size: 14.4px;
-                    }
-                }
-                .price-rate, .price-rate-annual {
-                    font-size: 14px;
-                    @include responsive($media-xsmall) {
-                        font-size: 25px;
-                    }
                 }
                 @extend %common-price-rate;
                 .col-text {
@@ -166,13 +164,8 @@ $plans: #005C5A #ED4D13 #199C7B #F37100;
             h5, p {
                 margin-top: 0px;
             }
-            h5 {
+            .col-label {
                 background: lighten($black, 15%);
-                padding: 4px 0;
-                margin-bottom: 5px;
-                position: relative;
-                border-top: 1px solid lighten($black, 15%);
-                border-radius: 5px 5px 0 0;
             }
         }
         .panel-body {
