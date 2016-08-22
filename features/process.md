@@ -64,19 +64,56 @@ All documents uploaded to onCourse are also automatically under version control 
 
 ### Integration
 
-The powerful onCourse API that drives the automation and reporting options also allows for simple integration with external software solutions. 
+The onCourse student management database is integrated with the onCourse website and onCourse portal system straight out of the box, so you can be up and running with an online enrolment website the day you start your new onCourse system.
 
-Included as standard are integrations with MailChimp, SurveyMonkey...
+With built in AVETMISS data integration, you can quickly export your data out of any other commercial system in Australia and populate onCourse your student contact details and their outcome history in a matter of clicks.
+
+For other integration options, behind the scenes sits the powerful onCourse API that drives the automation and reporting options inside onCourse, and also allows for simple add-ons to be written so onCourse can integrate with external software solutions. 
+
+Included as standard are integrations with MailChimp, SurveyMonkey, SurveyGizmo, Xero, Myob, Moodle and Cloud Assess. You can enable these integrations with your existing accounts and software services.
+
+Custom integrations can also be built on request, by our team or yours. Over the years we have built a range of custom integrations for corporate finance, HR and proprietary LMS solutions.
 
 ### Workflow and Automation
 
+On of the most powerful tools in onCourse is the advanced and customisable set of scripts, templates and exports that are included as standard, and the ability to create as many new scripts as your business processes require.
+
+Workflow and automation is about so much more than sending emails on events. While every tool on the market allows you to schedule automated email messages, only a true scripting tool like the Groovy DMS in onCourse gives you the capability to write back to the database.
+
+Consider some of the built in scripts onCourse offers: synchronized classes that 'share' a class maximum, automatically reducing their counterpart's availability when the other gains a new enrolment.
+
+Or an advanced set of rules that create the appropriate vocational certification based on checks that confirm all enrolment group outcomes have been marked and whether the student has meet the eligibility requirements for a Qualification or Statement of Attainment based on their results.
+
+Tie this in to an integration with your Learning Management System or onCourse portal and a student whose attendance has been marked as sufficient against your pre-set minimums e.g. 80%, and who has successfully completed the course assessment activities can have their automatically issued Certification in their email the day after completion. Drop the manual handing and the staffing requirements of running a Registered Training Organisation become far more achievable when you have a true scripting engine at your disposal.
+
 ### Advanced Search
+
+Over time, your student management database is going to accumulate a lot of records. For queries, reporting and understanding your target market, a powerful search engine is a must.
+
+One of our very favourite buttons is the 'find related' pre-written searches available inside every onCourse list view. 
+
+For example, you can start with your Beginner French classes run in the last 12 months and find the related students who have gone on to make other purchases. Do your Beginner French students take an enrolment pathway that leads them to Advanced French, Beginner Italian or French Cooking? Take what you learn an offer discount package options or training vouchers to your students who haven't yet made it past Stage 1.
+
+Or perhaps you've been provided with funding to deliver training to Aboriginal and Torres Straight Islanders under 25. Quickly locate the past students who meet this criteria and send them your course offering, then use your data intelligence to find the older Indigenous students and craft some marketing materials to encourage them to suggest your courses to their younger friends and family.
 
 ### API and Customised Reporting
 
+With a public API and all our email templates, print report and export reports available to adapt to your needs, your reporting options are only limited by your imagination.
+
+Each printed report can be set up with a custom PDF background, so without getting your hands dirty in a report editing engine, you can add your business letterhead and certificate background to any of the standard print reports you want to customise.
+
+If your keen to adjust report content or layout, open source editing tools let you reconfigure print reports to your heart's content.
+
+
 ### Access Control
 
+Ensuring your staff only have permission to create and modify the types of records related to their job role is crucial to managing the risks of operating a business.
 
+Unlimited user accounts are included as standard, so each individual who logs into onCourse can have their own account and associated permissions. System logging, particularly around financial and VET record creation and editing means you can quickly determine who has made what changes.
+
+Create the job roles that apply within your organisation so users can be assigned to a group with permissions appropriate to them, and integrated onCourse with your LDAP database to automatically configure new accounts as needed.
+
+Teaching staff, external enrolment coordinators. students, parents, agents and employers all have accounts created in onCourse portal where they have access to see their own records, and offer standard access control to update their own information, like changing their own of their employees contact details, or unsubscribing to waiting lists.
 
 
 
