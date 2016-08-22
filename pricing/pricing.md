@@ -4,15 +4,18 @@ title: onCourse Pricing
 permalink: /pricing
 ---
 
-<input id="annual-toggle" checked data-toggle="toggle" data-on="Monthly" data-off="Annual" data-onstyle="primary" data-offstyle="info" type="checkbox">
-
-
-<div class="clearfix pricing-container">
+<div class="clearfix pricing-top-action">
+  <p class="pull-xs-left">
+    <input id="annual-toggle" checked data-toggle="toggle" data-on="Annual" data-off="Monthly" data-onstyle="primary" data-offstyle="info" type="checkbox">
+  </p>
 
   <p class="pull-xs-right">
     <a role="button" href="{{base}}/pricing/ultimate" class="btn btn-secondary">Our ultimate custom plan</a>
   </p>
+</div>
+<br>
 
+<div class="clearfix pricing-container">
   <div class="row row-item row-simple-text">
     <div class="col-price col-sm-6 col-xs-6 col-item-1">
       Completely free.
@@ -27,7 +30,6 @@ permalink: /pricing
       Perfect if you want all the features onCourse has to offer.
     </div>
   </div>
-
   <div class="row row-item row-price-block">
     <div class="col-price col-sm-6 col-xs-6 col-item-1">
       <span class="col-label">Community</span>
@@ -75,7 +77,6 @@ permalink: /pricing
     {% endif %}
   </div>
 {% endfor %}
-
   <div class="row row-item">
     <div class="col-price col-sm-6 col-xs-6 col-item-1">
       <a role="button" href="{{base}}/download" class="btn btn-secondary">Download now</a>
@@ -90,11 +91,7 @@ permalink: /pricing
       <a role="button" href="{{base}}/buy" class="btn btn-primary">Buy now</a>
     </div>
   </div>
-
-
-
   <div class="pricing-calculation">
-
     <div class="row">
       <div class="col-sm-12">
         <p>
@@ -103,7 +100,6 @@ permalink: /pricing
         <p></p>
         <input id="pricing-in-slider" data-slider-id='pricing-in-slider' type="text" data-slider-min="1" data-slider-max="4" data-slider-step="1" data-slider-value="1"/>
         <small>Website annual ecommerce turnover</small>
-
       </div>
       <div class="col-sm-10">
         <div class="panel panel-default price-panel">
@@ -128,7 +124,6 @@ permalink: /pricing
                 A usage fee based on the total of the student charges.<br><br>
               </div>
             </div>
-
             <div class="row data-toggle">
               <div class="col-xs-12">
                 Per transaction
@@ -144,20 +139,17 @@ permalink: /pricing
               </div>
             </div>
             <br/>
-
             <div class="row data-toggle">
               <div class="col-xs-24">
                 Load balanced servers and 99.5% SLA
                 <i class="pull-xs-right glyphicon glyphicon-chevron-down"></i>
               </div>
             </div>
-
             <div class="row toggle-details">
               <div class="col-xs-24">
                 We recognise that your website needs to be up. Always. We take care of monitoring, backups and full redundancy in an Australian data centre.<br><br>
               </div>
             </div>
-
             <div class="row data-toggle">
               <div class="col-xs-24">
                 Student and tutor portals
@@ -169,7 +161,6 @@ permalink: /pricing
                 Access to timetables, attendance marking and communication tools. USI verification and AVETMISS collection.<br><br>
               </div>
             </div>
-
             <div class="row data-toggle not-free">
               <div class="col-xs-24">
                 Your domain
@@ -181,7 +172,6 @@ permalink: /pricing
                 Any URL you choose. We'll even organise the SSL certificate.<br><br>
               </div>
             </div>
-
             <div class="row data-toggle not-free">
               <div class="col-xs-24">
                 Domain hosting
@@ -193,12 +183,10 @@ permalink: /pricing
                 Our three domain servers on two continents will ensure your domain is always available.<br><br>
               </div>
             </div>
-
           </div>
         </div>
       </div>
     </div>
-
   </div>
 
 </div>
