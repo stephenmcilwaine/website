@@ -215,19 +215,13 @@ permalink: /pricing
     <div class="col-lg-8 col-sm-12 col-xs-24">
       <img src="{{ site.paths.img }}/icons/no-preview-courses.png" class="icon-plans" />
       <h3>Upgrades</h3>
-      <p>Unlimited product upgrades are available during the life of your contract. Release candidate testing process also available, prior to each upgrade.</p>
+      <p>Unlimited product upgrades. Our cloud customers get an upgrade roughly every month.</p>
     </div>
 
     <div class="col-lg-8 col-sm-12 col-xs-24">
       <img src="{{ site.paths.img }}/icons/no-preview-courses.png" class="icon-plans" />
-      <h3>AVETMISS export</h3>
-      <p>onCourse supports the AVETMISS export flavours for every state in Australia.</p>
-    </div>
-
-    <div class="col-lg-8 col-sm-12 col-xs-24">
-      <img src="{{ site.paths.img }}/icons/no-preview-courses.png" class="icon-plans" />
-      <h3>Traineeship reporting</h3>
-      <p>Class by class or single student exporting and reports for traineeships</p>
+      <h3>AVETMISS and Traineeship reporting</h3>
+      <p>onCourse supports the AVETMISS and traineeship export flavours for every state in Australia.</p>
     </div>
 
     <div class="col-lg-8 col-sm-12 col-xs-24">
@@ -239,13 +233,13 @@ permalink: /pricing
     <div class="col-lg-8 col-sm-12 col-xs-24">
       <img src="{{ site.paths.img }}/icons/no-preview-courses.png" class="icon-plans" />
       <h3>training.gov.au data updates</h3>
-      <p>Daily data feeds built into the software so you'll always have the information you need to build your courses and report your data</p>
+      <p>Daily data feeds built into the software so you'll always have correct data.</p>
     </div>
 
     <div class="col-lg-8 col-sm-12 col-xs-24">
       <img src="{{ site.paths.img }}/icons/no-preview-courses.png" class="icon-plans" />
       <h3>User documentation</h3>
-      <p>Our comprehensive documentation of the product. Available to read or in editable form so that you can customise.</p>
+      <p>Our comprehensive documentation of the product as web pages, PDF and inside the application. Also available in editable form you can customise.</p>
     </div>
   </div>
 </div>
