@@ -47,21 +47,16 @@ layout: home-page
       </div>
     </section>
 
-    <section class="clearfix block-lists site-list">
-      <ul class="row">
-        {% for panel in site.data.front-panels limit: 3 %}
-          {% include _formatter/home-block.html panel=panel %}
-        {% endfor %}
-      </ul>
+    <section class="clearfix">
+      <h2>We made these</h2>
+      <img style="width:100%;" src="{{ site.paths.img }}/front/websites_wireframe.png" />
     </section>
 
-        <section class="clearfix block-lists site-list">
+    <section class="clearfix block-lists site-list">
       <ul class="row">
-      <ul class="row">
-        {% for panel in site.data.front-panels limit: 3 offset: 3 %}
+        {% for panel in site.data.front-panels limit: 4 %}
           {% include _formatter/home-block.html panel=panel %}
         {% endfor %}
-      </ul>
       </ul>
     </section>
 
